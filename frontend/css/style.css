@@ -11,6 +11,9 @@ body{
     height : 100vh;
     background-color: #F4F4F4;
 
+    margin: 0;
+    padding: 0;
+
     overflow-x : hidden;
     -ms-overflow-style: none; /* for internet explorer and legacy edge */
     scrollbar-width: none; /* for firefox */
@@ -34,10 +37,10 @@ body::-webkit-scrollbar {
 #emptyspace1{
     background-color: transparent;
     width: 85vw;
-    aspect-ratio: 10/1;
+    aspect-ratio: 40/1;
 }
 #heropage{
-    background-color: transparent;
+    background-color: #bcd3f3;
     width: 95vw;
     aspect-ratio: 5/2;
     padding: 0;
@@ -84,7 +87,7 @@ body::-webkit-scrollbar {
 
 #SignupAndContactContainer{
 
-    background-color: transparent;
+    background-color: #c6caa6;
     width: 85vw;
     aspect-ratio: 5/2;
     top: 15000px;
@@ -92,4 +95,78 @@ body::-webkit-scrollbar {
     margin : 0;
 
     justify-self: center;
+}
+
+#stickyheader{
+    top: 0;
+    margin: 0;
+    padding: 0;
+    justify-self: center;
+    position: sticky;
+    width: 100vw;
+    height: 8vw;
+    background-color: #c6caa6;
+
+    max-height: 5vw;
+
+    display: flex;
+
+    justify-content: space-evenly;
+}
+
+.HeaderButton {
+    font-size: 1rem;
+    line-height: 0;
+
+    --bink: #0F191E;
+    --bsurf: #E2F1F2;
+
+    position: relative;
+    isolation: isolate;
+
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+    padding: 13px 6px;
+    border: none;
+    border-radius: 0;
+
+    background: transparent;
+    color: var(--bink);
+
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+
+    transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+/* The underline */
+.HeaderButton::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    height: 2px;
+    background: var(--bink);
+
+    transform: scaleX(0);
+    transform-origin: center;
+
+    transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Grow the underline */
+.HeaderButton:hover::before {
+    transform: scaleX(1);
+}
+
+.HeaderButton .btn-label {
+    position: relative;
+    z-index: 2;
 }
