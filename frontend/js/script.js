@@ -14,4 +14,9 @@ document.addEventListener('keydown', function(event) {
     )) {
         event.preventDefault();
     }
-});
+}); // also prevents zoom and stuff but with ctrl +, _, etc etc
+
+window.addEventListener("scroll", () => {
+    let scrollValue = window.scrollY;
+}); // tracks how far the user has scrolled. will use this for like animations and stuff
+
