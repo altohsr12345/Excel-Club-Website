@@ -20,3 +20,8 @@ window.addEventListener("scroll", () => {
     let scrollValue = window.scrollY;
 }); // tracks how far the user has scrolled. will use this for like animations and stuff
 
+
+
+BecomeATutor.addEventListener("click", () => {
+    alert("Button was clicked!");
+});
