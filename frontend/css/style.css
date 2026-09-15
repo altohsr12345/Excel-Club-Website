@@ -40,7 +40,7 @@ body::-webkit-scrollbar {
     aspect-ratio: 40/1;
 }
 #heropage{
-    background-color: #bcd3f3;
+    background-color: transparent;
     width: 95vw;
     aspect-ratio: 5/2;
     padding: 0;
@@ -87,7 +87,7 @@ body::-webkit-scrollbar {
 
 #SignupAndContactContainer{
 
-    background-color: #c6caa6;
+    background-color: trasparent;
     width: 85vw;
     aspect-ratio: 5/2;
     top: 15000px;
@@ -105,17 +105,25 @@ body::-webkit-scrollbar {
     position: sticky;
     width: 100vw;
     height: 8vw;
-    background-color: #c6caa6;
 
     max-height: 5vw;
 
     display: flex;
 
     justify-content: space-evenly;
+
+
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.05);
 }
 
+
 .HeaderButton {
-    font-size: 1rem;
+    font-size: clamp(0.1cqh, 2cqh, 4rem);
     line-height: 0;
 
     --bink: #0F191E;
@@ -141,6 +149,8 @@ body::-webkit-scrollbar {
     white-space: nowrap;
 
     transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+
+
 }
 /* The underline */
 .HeaderButton::before {
@@ -170,3 +180,22 @@ body::-webkit-scrollbar {
     position: relative;
     z-index: 2;
 }
+
+#SignupAndContactContainer{
+
+    background-color: #c6caa6;
+    width: 85vw;
+    aspect-ratio: 20/1;
+    padding: 0;
+    margin : 0;
+
+    justify-self: center;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sign-up-button {
+
+}
+
