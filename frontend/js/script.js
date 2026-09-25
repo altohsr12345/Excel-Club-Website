@@ -35,3 +35,7 @@ signup.addEventListener("click", () => {
     window.open("https://docs.google.com/forms/d/e/1FAIpQLScmfeec8vO8XYncEOtapB7_yHW_vjKFk_hCJ8nWFHiz5hKPBg/viewform");
 }); // detects when our user hits signup and leads them to the gform
 
+contacts.addEventListener("click", () => {
+    document.querySelectorAll(".contact-overlay")
+        .forEach(element => element.classList.toggle("show"));
+});

@@ -607,3 +607,51 @@ body::-webkit-scrollbar {
         text-align: right;
     }
 }
+
+
+#contacts_container{
+    position: fixed;
+
+
+    width: 40vw;
+    height: 80vh;
+    background-color: #f1efeb;
+
+    top: 50%;
+    right: 0;
+
+    transform: translateY(-50%);
+
+    margin: 0;
+    padding: 0;
+
+    z-index: 6767;
+    border-radius: 3%;
+
+}
+
+#blur-contacts{
+    position:fixed;
+    width: 100vw;
+    height: 100vh;
+    margin:0;
+    padding:0;
+
+    z-index: 998;
+
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.05);
+}
+
+.contact-overlay {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease;
+}
+
+.contact-overlay.show {
+    opacity: 1;
+    pointer-events: auto;
+}
