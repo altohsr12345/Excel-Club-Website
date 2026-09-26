@@ -584,8 +584,16 @@ body::-webkit-scrollbar {
     color: rgb(0 0 0);
     text-decoration: none;
 }
-#prezphonenum{
+#instagram{
     text-align: left;
+    color: rgb(0 0 0);
+    text-decoration: none;
+}
+
+.instagram-href{
+    text-align: left;
+    color: rgb(0 0 0);
+    text-decoration: none;
 }
 
 #discord{
@@ -628,6 +636,8 @@ body::-webkit-scrollbar {
     z-index: 6767;
     border-radius: 3%;
 
+    overflow: hidden;
+
 }
 
 #blur-contacts{
@@ -654,4 +664,80 @@ body::-webkit-scrollbar {
 .contact-overlay.show {
     opacity: 1;
     pointer-events: auto;
+}
+
+
+#contacts-title-container {
+    container-type: size;
+    display: flex;
+    width: 80cqw;
+    height: 20cqh;
+    flex-direction: column;
+}
+
+.contacts-title{
+    font-size: clamp(0.1cqw, 8cqw, 15rem);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    letter-spacing: -0.05em;
+    line-height: 0.3;
+    padding: 5cqw;
+
+}
+
+.contacts-paragraph{
+    font-size: clamp(0.1cqh, 5cqw, 2rem);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    letter-spacing: -0.05em;
+    line-height: 1.1;
+    padding-left: 3cqw;
+}
+
+#discord-contacts{
+    padding-left: 0;
+    color: rgb(0 0 0);
+    text-decoration: none;
+}
+
+#instagram_contacts{
+    padding-bottom: 5cqh;
+}
+
+@media (max-width: 500px){
+    #contacts_container{
+        position: fixed;
+
+
+        width: 60vw;
+        height: 40vh;
+        background-color: #f1efeb;
+
+        top: 25%;
+        right: 0;
+
+        transform: translateY(-50%);
+
+        margin: 0;
+        padding: 0;
+
+        z-index: 6767;
+        border-radius: 3%;
+
+        overflow: hidden;
+
+    }
+
+    #contacts-title-container {
+        width: 80cqw;
+        height: 10cqh;
+    }
+
+    #contacts_container{
+        overflow-wrap: break-word;
+    }
 }

@@ -6,6 +6,7 @@ const stats2 = document.getElementById("stats2");
 const stats3 = document.getElementById("stats3");
 const isMobile = window.matchMedia("(max-width: 500px)");
 const contacts = document.getElementById("contacts");
+const blurcontacts = document.getElementById("blur-contacts");
 
 let alreadyloaded = false;
 const observer = new IntersectionObserver((entries) => {

@@ -39,3 +39,8 @@ contacts.addEventListener("click", () => {
     document.querySelectorAll(".contact-overlay")
         .forEach(element => element.classList.toggle("show"));
 });
+
+blurcontacts.addEventListener("click", () => {
+    document.querySelectorAll(".contact-overlay")
+        .forEach(element => element.classList.remove("show"));
+});
