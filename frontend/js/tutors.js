@@ -17,6 +17,8 @@ document.addEventListener('keydown', function(event) {
 }); // also prevents zoom and stuff but with ctrl +, _, etc etc
 
 
+
+
 signup.addEventListener("click", () => {
     window.open("https://docs.google.com/forms/d/e/1FAIpQLScmfeec8vO8XYncEOtapB7_yHW_vjKFk_hCJ8nWFHiz5hKPBg/viewform");
 }); // detects when our user hits signup and leads them to the gform
@@ -31,9 +33,23 @@ blurcontacts.addEventListener("click", () => {
         .forEach(element => element.classList.remove("show"));
 });
 
-ourtutors.addEventListener("click", () => {
-    window.location.href("tutors.html");
-}); // detects when our user hits signup and leads them to the gform
+
+
+
+tutors.forEach(tutor => {
+    const card = document.createElement("div");
+
+    card.classList.add("tutorcard");
+
+    card.innerHTML = `
+        <h3>${tutor.name}</h3>
+        <p>${tutor.subjects}</p>
+        <p>${tutor.grade}</p>
+        <p>${tutor.description}</p>
+    `;
+
+    tutorsContainer.appendChild(card);
+});
 
 window.addEventListener("scroll", () => {
     let scrollValue = window.scrollY;
