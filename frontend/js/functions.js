@@ -10,18 +10,18 @@ const blurcontacts = document.getElementById("blur-contacts");
 const ourtutors = document.getElementById("ourtutors");
 const tutorsContainer = document.querySelector("#tutorsContainer");
 const card = document.getElementById("tutorcard");
-
+const gradeButtons = document.querySelectorAll(".grade-button");
 const tutors = [
     {
         name : "test",
         subjects : ["test", "test"],
-        grade : 11,
+        grade : 10,
         description : "lalalalal"
     },
     {
         name : "test3",
         subjects : ["test3", "tes3t"],
-        grade : 211,
+        grade : 12,
         description : "lala2lalal"
     },
     {
@@ -29,6 +29,12 @@ const tutors = [
         subjects : ["tedst", "tqest"],
         grade : 11,
         description : "lalaasdlfalal"
+    },
+    {
+        name : ";kmlkm",
+        subjects : ["CS", "MAth"],
+        grade : 11,
+        description : "6767"
     },
 ];
 // READ ME //
@@ -42,8 +48,26 @@ const tutors = [
 
 // do NOT forget the swiggly brackets and the commas. also u can add more subjects if u want like ["CS", "Math", "Science", "English"]
 // ... etc. just add more commas and stuff.
+function displayTutors(grade) {
+    tutorsContainer.innerHTML = "";
 
+    const filteredTutors = tutors.filter(tutor => tutor.grade === grade);
 
+    filteredTutors.forEach(tutor => {
+        const card = document.createElement("div");
+
+        card.classList.add("tutorcard");
+
+        card.innerHTML = `
+            <h3>${tutor.name}</h3>
+            <p>${tutor.subjects.join(", ")}</p>
+            <p>Grade ${tutor.grade}</p>
+            <p>${tutor.description}</p>
+        `;
+
+        tutorsContainer.appendChild(card);
+    });
+}
 
 
 

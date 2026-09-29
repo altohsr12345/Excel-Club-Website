@@ -49,17 +49,26 @@ tutors.forEach(tutor => {
     `;
 
     tutorsContainer.appendChild(card);
-});
+}); //just displays all tutor cards initally\
+
+
+gradeButtons.forEach(button => {
+    button.addEventListener("click", () => {
+        const grade = Number(button.dataset.grade);
+
+        displayTutors(grade);
+    });
+}); //calls function to display the tutor card for a selected grade
+
+
+
+
+
+
+
+
+
+
 
 window.addEventListener("scroll", () => {
-    let scrollValue = window.scrollY;
-    if (isMobile.matches) return;
-    if (alreadyloaded === true) {return}
-    if (scrollValue >= 300){
-        spacingforstats.style.opacity = (scrollValue/ 500);
-        stats1.style.opacity = (scrollValue / 500);
-        stats2.style.opacity = (scrollValue / 500);
-        stats3.style.opacity = (scrollValue / 500);
-    }
-    if (scrollValue >= 400) {alreadyloaded = true}
 }); // tracks how far the user has scrolled. will use this for like animations and stuff

@@ -747,6 +747,14 @@ body::-webkit-scrollbar {
     }
 }
 
+#tutorsContainer{
+    display: flex;
+    container-type: size;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
 .tutorcard{
 
     background: red;
