@@ -33,6 +33,9 @@ blurcontacts.addEventListener("click", () => {
         .forEach(element => element.classList.remove("show"));
 });
 
+excelreturn.addEventListener("click", () => {
+    window.location.href = "index.html";
+});
 
 
 

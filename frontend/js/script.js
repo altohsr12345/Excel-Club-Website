@@ -32,7 +32,7 @@ blurcontacts.addEventListener("click", () => {
 });
 
 ourtutors.addEventListener("click", () => {
-    window.location.href("tutors.html");
+    window.location.href = "tutors.html";
 }); // detects when our user hits signup and leads them to the gform
 
 window.addEventListener("scroll", () => {
