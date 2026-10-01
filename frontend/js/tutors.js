@@ -42,10 +42,10 @@ tutors.forEach(tutor => {
     card.classList.add("tutorcard");
 
     card.innerHTML = `
-        <h3>${tutor.name}</h3>
-        <p>${tutor.subjects}</p>
-        <p>${tutor.grade}</p>
-        <p>${tutor.description}</p>
+        <h3 class="tutorname">${tutor.name}</h3>
+        <p class="tutordetails">${tutor.subjects.join(", ")}</p> <br>
+        <p class="tutordetails">Grade ${tutor.grade}</p> <br>
+        <p class="tutordetails">${tutor.description}</p>
     `;
 
     tutorsContainer.appendChild(card);

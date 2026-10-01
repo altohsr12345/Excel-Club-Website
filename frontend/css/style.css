@@ -747,19 +747,128 @@ body::-webkit-scrollbar {
     }
 }
 
+
 #tutorsContainer{
+    padding-top: 10px;
+    width: 80vw;
+    justify-self:center;
     display: flex;
     container-type: size;
-    gap:5px;
+    gap:15px;
     justify-content: center;
     align-items: center;
-    flex-direction:column;
+    flex-wrap: wrap;
+    align-content: start;
 }
 .tutorcard{
-
-    background: red;
-    color: white;
+    background: #f1efe6;
+    color: #152025;
     width: 300px;
     height: 200px;
     padding: 20px;
+    border-radius: 15px;
+    container-type: size;
+
+    box-shadow: 0 5px 12px rgba(15, 23, 42, 0.12);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tutorcard:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.18);
+}
+.tutorname{
+    padding-top: 4cqh;
+    padding-bottom: 8cqh;
+    font-size: clamp(0.1cqw, 8cqw, 15rem);
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+    letter-spacing: -0.02em;
+    line-height: 0.3;
+}
+
+.tutordetails{
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: clamp(0.1cqw, 6cqw, 15rem);
+    font-style: normal;
+    margin: 0;
+    letter-spacing: -0.02em;
+    overflow-wrap: break-word;
+    word-break: normal;
+
+    white-space: normal;
+}
+
+#grade-select{
+    container-type: size;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    aspect-ratio: 36/2;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.grade-button {
+    display: inline-block;
+    padding: 0px 26px;
+    border: none;
+    border-radius: 12px;
+    background: #ffffff;
+    color: #111827;
+    cursor: pointer;
+    box-shadow: 0 4px 5px rgba(15, 23, 42, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    font-family: "Readex Pro", sans-serif;
+    font-size: 0.95rem;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    aspect-ratio: 5/1;
+    height: 50cqh;
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.grade-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.18);
+}
+.grade-button:active {
+    transform: translateY(-1px);
+}
+.grade-button:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
+}
+
+@media (max-width: 500px) {
+
+    #grade-select {
+        aspect-ratio: 36 / 4;
+        gap: 5vw;
+    }
+
+    .grade-button {
+        width: 25%;
+        height: 75%;
+        font-size: 0.8rem;
+    }
+
+}
+
+@media (min-width: 501px) and (max-width: 900px) {
+    .grade-button {
+        font-size: 0.8rem;
+        height: 85%;
+    }
+}
+
+#g11{
+    background-color:#FBF8EF;
+}
+#g12{
+    background-color:#FDF5E6;
 }

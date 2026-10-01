@@ -13,28 +13,58 @@ const card = document.getElementById("tutorcard");
 const gradeButtons = document.querySelectorAll(".grade-button");
 const tutors = [
     {
-        name : "test",
-        subjects : ["test", "test"],
-        grade : 10,
-        description : "lalalalal"
+        name : "T",
+        subjects : ["IGCSE/AS/AL Math 1","AS IT"],
+        grade :12,
+        description : ""
     },
     {
-        name : "test3",
-        subjects : ["test3", "tes3t"],
-        grade : 12,
-        description : "lala2lalal"
+        name : "P",
+        subjects : ["IGCSE Add Math", "IGCSE Coordinated Science","IGCSE/AS Computer Science", "AS Math 1", "AS Physics", "AS Chemistry"],
+        grade :11,
+        description : ""
     },
     {
-        name : "tesst",
-        subjects : ["tedst", "tqest"],
-        grade : 11,
-        description : "lalaasdlfalal"
+        name : "N",
+        subjects : ["AS Math 3"],
+        grade :12,
+        description : ""
     },
     {
-        name : ";kmlkm",
-        subjects : ["CS", "MAth"],
-        grade : 11,
-        description : "6767"
+        name : "K",
+        subjects : ["IGCSE Computer Science", "IGCSE Math Extended", "IGCSE Coordinated Science", "IGCSE Combined Science", "AS Computer Science"],
+        grade :11,
+        description : ""
+    },
+    {
+        name : "M",
+        subjects : ["AS/AL Math","IGCSE/AS CS"],
+        grade :12,
+        description : ""
+    },
+    {
+        name : "A",
+        subjects : ["IGCSE/AS Math", "IGCSE/AS/AL Economics", "IGCSE ICT"],
+        grade :12,
+        description : ""
+    },
+    {
+        name : "M",
+        subjects : ["AS/AL Math 2", "AS/AL Math 3", "IGCSE Math Extended"],
+        grade :12,
+        description : ""
+    },
+    {
+        name : "B",
+        subjects : ["AS/AL Math 1", "AS Chemistry", "AS Physics"],
+        grade :12,
+        description : ""
+    },
+    {
+        name : "S",
+        subjects : ["IGCSE/AS/A Math","AS/A Physics","IGCSE/AS Computer Science"],
+        grade :12,
+        description : ""
     },
 ];
 // READ ME //
@@ -59,10 +89,10 @@ function displayTutors(grade) {
         card.classList.add("tutorcard");
 
         card.innerHTML = `
-            <h3>${tutor.name}</h3>
-            <p>${tutor.subjects.join(", ")}</p>
-            <p>Grade ${tutor.grade}</p>
-            <p>${tutor.description}</p>
+            <h3 class="tutorname">${tutor.name}</h3> 
+            <p class="tutordetails">${tutor.subjects.join(", ")}</p> <br>
+            <p class="tutordetails">Grade ${tutor.grade}</p> <br>
+            <p class="tutordetails">${tutor.description}</p>
         `;
 
         tutorsContainer.appendChild(card);
