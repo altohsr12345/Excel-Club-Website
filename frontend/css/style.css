@@ -749,11 +749,12 @@ body::-webkit-scrollbar {
 
 
 #tutorsContainer{
+    background-color: red;
+
     padding-top: 10px;
     width: 80vw;
     justify-self:center;
     display: flex;
-    container-type: size;
     gap:15px;
     justify-content: center;
     align-items: center;
@@ -872,4 +873,3 @@ body::-webkit-scrollbar {
 #g12{
     background-color:#FDF5E6;
 }
-
