@@ -768,8 +768,8 @@ body::-webkit-scrollbar {
 .tutorcard{
     background: #f1efe6;
     color: #152025;
-    width: 300px;
-    height: 200px;
+    width: 100px;
+    aspect-ratio: 3/2;
     padding: 20px;
     border-radius: 15px;
     container-type: size;
