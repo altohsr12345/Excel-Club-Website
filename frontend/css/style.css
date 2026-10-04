@@ -894,3 +894,9 @@ body::-webkit-scrollbar {
     padding: 0;
     margin: 0;
 }
+
+@media (max-width: 500px) {
+    #gr78 {
+        font-size: clamp(0.1cqw, 2.5cqw, 2rem);
+    }
+}
