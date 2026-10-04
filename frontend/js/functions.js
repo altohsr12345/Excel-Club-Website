@@ -79,6 +79,7 @@ const tutors = [
 
 // do NOT forget the swiggly brackets and the commas. also u can add more subjects if u want like ["CS", "Math", "Science", "English"]
 // ... etc. just add more commas and stuff.
+//lalalala i will refactor this laterihvoiwevubewo9uh
 function displayTutors(grade) {
     tutorsContainer.innerHTML = "";
 
