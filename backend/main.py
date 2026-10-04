@@ -63,9 +63,9 @@ def overview():
         "total_sessions": len(df),
         "total_time": round(float(df["minutes"].sum()) / 60, 1),
         "distinct_tutor": int(df["tutor name"].nunique()),
-        "distinct_stdts": int
+        "distinct_stdts": int(df["students"].nunique())
     }
-#valueerror??????
+
 
 @app.get("/api/stats/subject")
 def subject(top: int=5):
