@@ -316,6 +316,7 @@ dependencies = [
     { name = "fastapi", extra = ["standard"] },
     { name = "gspread" },
     { name = "pandas" },
+    { name = "pydantic" },
     { name = "uvicorn" },
 ]
 
@@ -324,6 +325,7 @@ requires-dist = [
     { name = "fastapi", extras = ["standard"], specifier = ">=0.142.2" },
     { name = "gspread", specifier = ">=6.2.1" },
     { name = "pandas", specifier = ">=3.0.5" },
+    { name = "pydantic", specifier = ">=2.13.5" },
     { name = "uvicorn", specifier = ">=0.54.0" },
 ]
 

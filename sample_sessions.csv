@@ -1,0 +1,997 @@
+No,Request Date,Tutor Name,Students,Subject,Planned Date,"Starting Time
+24 hour Format",Planned Duration,Location,Approved,Approval,IN,OUT,Duration,"Recording of teaching
+26/27",Tutor Comments
+1,11/09/2026,Isla Murphy,Mia Foster,Biology,18/09/2026,15:30,0:30:00,Library,TRUE,Dr Evans,15:26,15:47,0:21:00,TRUE,
+2,13/09/2026,Jacob Wright,Bilal Evans,History,16/09/2026,12:30,1:30:00,Library,TRUE,Mr Hassan,12:27,13:55,1:28:00,TRUE,Student well prepared
+3,13/09/2026,Olivia Brooks,Elliot Davies,Psychology,22/09/2026,16:00,1:00:00,Library,TRUE,Mr Hassan,15:57,16:51,0:54:00,TRUE,Worked through past paper
+4,15/09/2026,Grace Liu,Ivy Ellis,Maths,24/09/2026,16:00,1:00:00,Room S12,TRUE,Dr Evans,16:02,17:16,1:14:00,TRUE,Needs more practice on this topic
+5,17/09/2026,Daniel Okafor,Ava Morgan,Economics,18/09/2026,16:30,1:00:00,Room M4,TRUE,Ms Patel,16:32,17:43,1:11:00,TRUE,Student well prepared
+6,18/09/2026,Isla Murphy,Mia Foster,Biology,25/09/2026,15:30,0:30:00,Library,TRUE,Mr Hassan,15:33,15:53,0:20:00,FALSE,
+7,19/09/2026,Ben Carter,Zoe Lee,Physics,25/09/2026,12:30,1:00:00,Library,TRUE,Dr Evans,12:39,13:39,1:00:00,TRUE,
+8,21/09/2026,Grace Liu,Jasmine Walsh,Physics,24/09/2026,12:30,1:00:00,Study Centre,TRUE,Mr Hassan,12:30,13:33,1:03:00,FALSE,Essay planning
+9,22/09/2026,Jacob Wright,Bilal Evans,History,23/09/2026,12:30,1:30:00,Library,TRUE,Mr Hassan,12:39,13:59,1:20:00,TRUE,
+10,22/09/2026,Chloe Nguyen,Charlotte Ali,Biology,28/09/2026,08:00,1:00:00,Library,TRUE,Mr Hassan,07:59,08:59,1:00:00,TRUE,
+11,22/09/2026,Olivia Brooks,Ivy Ali,Psychology,28/09/2026,12:30,1:00:00,Room E7,TRUE,Ms Patel,,,0:00:00,FALSE,Student absent
+12,22/09/2026,Olivia Brooks,"Nadia Brown, Ava Brown, Jasmine Walsh",English Language,01/10/2026,16:00,1:30:00,Room E7,TRUE,Dr Evans,16:02,17:25,1:23:00,TRUE,
+13,23/09/2026,Grace Liu,Jasmine Walsh,Physics,01/10/2026,12:30,1:00:00,Study Centre,TRUE,Mr Hassan,12:25,13:16,0:51:00,TRUE,Worked through past paper
+14,24/09/2026,Ben Carter,Zoe Lee,Physics,02/10/2026,12:30,1:00:00,Library,TRUE,Dr Evans,12:28,13:38,1:10:00,TRUE,Started new topic
+15,25/09/2026,Jacob Wright,Bilal Evans,History,30/09/2026,12:30,1:30:00,Library,TRUE,Ms Patel,12:35,14:04,1:29:00,FALSE,
+16,25/09/2026,Chloe Nguyen,Charlotte Ali,Biology,05/10/2026,08:00,1:00:00,Library,TRUE,Mr Hassan,08:06,09:19,1:13:00,TRUE,
+17,26/09/2026,Isla Murphy,Mia Foster,Biology,02/10/2026,15:30,0:30:00,Library,TRUE,Ms Patel,,,0:00:00,FALSE,Cancelled - tutor ill
+18,27/09/2026,Chloe Nguyen,Rosie Davies,Biology,01/10/2026,12:30,0:30:00,Room E7,TRUE,Dr Evans,12:40,13:23,0:43:00,FALSE,
+19,27/09/2026,Jacob Wright,Bilal Evans,History,07/10/2026,12:30,1:30:00,Library,TRUE,Dr Evans,12:37,13:59,1:22:00,FALSE,
+20,28/09/2026,Olivia Brooks,Elliot Davies,Psychology,29/09/2026,16:00,1:00:00,Library,TRUE,Dr Evans,15:57,17:05,1:08:00,TRUE,Revision for mock exam
+21,28/09/2026,Chloe Nguyen,Rosie Davies,Biology,08/10/2026,12:30,0:30:00,Room E7,TRUE,Dr Evans,12:33,12:59,0:26:00,FALSE,Went over test corrections
+22,30/09/2026,Kavya Patel,Leah Zhang,Maths,02/10/2026,15:45,0:30:00,Library,TRUE,Dr Evans,15:45,16:07,0:22:00,TRUE,Essay planning
+23,30/09/2026,Grace Liu,Jasmine Walsh,Physics,08/10/2026,12:30,1:00:00,Study Centre,TRUE,Mr Hassan,12:34,13:45,1:11:00,TRUE,Revision for mock exam
+24,30/09/2026,Kavya Patel,Leah Zhang,Maths,09/10/2026,15:45,0:30:00,Library,TRUE,Dr Evans,15:54,16:20,0:26:00,TRUE,
+25,02/10/2026,Ben Carter,Zoe Lee,Physics,09/10/2026,12:30,1:00:00,Library,TRUE,Ms Patel,12:26,13:31,1:05:00,FALSE,
+26,03/10/2026,Olivia Brooks,"Nadia Brown, Ava Brown, Jasmine Walsh",English Language,08/10/2026,16:00,1:30:00,Room E7,TRUE,Ms Patel,15:59,17:25,1:26:00,TRUE,Went over test corrections
+27,05/10/2026,Ben Carter,"Hugo Iqbal, Max Adams, Dylan Brown",Physics,06/10/2026,16:00,1:00:00,Room S12,TRUE,Ms Patel,16:04,16:59,0:55:00,TRUE,Started new topic
+28,05/10/2026,Jacob Wright,Bilal Evans,History,14/10/2026,12:30,1:30:00,Library,TRUE,Mr Hassan,12:40,14:00,1:20:00,TRUE,
+29,06/10/2026,Grace Liu,Ivy Ellis,Maths,08/10/2026,16:00,1:00:00,Room S12,TRUE,Mr Hassan,16:01,16:52,0:51:00,TRUE,Covered homework questions
+30,06/10/2026,Chloe Nguyen,Charlotte Ali,Biology,12/10/2026,08:00,1:00:00,Library,TRUE,Dr Evans,08:01,08:59,0:58:00,FALSE,Revision for mock exam
+31,07/10/2026,Isla Murphy,Mia Foster,Biology,09/10/2026,15:30,0:30:00,Library,FALSE,,,,0:00:00,FALSE,Room clash
+32,07/10/2026,Kavya Patel,Jasmine Young,Chemistry,12/10/2026,12:30,1:00:00,Study Centre,TRUE,Ms Patel,12:38,13:46,1:08:00,TRUE,
+33,08/10/2026,Kavya Patel,Leah Zhang,Maths,16/10/2026,15:45,0:30:00,Library,TRUE,Ms Patel,15:46,16:22,0:36:00,TRUE,
+34,10/10/2026,Ben Carter,Zoe Lee,Physics,16/10/2026,12:30,1:00:00,Library,TRUE,Dr Evans,12:35,13:37,1:02:00,TRUE,
+35,11/10/2026,Kavya Patel,Jasmine Young,Chemistry,19/10/2026,12:30,1:00:00,Study Centre,TRUE,Ms Patel,12:25,13:37,1:12:00,TRUE,
+36,13/10/2026,Aisha Rahman,Nadia Adams,Further Maths,16/10/2026,13:00,1:00:00,Room S12,TRUE,Mr Hassan,13:01,14:11,1:10:00,TRUE,
+37,13/10/2026,Ben Carter,Imogen Price,Physics,19/10/2026,13:00,1:00:00,Library,TRUE,Mr Hassan,13:05,14:10,1:05:00,TRUE,Essay planning
+38,13/10/2026,Chloe Nguyen,Charlotte Ali,Biology,19/10/2026,08:00,1:00:00,Library,TRUE,Mr Hassan,07:58,08:52,0:54:00,TRUE,
+39,14/10/2026,Grace Liu,Jasmine Walsh,Physics,15/10/2026,12:30,1:00:00,Study Centre,TRUE,Mr Hassan,12:34,13:43,1:09:00,TRUE,
+40,14/10/2026,Chloe Nguyen,Rosie Davies,Biology,15/10/2026,12:30,0:30:00,Room E7,TRUE,Mr Hassan,12:28,13:13,0:45:00,FALSE,Essay planning
+41,14/10/2026,Olivia Brooks,"Nadia Brown, Ava Brown, Jasmine Walsh",English Language,15/10/2026,16:00,1:30:00,Room E7,TRUE,Ms Patel,16:08,17:47,1:39:00,TRUE,Started new topic
+42,14/10/2026,Grace Liu,Jasmine Walsh,Physics,22/10/2026,12:30,1:00:00,Study Centre,TRUE,Ms Patel,12:34,13:26,0:52:00,FALSE,Good progress
+43,15/10/2026,Priya Sharma,"Hugo Bailey, Ibrahim Price",Biology,16/10/2026,17:00,1:00:00,Online (Teams),TRUE,Dr Evans,16:55,17:45,0:50:00,FALSE,Started new topic
+44,15/10/2026,Priya Sharma,"Hugo Bailey, Ibrahim Price",Biology,23/10/2026,17:00,1:00:00,Online (Teams),TRUE,Dr Evans,16:59,17:50,0:51:00,TRUE,Good progress
+45,17/10/2026,Ben Carter,Zoe Lee,Physics,23/10/2026,12:30,1:00:00,Library,TRUE,Ms Patel,,,0:00:00,FALSE,Student absent
+46,18/10/2026,Chloe Nguyen,Rosie Davies,Biology,22/10/2026,12:30,0:30:00,Room E7,TRUE,Dr Evans,12:38,13:04,0:26:00,TRUE,
+47,19/10/2026,Ben Carter,"Hugo Iqbal, Max Adams, Dylan Brown",Physics,20/10/2026,16:00,1:00:00,Room S12,TRUE,Ms Patel,15:56,17:11,1:15:00,TRUE,Good progress
+48,20/10/2026,Kavya Patel,Leah Zhang,Maths,23/10/2026,15:45,0:30:00,Library,TRUE,Ms Patel,15:44,16:12,0:28:00,TRUE,Needs more practice on this topic
+49,21/10/2026,Olivia Brooks,"Nadia Brown, Ava Brown, Jasmine Walsh",English Language,22/10/2026,16:00,1:30:00,Room E7,TRUE,Ms Patel,16:07,17:39,1:32:00,FALSE,Started new topic
+50,24/10/2026,Ben Carter,Imogen Price,Physics,02/11/2026,13:00,1:00:00,Library,TRUE,Ms Patel,13:10,14:04,0:54:00,TRUE,Worked through past paper
+51,24/10/2026,Kavya Patel,Jasmine Young,Chemistry,02/11/2026,12:30,1:00:00,Study Centre,TRUE,Dr Evans,12:29,13:38,1:09:00,TRUE,Worked through past paper
+52,24/10/2026,Grace Liu,Caleb Dixon,Maths,03/11/2026,16:30,1:30:00,Room S12,TRUE,Dr Evans,16:34,18:03,1:29:00,TRUE,Covered homework questions
+53,25/10/2026,Isla Murphy,Sienna Taylor,Biology,02/11/2026,13:00,1:00:00,Room E7,TRUE,Ms Patel,13:04,14:09,1:05:00,FALSE,Essay planning
+54,25/10/2026,Ben Carter,"Hugo Iqbal, Max Adams, Dylan Brown",Physics,03/11/2026,16:00,1:00:00,Room S12,TRUE,Mr Hassan,16:05,17:15,1:10:00,TRUE,Good progress
+55,26/10/2026,Kavya Patel,Bilal Price,Maths,02/11/2026,13:00,0:45:00,Library,TRUE,Dr Evans,12:59,13:51,0:52:00,FALSE,Essay planning
+56,26/10/2026,Ben Carter,Sienna Zhang,Maths,03/11/2026,08:00,0:45:00,Room M4,TRUE,Ms Patel,08:05,08:56,0:51:00,FALSE,Covered homework questions
+57,26/10/2026,Chloe Nguyen,Rosie Davies,Biology,05/11/2026,12:30,0:30:00,Room E7,TRUE,Mr Hassan,12:31,12:58,0:27:00,TRUE,
+58,27/10/2026,Leo Martins,Toby Lee,French,02/11/2026,15:30,1:00:00,Library,TRUE,Dr Evans,15:26,16:41,1:15:00,TRUE,Worked through past paper
+59,28/10/2026,Ben Carter,Zoe Lee,Physics,06/11/2026,12:30,1:00:00,Library,TRUE,Ms Patel,12:40,13:31,0:51:00,FALSE,
+60,31/10/2026,Chloe Nguyen,Tia Chen,Biology,06/11/2026,17:00,1:30:00,Library,TRUE,Mr Hassan,17:09,18:35,1:26:00,TRUE,Student well prepared
+61,01/11/2026,Olivia Brooks,"Nadia Brown, Ava Brown, Jasmine Walsh",English Language,05/11/2026,16:00,1:30:00,Room E7,TRUE,Ms Patel,15:58,17:18,1:20:00,TRUE,Good progress
+62,01/11/2026,Kavya Patel,Leah Zhang,Maths,06/11/2026,15:45,0:30:00,Library,TRUE,Ms Patel,15:50,16:12,0:22:00,TRUE,Student well prepared
+63,01/11/2026,Priya Sharma,"Hugo Bailey, Ibrahim Price",Biology,06/11/2026,17:00,1:00:00,Online (Teams),FALSE,,,,0:00:00,FALSE,Room clash
+64,02/11/2026,Grace Liu,Jasmine Walsh,Physics,05/11/2026,12:30,1:00:00,Study Centre,TRUE,Ms Patel,12:25,13:26,1:01:00,TRUE,
+65,02/11/2026,Kavya Patel,Bilal Price,Maths,09/11/2026,13:00,0:45:00,Library,TRUE,Dr Evans,12:58,13:50,0:52:00,TRUE,
+66,02/11/2026,Chloe Nguyen,Rosie Davies,Biology,12/11/2026,12:30,0:30:00,Room E7,TRUE,Dr Evans,12:31,13:13,0:42:00,TRUE,
+67,03/11/2026,Olivia Brooks,"Nadia Brown, Ava Brown, Jasmine Walsh",English Language,12/11/2026,16:00,1:30:00,Room E7,TRUE,Mr Hassan,16:04,17:38,1:34:00,TRUE,Started new topic
+68,05/11/2026,Leo Martins,Toby Lee,French,09/11/2026,15:30,1:00:00,Library,TRUE,Dr Evans,15:28,16:27,0:59:00,TRUE,Started new topic
+69,06/11/2026,Grace Liu,Caleb Dixon,Maths,10/11/2026,16:30,1:30:00,Room S12,TRUE,Dr Evans,16:36,18:06,1:30:00,TRUE,
+70,06/11/2026,Grace Liu,Jasmine Walsh,Physics,12/11/2026,12:30,1:00:00,Study Centre,TRUE,Dr Evans,12:37,13:50,1:13:00,FALSE,Went over test corrections
+71,06/11/2026,Kavya Patel,Jasmine Young,Chemistry,16/11/2026,12:30,1:00:00,Study Centre,TRUE,Ms Patel,12:33,13:33,1:00:00,TRUE,Started new topic
+72,08/11/2026,Kavya Patel,Jasmine Young,Chemistry,09/11/2026,12:30,1:00:00,Study Centre,TRUE,Dr Evans,12:40,13:48,1:08:00,FALSE,
+73,08/11/2026,Harry Thompson,Sofia Green,History,11/11/2026,17:00,1:00:00,Library,TRUE,Dr Evans,17:01,18:08,1:07:00,FALSE,Revision for mock exam
+74,08/11/2026,Aisha Rahman,Nadia Adams,Further Maths,13/11/2026,13:00,1:00:00,Room S12,TRUE,Ms Patel,13:03,13:58,0:55:00,TRUE,
+75,08/11/2026,Ben Carter,Zoe Lee,Physics,13/11/2026,12:30,1:00:00,Library,TRUE,Mr Hassan,12:31,13:35,1:04:00,FALSE,Went over test corrections
+76,10/11/2026,Noah Kim,Ruby Vance,Further Maths,11/11/2026,15:45,1:00:00,Library,TRUE,Dr Evans,15:49,17:04,1:15:00,TRUE,Covered homework questions
+77,10/11/2026,Ben Carter,Imogen Price,Physics,16/11/2026,13:00,1:00:00,Library,TRUE,Dr Evans,13:05,14:02,0:57:00,TRUE,Went over test corrections
+78,10/11/2026,Maya Cohen,Sienna Ellis,English Language,20/11/2026,16:00,1:00:00,Room M4,TRUE,Mr Hassan,15:58,16:50,0:52:00,TRUE,Revision for mock exam
+79,11/11/2026,Kavya Patel,Bilal Price,Maths,16/11/2026,13:00,0:45:00,Library,TRUE,Dr Evans,12:59,13:56,0:57:00,FALSE,Good progress
+80,13/11/2026,Leo Martins,"Jasmine Walsh, Rosie Usman",Spanish,17/11/2026,12:30,0:45:00,Library,TRUE,Dr Evans,12:32,13:28,0:56:00,TRUE,
+81,14/11/2026,Leo Martins,Toby Lee,French,16/11/2026,15:30,1:00:00,Library,TRUE,Dr Evans,15:25,16:26,1:01:00,TRUE,
+82,14/11/2026,Chloe Nguyen,Rosie Davies,Biology,19/11/2026,12:30,0:30:00,Room E7,TRUE,Mr Hassan,12:36,13:19,0:43:00,TRUE,Worked through past paper
+83,14/11/2026,Kavya Patel,Jasmine Young,Chemistry,23/11/2026,12:30,1:00:00,Study Centre,TRUE,Ms Patel,12:40,13:36,0:56:00,TRUE,Covered homework questions
+84,14/11/2026,Grace Liu,Caleb Dixon,Maths,24/11/2026,16:30,1:30:00,Room S12,TRUE,Dr Evans,16:33,17:57,1:24:00,TRUE,
+85,15/11/2026,Isla Murphy,Sienna Taylor,Biology,16/11/2026,13:00,1:00:00,Room E7,TRUE,Mr Hassan,13:00,13:56,0:56:00,TRUE,
+86,16/11/2026,Grace Liu,Caleb Dixon,Maths,17/11/2026,16:30,1:30:00,Room S12,TRUE,Mr Hassan,16:28,17:54,1:26:00,TRUE,
+87,16/11/2026,Ben Carter,"Hugo Iqbal, Max Adams, Dylan Brown",Physics,17/11/2026,16:00,1:00:00,Room S12,TRUE,Mr Hassan,15:56,16:50,0:54:00,FALSE,Covered homework questions
+88,16/11/2026,Olivia Brooks,"Nadia Brown, Ava Brown, Jasmine Walsh",English Language,19/11/2026,16:00,1:30:00,Room E7,TRUE,Ms Patel,,,0:00:00,FALSE,Cancelled - school trip
+89,16/11/2026,Ben Carter,Zoe Lee,Physics,20/11/2026,12:30,1:00:00,Library,TRUE,Dr Evans,12:40,13:33,0:53:00,TRUE,Went over test corrections
+90,16/11/2026,Kavya Patel,Bilal Price,Maths,23/11/2026,13:00,0:45:00,Library,TRUE,Ms Patel,13:07,14:01,0:54:00,TRUE,
+91,16/11/2026,Noah Kim,Ruby Vance,Further Maths,25/11/2026,15:45,1:00:00,Library,TRUE,Dr Evans,15:47,16:52,1:05:00,TRUE,
+92,17/11/2026,Harry Thompson,Sofia Green,History,18/11/2026,17:00,1:00:00,Library,TRUE,Mr Hassan,17:04,18:13,1:09:00,FALSE,Worked through past paper
+93,17/11/2026,Olivia Brooks,"Nadia Brown, Ava Brown, Jasmine Walsh",English Language,26/11/2026,16:00,1:30:00,Room E7,TRUE,Ms Patel,16:05,17:50,1:45:00,TRUE,Good progress
+94,18/11/2026,Jacob Wright,Mia Owens,History,20/11/2026,15:45,0:45:00,Library,TRUE,Mr Hassan,15:48,16:36,0:48:00,TRUE,Student well prepared
+95,21/11/2026,Chloe Nguyen,Rosie Davies,Biology,26/11/2026,12:30,0:30:00,Room E7,TRUE,Mr Hassan,12:29,13:08,0:39:00,TRUE,Started new topic
+96,21/11/2026,Aisha Rahman,Nadia Adams,Further Maths,27/11/2026,13:00,1:00:00,Room S12,FALSE,,,,0:00:00,FALSE,Room clash
+97,22/11/2026,Harry Thompson,Sofia Green,History,25/11/2026,17:00,1:00:00,Library,TRUE,Mr Hassan,16:59,18:05,1:06:00,FALSE,Started new topic
+98,22/11/2026,Isla Murphy,Bilal Ali,Biology,27/11/2026,17:00,1:30:00,Study Centre,TRUE,Mr Hassan,16:56,18:33,1:37:00,TRUE,
+99,25/11/2026,Ben Carter,Zoe Lee,Physics,27/11/2026,12:30,1:00:00,Library,TRUE,Dr Evans,12:32,13:33,1:01:00,TRUE,Essay planning
+100,25/11/2026,Maya Cohen,Sienna Ellis,English Language,27/11/2026,16:00,1:00:00,Room M4,TRUE,Dr Evans,16:04,17:18,1:14:00,FALSE,Good progress
+102,25/11/2026,Olivia Brooks,"Nadia Brown, Ava Brown, Jasmine Walsh",English Language,03/12/2026,16:00,1:30:00,Room E7,TRUE,Ms Patel,16:10,17:30,1:20:00,FALSE,
+103,26/11/2026,Grace Liu,Caleb Dixon,Maths,01/12/2026,16:30,1:30:00,Room S12,TRUE,Mr Hassan,16:36,18:14,1:38:00,FALSE,Good progress
+104,26/11/2026,Olivia Brooks,Zara Jones,Psychology,02/12/2026,15:45,1:00:00,Library,TRUE,Dr Evans,15:50,17:02,1:12:00,TRUE,Revision for mock exam
+105,27/11/2026,Kavya Patel,Jasmine Young,Chemistry,30/11/2026,12:30,1:00:00,Study Centre,TRUE,Dr Evans,12:26,13:28,1:02:00,TRUE,Essay planning
+106,27/11/2026,Chloe Nguyen,Rosie Davies,Biology,03/12/2026,12:30,0:30:00,Room E7,TRUE,Mr Hassan,12:36,13:07,0:31:00,TRUE,Needs more practice on this topic
+107,27/11/2026,Kavya Patel,Bilal Price,Maths,07/12/2026,13:00,0:45:00,Library,TRUE,Mr Hassan,13:06,13:46,0:40:00,TRUE,
+108,28/11/2026,Ben Carter,"Hugo Iqbal, Max Adams, Dylan Brown",Physics,01/12/2026,16:00,1:00:00,Room S12,TRUE,Dr Evans,15:57,17:04,1:07:00,TRUE,Student well prepared
+109,28/11/2026,Harry Thompson,Sofia Green,History,02/12/2026,17:00,1:00:00,Library,TRUE,Mr Hassan,17:08,18:06,0:58:00,TRUE,Covered homework questions
+110,28/11/2026,Ben Carter,Zoe Lee,Physics,04/12/2026,12:30,1:00:00,Library,TRUE,Mr Hassan,12:39,13:38,0:59:00,TRUE,
+111,28/11/2026,Grace Liu,Caleb Dixon,Maths,08/12/2026,16:30,1:30:00,Room S12,TRUE,Ms Patel,16:37,18:20,1:43:00,FALSE,
+112,29/11/2026,Ben Carter,Imogen Price,Physics,30/11/2026,13:00,1:00:00,Library,TRUE,Dr Evans,13:07,14:14,1:07:00,FALSE,Essay planning
+113,29/11/2026,Kavya Patel,Bilal Price,Maths,30/11/2026,13:00,0:45:00,Library,TRUE,Mr Hassan,13:05,14:02,0:57:00,TRUE,Good progress
+114,29/11/2026,Isla Murphy,Sienna Taylor,Biology,30/11/2026,13:00,1:00:00,Room E7,FALSE,,,,0:00:00,FALSE,
+115,29/11/2026,Jacob Wright,Mia Owens,History,04/12/2026,15:45,0:45:00,Library,TRUE,Mr Hassan,15:50,16:35,0:45:00,TRUE,Good progress
+116,29/11/2026,Noah Kim,Ruby Vance,Further Maths,09/12/2026,15:45,1:00:00,Library,TRUE,Dr Evans,15:48,16:49,1:01:00,TRUE,Worked through past paper
+117,30/11/2026,Grace Liu,Hugo Iqbal,Maths,01/12/2026,08:00,0:45:00,Room S12,TRUE,Mr Hassan,08:01,08:58,0:57:00,FALSE,
+118,30/11/2026,Ben Carter,"Sienna Walsh, Ava Usman, Hugo Bailey",Maths,08/12/2026,08:00,1:00:00,Room E7,TRUE,Dr Evans,07:55,08:55,1:00:00,FALSE,Needs more practice on this topic
+119,30/11/2026,Kavya Patel,Tia Evans,Maths,08/12/2026,12:30,0:45:00,Room S12,TRUE,Mr Hassan,12:31,13:30,0:59:00,FALSE,Revision for mock exam
+120,03/12/2026,Kavya Patel,Jasmine Young,Chemistry,07/12/2026,12:30,1:00:00,Study Centre,TRUE,Dr Evans,,,0:00:00,FALSE,Student absent
+121,03/12/2026,Olivia Brooks,Zara Jones,Psychology,09/12/2026,15:45,1:00:00,Library,FALSE,,,,0:00:00,FALSE,Room clash
+122,03/12/2026,Olivia Brooks,"Nadia Brown, Ava Brown, Jasmine Walsh",English Language,10/12/2026,16:00,1:30:00,Room E7,TRUE,Mr Hassan,15:57,17:37,1:40:00,TRUE,
+123,05/12/2026,Chloe Nguyen,Rosie Davies,Biology,10/12/2026,12:30,0:30:00,Room E7,TRUE,Ms Patel,12:34,13:07,0:33:00,TRUE,Went over test corrections
+124,06/12/2026,Harry Thompson,Sofia Green,History,09/12/2026,17:00,1:00:00,Library,TRUE,Dr Evans,17:04,18:15,1:11:00,TRUE,
+125,06/12/2026,Isla Murphy,Bilal Ali,Biology,11/12/2026,17:00,1:30:00,Study Centre,TRUE,Dr Evans,17:03,18:41,1:38:00,TRUE,Essay planning
+126,06/12/2026,Kavya Patel,Bilal Price,Maths,14/12/2026,13:00,0:45:00,Library,TRUE,Dr Evans,13:10,13:53,0:43:00,TRUE,
+127,06/12/2026,Isla Murphy,Sienna Taylor,Biology,14/12/2026,13:00,1:00:00,Room E7,TRUE,Dr Evans,13:03,14:06,1:03:00,TRUE,Essay planning
+128,06/12/2026,Olivia Brooks,Zara Jones,Psychology,16/12/2026,15:45,1:00:00,Library,TRUE,Dr Evans,15:47,16:48,1:01:00,TRUE,Student well prepared
+129,07/12/2026,Ben Carter,Imogen Price,Physics,14/12/2026,13:00,1:00:00,Library,TRUE,Dr Evans,12:57,13:56,0:59:00,TRUE,Essay planning
+130,07/12/2026,Kavya Patel,Jasmine Young,Chemistry,14/12/2026,12:30,1:00:00,Study Centre,TRUE,Ms Patel,12:33,13:24,0:51:00,TRUE,Started new topic
+131,07/12/2026,Harry Thompson,Sofia Green,History,16/12/2026,17:00,1:00:00,Library,TRUE,Dr Evans,16:59,17:51,0:52:00,TRUE,Revision for mock exam
+132,07/12/2026,Chloe Nguyen,Rosie Davies,Biology,17/12/2026,12:30,0:30:00,Room E7,TRUE,Mr Hassan,12:27,12:55,0:28:00,FALSE,
+133,08/12/2026,Ben Carter,"Tom Jones, Ruby Usman, Ruby Vance",Maths,09/12/2026,12:30,1:00:00,Room E7,TRUE,Mr Hassan,12:30,13:37,1:07:00,FALSE,Covered homework questions
+134,08/12/2026,Aisha Rahman,Nadia Adams,Further Maths,11/12/2026,13:00,1:00:00,Room S12,TRUE,Ms Patel,13:04,13:57,0:53:00,TRUE,Student well prepared
+135,08/12/2026,Grace Liu,Caleb Dixon,Maths,15/12/2026,16:30,1:30:00,Room S12,TRUE,Ms Patel,16:27,18:07,1:40:00,TRUE,
+136,09/12/2026,Ben Carter,"Sienna Walsh, Ava Usman, Hugo Bailey",Maths,15/12/2026,08:00,1:00:00,Room E7,TRUE,Dr Evans,08:09,09:07,0:58:00,TRUE,
+137,09/12/2026,Kavya Patel,Tia Evans,Maths,15/12/2026,12:30,0:45:00,Room S12,TRUE,Ms Patel,12:39,13:22,0:43:00,FALSE,Good progress
+138,09/12/2026,Ben Carter,"Tom Jones, Ruby Usman, Ruby Vance",Maths,16/12/2026,12:30,1:00:00,Room E7,TRUE,Dr Evans,12:38,13:44,1:06:00,TRUE,Essay planning
+139,09/12/2026,Jacob Wright,Mia Owens,History,18/12/2026,15:45,0:45:00,Library,TRUE,Dr Evans,15:49,16:24,0:35:00,TRUE,Student well prepared
+140,11/12/2026,Noah Kim,Eva Foster,Computer Science,14/12/2026,16:00,1:30:00,Room S12,TRUE,Ms Patel,16:05,17:30,1:25:00,TRUE,Good progress
+141,12/12/2026,Ben Carter,"Hugo Iqbal, Max Adams, Dylan Brown",Physics,15/12/2026,16:00,1:00:00,Room S12,TRUE,Mr Hassan,16:08,16:59,0:51:00,TRUE,Good progress
+142,12/12/2026,Priya Sharma,Elliot Davies,Biology,17/12/2026,15:30,0:30:00,Room S12,TRUE,Mr Hassan,15:40,16:17,0:37:00,FALSE,Good progress
+143,15/12/2026,Leo Martins,"Jack Vance, Jasmine Khan",Spanish,16/12/2026,15:45,1:30:00,Room M4,TRUE,Dr Evans,15:44,17:12,1:28:00,TRUE,Went over test corrections
+144,25/12/2026,Aisha Rahman,Leah Dixon,Maths,04/01/2027,15:30,1:30:00,Library,TRUE,Dr Evans,15:28,16:57,1:29:00,TRUE,Needs more practice on this topic
+145,27/12/2026,Leo Martins,"Jack Vance, Jasmine Khan",Spanish,06/01/2027,15:45,1:30:00,Room M4,TRUE,Mr Hassan,15:41,17:19,1:38:00,FALSE,
+146,28/12/2026,Grace Liu,Caleb Dixon,Maths,05/01/2027,16:30,1:30:00,Room S12,TRUE,Ms Patel,16:25,17:45,1:20:00,TRUE,Started new topic
+147,29/12/2026,Kavya Patel,Arjun Davies,Maths,06/01/2027,12:30,1:00:00,Room M4,TRUE,Dr Evans,12:26,13:16,0:50:00,FALSE,Good progress
+148,30/12/2026,Kavya Patel,Tia Evans,Maths,05/01/2027,12:30,0:45:00,Room S12,TRUE,Mr Hassan,12:32,13:23,0:51:00,TRUE,Good progress
+149,30/12/2026,Chloe Nguyen,Rosie Davies,Biology,07/01/2027,12:30,0:30:00,Room E7,TRUE,Ms Patel,12:40,13:00,0:20:00,TRUE,Student well prepared
+150,30/12/2026,Aisha Rahman,Nadia Adams,Further Maths,08/01/2027,13:00,1:00:00,Room S12,TRUE,Dr Evans,13:02,13:52,0:50:00,FALSE,Good progress
+151,31/12/2026,Ben Carter,"Sienna Walsh, Ava Usman, Hugo Bailey",Maths,05/01/2027,08:00,1:00:00,Room E7,TRUE,Ms Patel,07:57,08:47,0:50:00,FALSE,Went over test corrections
+152,31/12/2026,Noah Kim,Ruby Vance,Further Maths,06/01/2027,15:45,1:00:00,Library,TRUE,Mr Hassan,15:50,16:52,1:02:00,TRUE,Essay planning
+153,01/01/2027,Ben Carter,"Lily Jones, Zara Jones, Elliot Davies",Maths,04/01/2027,16:00,0:30:00,Room S12,TRUE,Dr Evans,15:56,16:16,0:20:00,TRUE,Needs more practice on this topic
+154,02/01/2027,Kavya Patel,Bilal Price,Maths,04/01/2027,13:00,0:45:00,Library,TRUE,Ms Patel,13:10,14:00,0:50:00,FALSE,
+155,02/01/2027,Ben Carter,"Tom Jones, Ruby Usman, Ruby Vance",Maths,06/01/2027,12:30,1:00:00,Room E7,TRUE,Mr Hassan,12:29,13:20,0:51:00,TRUE,Revision for mock exam
+156,03/01/2027,Ella Fischer,"Layla Adams, Yusuf Foster, Ivy Iqbal",German,06/01/2027,13:00,0:45:00,Room E7,TRUE,Mr Hassan,13:02,13:58,0:56:00,FALSE,Went over test corrections
+157,03/01/2027,Kavya Patel,Tia Evans,Maths,12/01/2027,12:30,0:45:00,Room S12,TRUE,Dr Evans,12:34,13:23,0:49:00,TRUE,Good progress
+158,03/01/2027,Chloe Nguyen,Willow Owens,Biology,13/01/2027,12:30,1:30:00,Library,TRUE,Dr Evans,12:27,13:50,1:23:00,FALSE,
+159,03/01/2027,Ella Fischer,"Layla Adams, Yusuf Foster, Ivy Iqbal",German,13/01/2027,13:00,0:45:00,Room E7,TRUE,Mr Hassan,13:08,14:05,0:57:00,TRUE,
+160,04/01/2027,Ben Carter,"Lily Jones, Zara Jones, Elliot Davies",Maths,11/01/2027,16:00,0:30:00,Room S12,TRUE,Mr Hassan,15:59,16:22,0:23:00,FALSE,Worked through past paper
+161,05/01/2027,Olivia Brooks,Zara Jones,Psychology,06/01/2027,15:45,1:00:00,Library,TRUE,Dr Evans,15:51,16:44,0:53:00,FALSE,Revision for mock exam
+162,05/01/2027,Harry Thompson,Sofia Green,History,06/01/2027,17:00,1:00:00,Library,FALSE,,,,0:00:00,FALSE,
+163,05/01/2027,Farhan Malik,Ibrahim Price,Computer Science,08/01/2027,16:30,1:00:00,Library,TRUE,Mr Hassan,16:38,17:45,1:07:00,TRUE,Started new topic
+164,05/01/2027,Isla Murphy,Bilal Ali,Biology,08/01/2027,17:00,1:30:00,Study Centre,TRUE,Dr Evans,17:00,18:32,1:32:00,TRUE,Started new topic
+165,05/01/2027,Aisha Rahman,Leah Dixon,Maths,11/01/2027,15:30,1:30:00,Library,TRUE,Dr Evans,15:31,17:08,1:37:00,TRUE,Revision for mock exam
+166,05/01/2027,Olivia Brooks,Zara Jones,Psychology,13/01/2027,15:45,1:00:00,Library,TRUE,Dr Evans,15:52,16:55,1:03:00,FALSE,Covered homework questions
+167,06/01/2027,Priya Sharma,Elliot Davies,Biology,07/01/2027,15:30,0:30:00,Room S12,TRUE,Mr Hassan,15:26,16:01,0:35:00,FALSE,Revision for mock exam
+168,06/01/2027,Farhan Malik,Ruby Usman,Computer Science,07/01/2027,08:00,1:00:00,Room S12,TRUE,Dr Evans,08:10,09:11,1:01:00,TRUE,
+169,06/01/2027,Kavya Patel,Bilal Price,Maths,11/01/2027,13:00,0:45:00,Library,TRUE,Ms Patel,13:09,14:02,0:53:00,TRUE,
+170,06/01/2027,Harry Thompson,Bilal Chen,English Literature,12/01/2027,16:00,0:30:00,Library,TRUE,Dr Evans,16:06,16:32,0:26:00,TRUE,
+171,06/01/2027,Harry Thompson,"Ibrahim Price, Mohammed Novak",History,13/01/2027,16:30,1:00:00,Library,TRUE,Ms Patel,16:35,17:33,0:58:00,TRUE,Went over test corrections
+172,07/01/2027,Ben Carter,"Sienna Walsh, Ava Usman, Hugo Bailey",Maths,12/01/2027,08:00,1:00:00,Room E7,FALSE,,,,0:00:00,FALSE,Awaiting approval
+173,08/01/2027,Ben Carter,Imogen Price,Physics,11/01/2027,13:00,1:00:00,Library,TRUE,Ms Patel,13:01,13:55,0:54:00,FALSE,Covered homework questions
+174,09/01/2027,Grace Liu,Caleb Dixon,Maths,12/01/2027,16:30,1:30:00,Room S12,TRUE,Ms Patel,16:31,18:05,1:34:00,FALSE,
+175,09/01/2027,Leo Martins,"Jack Vance, Jasmine Khan",Spanish,13/01/2027,15:45,1:30:00,Room M4,TRUE,Ms Patel,15:42,17:02,1:20:00,FALSE,
+176,09/01/2027,Priya Sharma,Elliot Davies,Biology,14/01/2027,15:30,0:30:00,Room S12,TRUE,Dr Evans,15:28,16:00,0:32:00,TRUE,
+177,09/01/2027,Kavya Patel,Tia Evans,Maths,19/01/2027,12:30,0:45:00,Room S12,TRUE,Dr Evans,12:39,13:16,0:37:00,TRUE,Went over test corrections
+178,10/01/2027,Ben Carter,"Tom Jones, Ruby Usman, Ruby Vance",Maths,13/01/2027,12:30,1:00:00,Room E7,TRUE,Dr Evans,12:35,13:44,1:09:00,TRUE,Student well prepared
+179,10/01/2027,Harry Thompson,Sofia Green,History,13/01/2027,17:00,1:00:00,Library,TRUE,Mr Hassan,17:08,18:14,1:06:00,TRUE,Started new topic
+180,10/01/2027,Farhan Malik,Ibrahim Price,Computer Science,15/01/2027,16:30,1:00:00,Library,TRUE,Ms Patel,16:37,17:31,0:54:00,TRUE,Student well prepared
+181,10/01/2027,Ben Carter,"Sienna Walsh, Ava Usman, Hugo Bailey",Maths,19/01/2027,08:00,1:00:00,Room E7,TRUE,Dr Evans,08:05,09:16,1:11:00,TRUE,Essay planning
+182,11/01/2027,Ben Carter,"Hugo Iqbal, Max Adams, Dylan Brown",Physics,12/01/2027,16:00,1:00:00,Room S12,TRUE,Dr Evans,15:55,16:49,0:54:00,TRUE,Needs more practice on this topic
+183,11/01/2027,Chloe Nguyen,Rosie Davies,Biology,14/01/2027,12:30,0:30:00,Room E7,TRUE,Ms Patel,12:38,13:07,0:29:00,TRUE,Needs more practice on this topic
+184,11/01/2027,Olivia Brooks,Elliot Vance,English Language,15/01/2027,16:00,0:45:00,Online (Teams),TRUE,Dr Evans,16:02,16:37,0:35:00,TRUE,
+185,11/01/2027,Noah Kim,Ruby Vance,Further Maths,20/01/2027,15:45,1:00:00,Library,TRUE,Mr Hassan,15:47,16:38,0:51:00,FALSE,
+186,12/01/2027,Farhan Malik,Ruby Usman,Computer Science,14/01/2027,08:00,1:00:00,Room S12,TRUE,Dr Evans,08:06,09:11,1:05:00,TRUE,Good progress
+187,12/01/2027,Maya Cohen,"Charlotte Taylor, Sofia Green",English Literature,18/01/2027,16:30,1:00:00,Library,TRUE,Mr Hassan,16:35,17:48,1:13:00,FALSE,Needs more practice on this topic
+188,12/01/2027,Harry Thompson,Bilal Chen,English Literature,19/01/2027,16:00,0:30:00,Library,TRUE,Dr Evans,15:57,16:38,0:41:00,FALSE,Good progress
+189,12/01/2027,Chloe Nguyen,Willow Owens,Biology,20/01/2027,12:30,1:30:00,Library,TRUE,Dr Evans,,,0:00:00,FALSE,Student cancelled on the day
+190,13/01/2027,Kavya Patel,Bilal Price,Maths,18/01/2027,13:00,0:45:00,Library,TRUE,Mr Hassan,12:56,13:52,0:56:00,TRUE,
+191,13/01/2027,Harry Thompson,Sofia Green,History,20/01/2027,17:00,1:00:00,Library,TRUE,Ms Patel,17:09,18:14,1:05:00,FALSE,
+192,13/01/2027,Isla Murphy,"Jasmine Novak, Toby Usman",Biology,21/01/2027,13:00,1:00:00,Library,TRUE,Mr Hassan,12:56,13:51,0:55:00,TRUE,Covered homework questions
+193,14/01/2027,Jacob Wright,Mia Owens,History,15/01/2027,15:45,0:45:00,Library,TRUE,Mr Hassan,15:42,16:33,0:51:00,TRUE,Student well prepared
+194,15/01/2027,Harry Thompson,"Ibrahim Price, Mohammed Novak",History,20/01/2027,16:30,1:00:00,Library,TRUE,Dr Evans,16:32,17:28,0:56:00,FALSE,Covered homework questions
+195,15/01/2027,Chloe Nguyen,Rosie Davies,Biology,21/01/2027,12:30,0:30:00,Room E7,TRUE,Dr Evans,12:31,12:52,0:21:00,TRUE,
+196,16/01/2027,Priya Sharma,Elliot Davies,Biology,21/01/2027,15:30,0:30:00,Room S12,TRUE,Mr Hassan,,,0:00:00,FALSE,Student absent
+197,16/01/2027,Aisha Rahman,Nadia Adams,Further Maths,22/01/2027,13:00,1:00:00,Room S12,TRUE,Dr Evans,13:09,14:05,0:56:00,FALSE,
+198,17/01/2027,Olivia Brooks,Zara Jones,Psychology,20/01/2027,15:45,1:00:00,Library,TRUE,Mr Hassan,15:40,16:33,0:53:00,TRUE,
+199,17/01/2027,Farhan Malik,Ibrahim Price,Computer Science,22/01/2027,16:30,1:00:00,Library,TRUE,Mr Hassan,16:26,17:23,0:57:00,TRUE,
+200,18/01/2027,Grace Liu,Caleb Dixon,Maths,19/01/2027,16:30,1:30:00,Room S12,TRUE,Ms Patel,16:35,17:59,1:24:00,TRUE,Student well prepared
+201,18/01/2027,Leo Martins,"Jack Vance, Jasmine Khan",Spanish,20/01/2027,15:45,1:30:00,Room M4,TRUE,Mr Hassan,15:43,17:10,1:27:00,TRUE,Covered homework questions
+202,18/01/2027,Ella Fischer,"Layla Adams, Yusuf Foster, Ivy Iqbal",German,20/01/2027,13:00,0:45:00,Room E7,TRUE,Dr Evans,13:06,14:00,0:54:00,TRUE,Worked through past paper
+203,18/01/2027,Ella Fischer,Imogen Price,German,22/01/2027,16:00,0:45:00,Online (Teams),TRUE,Ms Patel,16:02,17:02,1:00:00,TRUE,Covered homework questions
+204,18/01/2027,Isla Murphy,Bilal Ali,Biology,22/01/2027,17:00,1:30:00,Study Centre,TRUE,Dr Evans,16:57,18:28,1:31:00,TRUE,Went over test corrections
+205,18/01/2027,Grace Liu,Finn Vance,Physics,25/01/2027,17:00,1:00:00,Study Centre,TRUE,Dr Evans,17:04,18:17,1:13:00,TRUE,Good progress
+206,18/01/2027,Harry Thompson,"Ibrahim Price, Mohammed Novak",History,27/01/2027,16:30,1:00:00,Library,TRUE,Dr Evans,,,0:00:00,FALSE,Cancelled - school trip
+207,18/01/2027,Harry Thompson,Sofia Green,History,27/01/2027,17:00,1:00:00,Library,TRUE,Mr Hassan,17:09,18:03,0:54:00,TRUE,Went over test corrections
+208,19/01/2027,Farhan Malik,Ruby Usman,Computer Science,21/01/2027,08:00,1:00:00,Room S12,TRUE,Mr Hassan,08:05,08:55,0:50:00,TRUE,Went over test corrections
+209,19/01/2027,Farhan Malik,Ruby Usman,Computer Science,28/01/2027,08:00,1:00:00,Room S12,TRUE,Mr Hassan,08:08,09:21,1:13:00,TRUE,Good progress
+210,20/01/2027,Olivia Brooks,Elliot Vance,English Language,29/01/2027,16:00,0:45:00,Online (Teams),TRUE,Mr Hassan,16:10,16:49,0:39:00,TRUE,
+211,20/01/2027,Farhan Malik,Mohammed Novak,Computer Science,29/01/2027,08:00,1:00:00,Room S12,TRUE,Dr Evans,08:05,08:57,0:52:00,FALSE,
+212,21/01/2027,Kavya Patel,Bilal Price,Maths,25/01/2027,13:00,0:45:00,Library,TRUE,Ms Patel,12:56,13:49,0:53:00,TRUE,Good progress
+213,22/01/2027,Ben Carter,Imogen Price,Physics,25/01/2027,13:00,1:00:00,Library,TRUE,Mr Hassan,13:05,14:12,1:07:00,FALSE,Went over test corrections
+214,22/01/2027,Grace Liu,Caleb Dixon,Maths,26/01/2027,16:30,1:30:00,Room S12,FALSE,,,,0:00:00,FALSE,Room clash
+215,22/01/2027,Ben Carter,"Hugo Iqbal, Max Adams, Dylan Brown",Physics,26/01/2027,16:00,1:00:00,Room S12,TRUE,Dr Evans,16:09,17:22,1:13:00,TRUE,
+216,22/01/2027,Chloe Nguyen,Willow Owens,Biology,27/01/2027,12:30,1:30:00,Library,TRUE,Mr Hassan,12:35,13:55,1:20:00,FALSE,
+217,22/01/2027,Isla Murphy,"Jasmine Novak, Toby Usman",Biology,28/01/2027,13:00,1:00:00,Library,TRUE,Mr Hassan,13:02,14:02,1:00:00,FALSE,
+218,23/01/2027,Harry Thompson,Bilal Chen,English Literature,26/01/2027,16:00,0:30:00,Library,TRUE,Mr Hassan,,,0:00:00,FALSE,Student absent
+219,23/01/2027,Leo Martins,"Jack Vance, Jasmine Khan",Spanish,27/01/2027,15:45,1:30:00,Room M4,TRUE,Mr Hassan,15:52,17:24,1:32:00,TRUE,Needs more practice on this topic
+220,23/01/2027,Grace Liu,Finn Vance,Physics,01/02/2027,17:00,1:00:00,Study Centre,TRUE,Mr Hassan,17:02,17:59,0:57:00,TRUE,
+221,24/01/2027,Olivia Brooks,Zara Jones,Psychology,27/01/2027,15:45,1:00:00,Library,FALSE,,,,0:00:00,FALSE,Room clash
+222,24/01/2027,Priya Sharma,Elliot Davies,Biology,28/01/2027,15:30,0:30:00,Room S12,FALSE,,,,0:00:00,FALSE,
+223,24/01/2027,Chloe Nguyen,Rosie Davies,Biology,28/01/2027,12:30,0:30:00,Room E7,TRUE,Dr Evans,12:25,13:08,0:43:00,TRUE,
+224,24/01/2027,Maya Cohen,"Charlotte Taylor, Sofia Green",English Literature,01/02/2027,16:30,1:00:00,Library,TRUE,Dr Evans,16:31,17:43,1:12:00,TRUE,Revision for mock exam
+225,24/01/2027,Ella Fischer,Toby Usman,French,01/02/2027,08:00,1:00:00,Study Centre,TRUE,Dr Evans,,,0:00:00,FALSE,Cancelled - tutor ill
+226,24/01/2027,Ella Fischer,"Omar Vance, Charlotte Ali, Ruby Clarke",German,02/02/2027,17:00,1:00:00,Library,TRUE,Dr Evans,16:55,17:45,0:50:00,TRUE,Essay planning
+227,24/01/2027,Olivia Brooks,Kai Price,Psychology,03/02/2027,12:30,0:45:00,Study Centre,TRUE,Ms Patel,12:30,13:25,0:55:00,TRUE,Good progress
+228,25/01/2027,Kavya Patel,Tia Evans,Maths,26/01/2027,12:30,0:45:00,Room S12,TRUE,Mr Hassan,12:34,13:18,0:44:00,FALSE,
+229,25/01/2027,Ella Fischer,"Layla Adams, Yusuf Foster, Ivy Iqbal",German,27/01/2027,13:00,0:45:00,Room E7,TRUE,Ms Patel,12:57,13:32,0:35:00,FALSE,
+230,25/01/2027,Chloe Nguyen,Willow Owens,Biology,03/02/2027,12:30,1:30:00,Library,TRUE,Mr Hassan,12:32,14:12,1:40:00,TRUE,
+231,25/01/2027,Noah Kim,Ruby Vance,Further Maths,03/02/2027,15:45,1:00:00,Library,TRUE,Mr Hassan,,,0:00:00,FALSE,Cancelled - school trip
+232,26/01/2027,Farhan Malik,Ibrahim Price,Computer Science,05/02/2027,16:30,1:00:00,Library,TRUE,Mr Hassan,16:34,17:29,0:55:00,TRUE,
+233,27/01/2027,Farhan Malik,Ibrahim Price,Computer Science,29/01/2027,16:30,1:00:00,Library,TRUE,Mr Hassan,16:28,17:30,1:02:00,TRUE,
+234,27/01/2027,Leo Martins,"Jack Vance, Jasmine Khan",Spanish,03/02/2027,15:45,1:30:00,Room M4,TRUE,Ms Patel,15:49,17:14,1:25:00,TRUE,Revision for mock exam
+235,27/01/2027,Olivia Brooks,Zara Jones,Psychology,03/02/2027,15:45,1:00:00,Library,TRUE,Dr Evans,15:55,16:51,0:56:00,TRUE,Covered homework questions
+236,27/01/2027,Ella Fischer,"Layla Adams, Yusuf Foster, Ivy Iqbal",German,03/02/2027,13:00,0:45:00,Room E7,TRUE,Dr Evans,12:57,13:33,0:36:00,FALSE,
+237,28/01/2027,Chloe Nguyen,Sienna Ellis,Chemistry,01/02/2027,16:30,0:45:00,Study Centre,TRUE,Mr Hassan,16:31,17:30,0:59:00,TRUE,Revision for mock exam
+238,28/01/2027,Harry Thompson,Bilal Chen,English Literature,02/02/2027,16:00,0:30:00,Library,TRUE,Ms Patel,15:56,16:41,0:45:00,TRUE,
+239,29/01/2027,Ben Carter,Imogen Price,Physics,08/02/2027,13:00,1:00:00,Library,TRUE,Dr Evans,12:55,13:53,0:58:00,TRUE,Revision for mock exam
+240,31/01/2027,Harry Thompson,"Ibrahim Price, Mohammed Novak",History,10/02/2027,16:30,1:00:00,Library,TRUE,Ms Patel,16:33,17:48,1:15:00,TRUE,
+241,01/02/2027,Grace Liu,Caleb Dixon,Maths,02/02/2027,16:30,1:30:00,Room S12,TRUE,Dr Evans,,,0:00:00,FALSE,Student absent
+242,01/02/2027,Harry Thompson,Sofia Green,History,03/02/2027,17:00,1:00:00,Library,TRUE,Ms Patel,17:05,18:13,1:08:00,TRUE,Started new topic
+243,01/02/2027,Olivia Brooks,Zara Jones,Psychology,10/02/2027,15:45,1:00:00,Library,TRUE,Ms Patel,15:55,16:52,0:57:00,FALSE,Started new topic
+244,01/02/2027,Farhan Malik,Ruby Usman,Computer Science,11/02/2027,08:00,1:00:00,Room S12,FALSE,,,,0:00:00,FALSE,Room clash
+245,02/02/2027,Harry Thompson,"Ibrahim Price, Mohammed Novak",History,03/02/2027,16:30,1:00:00,Library,TRUE,Dr Evans,16:34,17:45,1:11:00,FALSE,Essay planning
+246,02/02/2027,Chloe Nguyen,Rosie Davies,Biology,04/02/2027,12:30,0:30:00,Room E7,TRUE,Dr Evans,12:35,13:13,0:38:00,TRUE,Covered homework questions
+247,02/02/2027,Aisha Rahman,Nadia Adams,Further Maths,05/02/2027,13:00,1:00:00,Room S12,FALSE,,,,0:00:00,FALSE,Awaiting approval
+248,02/02/2027,Grace Liu,Tia Vance,Physics,09/02/2027,16:30,0:45:00,Room M4,TRUE,Dr Evans,16:40,17:17,0:37:00,TRUE,Student well prepared
+249,03/02/2027,Isla Murphy,"Jasmine Novak, Toby Usman",Biology,04/02/2027,13:00,1:00:00,Library,FALSE,,,,0:00:00,FALSE,Awaiting approval
+250,03/02/2027,Farhan Malik,Ruby Usman,Computer Science,04/02/2027,08:00,1:00:00,Room S12,TRUE,Mr Hassan,07:57,08:47,0:50:00,TRUE,Essay planning
+251,03/02/2027,Isla Murphy,Bilal Ali,Biology,05/02/2027,17:00,1:30:00,Study Centre,TRUE,Ms Patel,17:09,18:47,1:38:00,FALSE,
+252,03/02/2027,Grace Liu,Finn Vance,Physics,08/02/2027,17:00,1:00:00,Study Centre,TRUE,Mr Hassan,17:05,18:18,1:13:00,TRUE,
+253,03/02/2027,Ella Fischer,Toby Usman,French,08/02/2027,08:00,1:00:00,Study Centre,TRUE,Dr Evans,07:57,09:04,1:07:00,TRUE,Revision for mock exam
+254,03/02/2027,Harry Thompson,Sofia Green,History,10/02/2027,17:00,1:00:00,Library,TRUE,Mr Hassan,17:10,18:09,0:59:00,TRUE,Worked through past paper
+255,04/02/2027,Chloe Nguyen,Sienna Ellis,Chemistry,08/02/2027,16:30,0:45:00,Study Centre,TRUE,Ms Patel,16:28,17:28,1:00:00,FALSE,
+256,04/02/2027,Olivia Brooks,Elliot Vance,English Language,12/02/2027,16:00,0:45:00,Online (Teams),TRUE,Mr Hassan,16:08,17:01,0:53:00,TRUE,
+257,04/02/2027,Farhan Malik,Ibrahim Price,Computer Science,12/02/2027,16:30,1:00:00,Library,TRUE,Ms Patel,16:32,17:45,1:13:00,TRUE,Student well prepared
+258,05/02/2027,Olivia Brooks,Yusuf Foster,Psychology,08/02/2027,16:30,1:00:00,Study Centre,TRUE,Mr Hassan,,,0:00:00,FALSE,Cancelled - tutor ill
+259,05/02/2027,Ella Fischer,"Omar Vance, Charlotte Ali, Ruby Clarke",German,09/02/2027,17:00,1:00:00,Library,TRUE,Dr Evans,,,0:00:00,FALSE,Cancelled - tutor ill
+260,05/02/2027,Isla Murphy,"Jasmine Novak, Toby Usman",Biology,11/02/2027,13:00,1:00:00,Library,TRUE,Mr Hassan,13:03,14:04,1:01:00,TRUE,Revision for mock exam
+261,07/02/2027,Ben Carter,"Hugo Iqbal, Max Adams, Dylan Brown",Physics,09/02/2027,16:00,1:00:00,Room S12,TRUE,Mr Hassan,16:00,17:02,1:02:00,TRUE,Essay planning
+262,07/02/2027,Daniel Okafor,Gabriel Usman,Economics,10/02/2027,15:45,1:00:00,Library,TRUE,Mr Hassan,15:46,16:50,1:04:00,FALSE,Student well prepared
+263,08/02/2027,Harry Thompson,Bilal Chen,English Literature,09/02/2027,16:00,0:30:00,Library,TRUE,Mr Hassan,15:55,16:37,0:42:00,TRUE,Went over test corrections
+264,08/02/2027,Leo Martins,"Jack Vance, Jasmine Khan",Spanish,10/02/2027,15:45,1:30:00,Room M4,TRUE,Mr Hassan,15:53,17:25,1:32:00,TRUE,Revision for mock exam
+265,08/02/2027,Leo Martins,Una Usman,French,10/02/2027,15:30,1:00:00,Online (Teams),TRUE,Dr Evans,15:26,16:34,1:08:00,FALSE,Went over test corrections
+266,08/02/2027,Chloe Nguyen,Rosie Davies,Biology,11/02/2027,12:30,0:30:00,Room E7,TRUE,Dr Evans,12:26,12:51,0:25:00,TRUE,Essay planning
+267,09/02/2027,Ella Fischer,"Layla Adams, Yusuf Foster, Ivy Iqbal",German,10/02/2027,13:00,0:45:00,Room E7,TRUE,Dr Evans,13:00,13:38,0:38:00,TRUE,Revision for mock exam
+268,09/02/2027,Grace Liu,Ava Brown,Maths,11/02/2027,17:00,0:45:00,Library,TRUE,Mr Hassan,17:07,17:50,0:43:00,FALSE,Worked through past paper
+269,13/02/2027,Olivia Brooks,Yusuf Foster,Psychology,22/02/2027,16:30,1:00:00,Study Centre,TRUE,Mr Hassan,16:38,17:29,0:51:00,TRUE,Essay planning
+270,14/02/2027,Leo Martins,"Jack Vance, Jasmine Khan",Spanish,24/02/2027,15:45,1:30:00,Room M4,TRUE,Ms Patel,15:54,17:23,1:29:00,TRUE,Needs more practice on this topic
+271,15/02/2027,Grace Liu,Tia Vance,Physics,23/02/2027,16:30,0:45:00,Room M4,TRUE,Ms Patel,16:40,17:21,0:41:00,FALSE,
+272,15/02/2027,Jacob Wright,Max Adams,Geography,25/02/2027,15:30,0:30:00,Room E7,TRUE,Dr Evans,15:37,16:17,0:40:00,TRUE,
+273,17/02/2027,Ben Carter,"Hugo Iqbal, Max Adams, Dylan Brown",Physics,23/02/2027,16:00,1:00:00,Room S12,TRUE,Ms Patel,15:58,16:50,0:52:00,TRUE,Student well prepared
+274,17/02/2027,Harry Thompson,"Ibrahim Price, Mohammed Novak",History,24/02/2027,16:30,1:00:00,Library,TRUE,Mr Hassan,16:27,17:27,1:00:00,TRUE,
+275,17/02/2027,Isla Murphy,"Jasmine Novak, Toby Usman",Biology,25/02/2027,13:00,1:00:00,Library,TRUE,Mr Hassan,13:06,14:03,0:57:00,FALSE,Revision for mock exam
+276,18/02/2027,Harry Thompson,Sofia Green,History,24/02/2027,17:00,1:00:00,Library,TRUE,Dr Evans,16:55,18:03,1:08:00,TRUE,Good progress
+277,19/02/2027,Farhan Malik,Ruby Usman,Computer Science,25/02/2027,08:00,1:00:00,Room S12,TRUE,Mr Hassan,07:58,09:12,1:14:00,FALSE,Good progress
+278,19/02/2027,Farhan Malik,Ibrahim Price,Computer Science,26/02/2027,16:30,1:00:00,Library,TRUE,Mr Hassan,16:35,17:38,1:03:00,TRUE,Student well prepared
+279,20/02/2027,Ella Fischer,Toby Usman,French,22/02/2027,08:00,1:00:00,Study Centre,TRUE,Ms Patel,07:56,09:10,1:14:00,TRUE,Went over test corrections
+280,20/02/2027,Ella Fischer,"Omar Vance, Charlotte Ali, Ruby Clarke",German,23/02/2027,17:00,1:00:00,Library,TRUE,Ms Patel,17:06,17:56,0:50:00,TRUE,Started new topic
+281,20/02/2027,Daniel Okafor,Gabriel Usman,Economics,24/02/2027,15:45,1:00:00,Library,TRUE,Dr Evans,15:50,16:45,0:55:00,TRUE,
+282,20/02/2027,Ella Fischer,"Layla Adams, Yusuf Foster, Ivy Iqbal",German,24/02/2027,13:00,0:45:00,Room E7,TRUE,Mr Hassan,13:04,13:42,0:38:00,TRUE,Good progress
+283,20/02/2027,Chloe Nguyen,Rosie Davies,Biology,25/02/2027,12:30,0:30:00,Room E7,TRUE,Ms Patel,12:28,12:59,0:31:00,TRUE,
+284,20/02/2027,Ella Fischer,Toby Usman,French,01/03/2027,08:00,1:00:00,Study Centre,TRUE,Dr Evans,08:01,09:15,1:14:00,TRUE,Worked through past paper
+285,20/02/2027,Harry Thompson,Bilal Chen,English Literature,02/03/2027,16:00,0:30:00,Library,TRUE,Ms Patel,16:00,16:30,0:30:00,FALSE,
+286,21/02/2027,Grace Liu,Finn Vance,Physics,22/02/2027,17:00,1:00:00,Study Centre,TRUE,Mr Hassan,17:03,18:16,1:13:00,TRUE,Needs more practice on this topic
+287,21/02/2027,Leo Martins,Una Usman,French,24/02/2027,15:30,1:00:00,Online (Teams),TRUE,Dr Evans,15:25,16:22,0:57:00,TRUE,Needs more practice on this topic
+288,21/02/2027,Ella Fischer,"Omar Vance, Charlotte Ali, Ruby Clarke",German,02/03/2027,17:00,1:00:00,Library,FALSE,,,,0:00:00,FALSE,Room clash
+289,22/02/2027,Harry Thompson,Bilal Chen,English Literature,23/02/2027,16:00,0:30:00,Library,TRUE,Ms Patel,16:01,16:45,0:44:00,FALSE,Essay planning
+290,22/02/2027,Olivia Brooks,Zara Jones,Psychology,24/02/2027,15:45,1:00:00,Library,TRUE,Dr Evans,15:45,16:48,1:03:00,FALSE,Student well prepared
+291,22/02/2027,Farhan Malik,Tia Young,Maths,26/02/2027,15:45,1:30:00,Library,TRUE,Ms Patel,15:51,17:13,1:22:00,FALSE,Needs more practice on this topic
+292,22/02/2027,Grace Liu,Finn Vance,Physics,01/03/2027,17:00,1:00:00,Study Centre,TRUE,Mr Hassan,17:05,18:12,1:07:00,TRUE,Good progress
+293,22/02/2027,Harry Thompson,Sofia Green,History,03/03/2027,17:00,1:00:00,Library,TRUE,Ms Patel,16:59,18:00,1:01:00,TRUE,Revision for mock exam
+294,23/02/2027,Grace Liu,Ava Brown,Maths,25/02/2027,17:00,0:45:00,Library,TRUE,Ms Patel,17:04,17:39,0:35:00,TRUE,Needs more practice on this topic
+295,23/02/2027,Jacob Wright,Max Adams,Geography,04/03/2027,15:30,0:30:00,Room E7,FALSE,,,,0:00:00,FALSE,Awaiting approval
+296,24/02/2027,Olivia Brooks,Elliot Vance,English Language,26/02/2027,16:00,0:45:00,Online (Teams),TRUE,Ms Patel,16:05,16:43,0:38:00,TRUE,Started new topic
+297,24/02/2027,Maya Cohen,"Charlotte Taylor, Sofia Green",English Literature,01/03/2027,16:30,1:00:00,Library,TRUE,Ms Patel,16:33,17:30,0:57:00,FALSE,
+298,24/02/2027,Harry Thompson,"Ibrahim Price, Mohammed Novak",History,03/03/2027,16:30,1:00:00,Library,TRUE,Dr Evans,16:31,17:42,1:11:00,TRUE,
+299,24/02/2027,Noah Kim,Ruby Vance,Further Maths,03/03/2027,15:45,1:00:00,Library,TRUE,Mr Hassan,15:50,16:56,1:06:00,TRUE,Started new topic
+300,24/02/2027,Isla Murphy,"Jasmine Novak, Toby Usman",Biology,04/03/2027,13:00,1:00:00,Library,TRUE,Mr Hassan,12:55,13:51,0:56:00,TRUE,Good progress
+301,25/02/2027,Jacob Wright,Rosie Usman,Geography,03/03/2027,12:30,1:00:00,Library,TRUE,Mr Hassan,12:28,13:25,0:57:00,TRUE,Essay planning
+302,25/02/2027,Daniel Okafor,Gabriel Usman,Economics,03/03/2027,15:45,1:00:00,Library,TRUE,Ms Patel,15:45,16:51,1:06:00,TRUE,Revision for mock exam
+303,25/02/2027,Leo Martins,Ava Usman,Spanish,04/03/2027,08:00,1:00:00,Room S12,TRUE,Mr Hassan,08:07,09:03,0:56:00,TRUE,Covered homework questions
+304,26/02/2027,Olivia Brooks,Zara Jones,Psychology,03/03/2027,15:45,1:00:00,Library,TRUE,Dr Evans,15:51,16:42,0:51:00,TRUE,Essay planning
+305,26/02/2027,Ella Fischer,"Layla Adams, Yusuf Foster, Ivy Iqbal",German,03/03/2027,13:00,0:45:00,Room E7,TRUE,Ms Patel,13:09,13:58,0:49:00,TRUE,
+306,26/02/2027,Grace Liu,Ava Brown,Maths,04/03/2027,17:00,0:45:00,Library,TRUE,Ms Patel,,,0:00:00,FALSE,Cancelled - school trip
+307,27/02/2027,Ella Fischer,"Omar Vance, Charlotte Ali, Ruby Clarke",German,09/03/2027,17:00,1:00:00,Library,TRUE,Ms Patel,17:06,18:14,1:08:00,TRUE,
+308,28/02/2027,Leo Martins,"Jack Vance, Jasmine Khan",Spanish,03/03/2027,15:45,1:30:00,Room M4,FALSE,,,,0:00:00,FALSE,Awaiting approval
+309,28/02/2027,Farhan Malik,Ruby Usman,Computer Science,04/03/2027,08:00,1:00:00,Room S12,TRUE,Dr Evans,08:06,09:03,0:57:00,TRUE,Revision for mock exam
+310,28/02/2027,Olivia Brooks,Yusuf Foster,Psychology,08/03/2027,16:30,1:00:00,Study Centre,TRUE,Dr Evans,16:33,17:25,0:52:00,FALSE,
+311,28/02/2027,Grace Liu,Caleb Dixon,Physics,10/03/2027,16:00,1:00:00,Room S12,TRUE,Mr Hassan,16:03,17:10,1:07:00,FALSE,Essay planning
+312,01/03/2027,Chloe Nguyen,Rosie Davies,Biology,04/03/2027,12:30,0:30:00,Room E7,TRUE,Mr Hassan,12:26,13:11,0:45:00,FALSE,Student well prepared
+313,01/03/2027,Harry Thompson,Bilal Chen,English Literature,09/03/2027,16:00,0:30:00,Library,TRUE,Mr Hassan,,,0:00:00,FALSE,Student cancelled on the day
+314,02/03/2027,Leo Martins,Una Usman,French,03/03/2027,15:30,1:00:00,Online (Teams),TRUE,Dr Evans,15:31,16:29,0:58:00,FALSE,Went over test corrections
+315,03/03/2027,Priya Sharma,Jack Khan,Biology,05/03/2027,08:00,1:30:00,Library,TRUE,Ms Patel,08:00,09:23,1:23:00,FALSE,Student well prepared
+316,03/03/2027,Isla Murphy,Dylan Brown,Chemistry,05/03/2027,13:00,0:45:00,Room E7,TRUE,Dr Evans,12:59,13:45,0:46:00,TRUE,
+317,03/03/2027,Ella Fischer,Toby Usman,French,08/03/2027,08:00,1:00:00,Study Centre,TRUE,Mr Hassan,08:07,09:05,0:58:00,TRUE,Needs more practice on this topic
+318,03/03/2027,Ella Fischer,"Layla Adams, Yusuf Foster, Ivy Iqbal",German,10/03/2027,13:00,0:45:00,Room E7,TRUE,Ms Patel,13:02,13:45,0:43:00,TRUE,Good progress
+319,04/03/2027,Kavya Patel,Ibrahim Evans,Maths,09/03/2027,12:30,0:45:00,Room S12,FALSE,,,,0:00:00,FALSE,Awaiting approval
+320,04/03/2027,Harry Thompson,Sofia Green,History,10/03/2027,17:00,1:00:00,Library,TRUE,Ms Patel,,,0:00:00,FALSE,Cancelled - tutor ill
+321,04/03/2027,Isla Murphy,"Jasmine Novak, Toby Usman",Biology,11/03/2027,13:00,1:00:00,Library,TRUE,Mr Hassan,13:05,14:12,1:07:00,TRUE,Essay planning
+322,05/03/2027,Grace Liu,Tia Vance,Physics,09/03/2027,16:30,0:45:00,Room M4,TRUE,Dr Evans,16:31,17:08,0:37:00,TRUE,Went over test corrections
+323,05/03/2027,Leo Martins,Una Usman,French,10/03/2027,15:30,1:00:00,Online (Teams),TRUE,Ms Patel,15:38,16:47,1:09:00,FALSE,Student well prepared
+324,05/03/2027,Jacob Wright,Max Adams,Geography,11/03/2027,15:30,0:30:00,Room E7,TRUE,Ms Patel,15:35,15:58,0:23:00,FALSE,Revision for mock exam
+325,05/03/2027,Maya Cohen,"Charlotte Taylor, Sofia Green",English Literature,15/03/2027,16:30,1:00:00,Library,TRUE,Mr Hassan,16:37,17:34,0:57:00,FALSE,Revision for mock exam
+326,05/03/2027,Ella Fischer,Toby Usman,French,15/03/2027,08:00,1:00:00,Study Centre,TRUE,Mr Hassan,08:02,09:10,1:08:00,FALSE,Went over test corrections
+327,06/03/2027,Harry Thompson,"Ibrahim Price, Mohammed Novak",History,10/03/2027,16:30,1:00:00,Library,TRUE,Mr Hassan,16:38,17:37,0:59:00,TRUE,Essay planning
+328,06/03/2027,Maya Cohen,Ruby Clarke,English Language,11/03/2027,08:00,0:45:00,Room S12,TRUE,Ms Patel,07:59,08:51,0:52:00,FALSE,
+329,06/03/2027,Grace Liu,Ava Brown,Maths,11/03/2027,17:00,0:45:00,Library,TRUE,Mr Hassan,17:02,17:56,0:54:00,TRUE,Started new topic
+330,06/03/2027,Farhan Malik,Ruby Usman,Computer Science,11/03/2027,08:00,1:00:00,Room S12,TRUE,Ms Patel,08:10,09:18,1:08:00,TRUE,Went over test corrections
+331,06/03/2027,Chloe Nguyen,Rosie Davies,Biology,11/03/2027,12:30,0:30:00,Room E7,TRUE,Ms Patel,12:32,13:17,0:45:00,FALSE,
+332,06/03/2027,Harry Thompson,Bilal Chen,English Literature,16/03/2027,16:00,0:30:00,Library,TRUE,Dr Evans,15:56,16:38,0:42:00,TRUE,Covered homework questions
+333,06/03/2027,Kavya Patel,Ibrahim Evans,Maths,16/03/2027,12:30,0:45:00,Room S12,TRUE,Ms Patel,12:33,13:32,0:59:00,TRUE,
+334,07/03/2027,Daniel Okafor,Gabriel Usman,Economics,17/03/2027,15:45,1:00:00,Library,TRUE,Dr Evans,15:52,17:07,1:15:00,TRUE,Student well prepared
+335,08/03/2027,Leo Martins,"Jack Vance, Jasmine Khan",Spanish,10/03/2027,15:45,1:30:00,Room M4,TRUE,Dr Evans,15:46,17:17,1:31:00,TRUE,Needs more practice on this topic
+336,08/03/2027,Olivia Brooks,Zara Jones,Psychology,10/03/2027,15:45,1:00:00,Library,TRUE,Ms Patel,,,0:00:00,FALSE,Student absent
+337,08/03/2027,Daniel Okafor,Gabriel Usman,Economics,10/03/2027,15:45,1:00:00,Library,TRUE,Mr Hassan,15:47,17:02,1:15:00,TRUE,
+338,08/03/2027,Leo Martins,Una Usman,French,17/03/2027,15:30,1:00:00,Online (Teams),TRUE,Mr Hassan,15:40,16:49,1:09:00,FALSE,
+339,09/03/2027,Priya Sharma,Jack Khan,Biology,12/03/2027,08:00,1:30:00,Library,FALSE,,,,0:00:00,FALSE,Room clash
+340,09/03/2027,Olivia Brooks,Ivy Iqbal,English Language,15/03/2027,17:00,1:30:00,Library,TRUE,Ms Patel,16:56,18:39,1:43:00,FALSE,Worked through past paper
+341,09/03/2027,Ella Fischer,"Omar Vance, Charlotte Ali, Ruby Clarke",German,16/03/2027,17:00,1:00:00,Library,TRUE,Dr Evans,17:06,18:17,1:11:00,TRUE,Revision for mock exam
+342,09/03/2027,Maya Cohen,Ruby Clarke,English Language,18/03/2027,08:00,0:45:00,Room S12,TRUE,Dr Evans,08:01,08:39,0:38:00,TRUE,Started new topic
+343,10/03/2027,Olivia Brooks,Elliot Vance,English Language,12/03/2027,16:00,0:45:00,Online (Teams),TRUE,Ms Patel,16:05,16:44,0:39:00,TRUE,Went over test corrections
+344,10/03/2027,Harry Thompson,"Ibrahim Price, Mohammed Novak",History,17/03/2027,16:30,1:00:00,Library,TRUE,Ms Patel,16:39,17:51,1:12:00,FALSE,Went over test corrections
+345,11/03/2027,Olivia Brooks,Zara Jones,Psychology,17/03/2027,15:45,1:00:00,Library,TRUE,Ms Patel,15:50,16:53,1:03:00,FALSE,Worked through past paper
+346,11/03/2027,Noah Kim,Ruby Vance,Further Maths,17/03/2027,15:45,1:00:00,Library,TRUE,Dr Evans,15:52,17:05,1:13:00,TRUE,Good progress
+347,12/03/2027,Isla Murphy,"Jasmine Novak, Toby Usman",Biology,18/03/2027,13:00,1:00:00,Library,TRUE,Ms Patel,13:04,14:19,1:15:00,TRUE,Went over test corrections
+348,13/03/2027,Noah Kim,Leah Evans,Computer Science,15/03/2027,08:00,1:00:00,Library,TRUE,Mr Hassan,08:01,09:14,1:13:00,TRUE,Good progress
+349,13/03/2027,Priya Sharma,Jack Khan,Biology,19/03/2027,08:00,1:30:00,Library,TRUE,Dr Evans,08:07,09:38,1:31:00,TRUE,Needs more practice on this topic
+350,14/03/2027,Noah Kim,Jack Khan,Further Maths,15/03/2027,12:30,1:30:00,Room S12,TRUE,Ms Patel,12:32,14:02,1:30:00,TRUE,
+351,14/03/2027,Leo Martins,Ava Usman,Spanish,18/03/2027,08:00,1:00:00,Room S12,TRUE,Ms Patel,07:57,08:52,0:55:00,TRUE,Revision for mock exam
+352,14/03/2027,Ella Fischer,Toby Usman,French,22/03/2027,08:00,1:00:00,Study Centre,TRUE,Ms Patel,07:57,08:54,0:57:00,FALSE,Covered homework questions
+353,15/03/2027,Leo Martins,"Jack Vance, Jasmine Khan",Spanish,17/03/2027,15:45,1:30:00,Room M4,TRUE,Dr Evans,15:42,17:11,1:29:00,TRUE,
+354,15/03/2027,Isla Murphy,Dylan Brown,Chemistry,19/03/2027,13:00,0:45:00,Room E7,TRUE,Mr Hassan,13:04,13:41,0:37:00,TRUE,
+355,15/03/2027,Leo Martins,Una Usman,French,24/03/2027,15:30,1:00:00,Online (Teams),TRUE,Ms Patel,15:35,16:40,1:05:00,TRUE,Started new topic
+356,16/03/2027,Harry Thompson,Sofia Green,History,17/03/2027,17:00,1:00:00,Library,TRUE,Dr Evans,16:56,18:10,1:14:00,FALSE,
+357,16/03/2027,Chloe Nguyen,Rosie Davies,Biology,18/03/2027,12:30,0:30:00,Room E7,TRUE,Ms Patel,12:32,13:14,0:42:00,FALSE,Student well prepared
+358,16/03/2027,Farhan Malik,Dylan Brown,Maths,23/03/2027,17:00,0:45:00,Online (Teams),TRUE,Ms Patel,16:57,17:32,0:35:00,TRUE,
+359,16/03/2027,Grace Liu,Caleb Dixon,Physics,24/03/2027,16:00,1:00:00,Room S12,TRUE,Mr Hassan,15:59,17:05,1:06:00,TRUE,
+360,16/03/2027,Harry Thompson,"Ibrahim Price, Mohammed Novak",History,24/03/2027,16:30,1:00:00,Library,TRUE,Ms Patel,16:33,17:46,1:13:00,TRUE,
+361,16/03/2027,Chloe Nguyen,Ivy Ali,Chemistry,25/03/2027,16:30,0:45:00,Online (Teams),FALSE,,,,0:00:00,FALSE,Awaiting approval
+362,17/03/2027,Grace Liu,Ava Brown,Maths,18/03/2027,17:00,0:45:00,Library,TRUE,Ms Patel,16:56,17:35,0:39:00,FALSE,
+363,17/03/2027,Farhan Malik,Ruby Usman,Computer Science,18/03/2027,08:00,1:00:00,Room S12,TRUE,Mr Hassan,08:05,09:09,1:04:00,TRUE,
+364,17/03/2027,Noah Kim,Leah Evans,Computer Science,22/03/2027,08:00,1:00:00,Library,TRUE,Dr Evans,07:56,08:54,0:58:00,FALSE,
+365,17/03/2027,Olivia Brooks,Yusuf Foster,Psychology,22/03/2027,16:30,1:00:00,Study Centre,TRUE,Dr Evans,16:34,17:27,0:53:00,TRUE,Essay planning
+366,19/03/2027,Grace Liu,Tia Vance,Physics,23/03/2027,16:30,0:45:00,Room M4,TRUE,Dr Evans,16:27,17:13,0:46:00,TRUE,
+367,19/03/2027,Daniel Okafor,Max Adams,Maths,25/03/2027,13:00,1:00:00,Room E7,TRUE,Dr Evans,12:55,13:48,0:53:00,FALSE,Worked through past paper
+368,20/03/2027,Harry Thompson,Bilal Chen,English Literature,23/03/2027,16:00,0:30:00,Library,TRUE,Ms Patel,16:02,16:24,0:22:00,TRUE,Essay planning
+369,20/03/2027,Kavya Patel,Ibrahim Evans,Maths,23/03/2027,12:30,0:45:00,Room S12,TRUE,Dr Evans,12:28,13:09,0:41:00,TRUE,Good progress
+370,20/03/2027,Ella Fischer,"Omar Vance, Charlotte Ali, Ruby Clarke",German,23/03/2027,17:00,1:00:00,Library,TRUE,Dr Evans,17:10,18:08,0:58:00,FALSE,Needs more practice on this topic
+371,20/03/2027,Olivia Brooks,Zara Jones,Psychology,24/03/2027,15:45,1:00:00,Library,TRUE,Dr Evans,15:51,16:47,0:56:00,TRUE,Started new topic
+372,20/03/2027,Grace Liu,Ava Brown,Maths,25/03/2027,17:00,0:45:00,Library,TRUE,Dr Evans,17:06,17:57,0:51:00,TRUE,Revision for mock exam
+373,20/03/2027,Farhan Malik,Ruby Usman,Computer Science,25/03/2027,08:00,1:00:00,Room S12,TRUE,Mr Hassan,08:06,08:57,0:51:00,TRUE,Student well prepared
+374,21/03/2027,Harry Thompson,Sofia Green,History,24/03/2027,17:00,1:00:00,Library,TRUE,Dr Evans,17:10,18:18,1:08:00,TRUE,
+375,23/03/2027,Daniel Okafor,Gabriel Usman,Economics,24/03/2027,15:45,1:00:00,Library,TRUE,Mr Hassan,15:53,16:47,0:54:00,FALSE,Started new topic
+376,23/03/2027,Isla Murphy,"Jasmine Novak, Toby Usman",Biology,25/03/2027,13:00,1:00:00,Library,TRUE,Mr Hassan,13:02,14:07,1:05:00,FALSE,Worked through past paper
+377,24/03/2027,Isla Murphy,Ruby Clarke,Chemistry,25/03/2027,17:00,1:30:00,Room M4,TRUE,Dr Evans,16:57,18:31,1:34:00,TRUE,
+378,24/03/2027,Chloe Nguyen,Rosie Davies,Biology,25/03/2027,12:30,0:30:00,Room E7,TRUE,Dr Evans,12:38,13:12,0:34:00,TRUE,Revision for mock exam
+379,02/04/2027,Olivia Brooks,Ivy Iqbal,English Language,12/04/2027,17:00,1:30:00,Library,TRUE,Dr Evans,17:06,18:41,1:35:00,TRUE,
+380,02/04/2027,Ella Fischer,Toby Usman,French,12/04/2027,08:00,1:00:00,Study Centre,TRUE,Mr Hassan,07:59,08:58,0:59:00,TRUE,Good progress
+381,04/04/2027,Daniel Okafor,Victor Hughes,Economics,13/04/2027,12:30,1:00:00,Room E7,TRUE,Dr Evans,12:35,13:48,1:13:00,TRUE,Revision for mock exam
+382,04/04/2027,Harry Thompson,"Ibrahim Price, Mohammed Novak",History,14/04/2027,16:30,1:00:00,Library,TRUE,Ms Patel,16:31,17:28,0:57:00,TRUE,Revision for mock exam
+383,04/04/2027,Noah Kim,Ruby Vance,Further Maths,14/04/2027,15:45,1:00:00,Library,TRUE,Mr Hassan,15:47,16:56,1:09:00,TRUE,Revision for mock exam
+384,05/04/2027,Ben Carter,Aria Owens,Maths,12/04/2027,12:30,1:00:00,Online (Teams),TRUE,Mr Hassan,12:31,13:44,1:13:00,TRUE,
+385,05/04/2027,Leo Martins,Una Usman,French,14/04/2027,15:30,1:00:00,Online (Teams),TRUE,Dr Evans,15:36,16:50,1:14:00,TRUE,Student well prepared
+386,05/04/2027,Daniel Okafor,Gabriel Usman,Economics,14/04/2027,15:45,1:00:00,Library,TRUE,Mr Hassan,15:52,16:55,1:03:00,FALSE,Started new topic
+387,05/04/2027,Leo Martins,Ava Usman,Spanish,15/04/2027,08:00,1:00:00,Room S12,TRUE,Mr Hassan,08:00,08:50,0:50:00,TRUE,Essay planning
+388,06/04/2027,Noah Kim,Leah Evans,Computer Science,12/04/2027,08:00,1:00:00,Library,TRUE,Ms Patel,08:08,09:05,0:57:00,TRUE,Went over test corrections
+389,06/04/2027,Ben Carter,Jack Vance,Physics,13/04/2027,15:30,1:00:00,Online (Teams),TRUE,Dr Evans,15:25,16:17,0:52:00,FALSE,Good progress
+390,07/04/2027,Maya Cohen,"Charlotte Taylor, Sofia Green",English Literature,12/04/2027,16:30,1:00:00,Library,TRUE,Mr Hassan,16:26,17:21,0:55:00,FALSE,Needs more practice on this topic
+391,07/04/2027,Isla Murphy,"Jasmine Novak, Toby Usman",Biology,15/04/2027,13:00,1:00:00,Library,TRUE,Mr Hassan,13:04,14:02,0:58:00,TRUE,Good progress
+392,08/04/2027,Priya Sharma,Dylan Reid,Biology,12/04/2027,17:00,1:00:00,Online (Teams),TRUE,Dr Evans,17:09,18:20,1:11:00,TRUE,
+393,08/04/2027,Ella Fischer,"Omar Vance, Charlotte Ali, Ruby Clarke",German,13/04/2027,17:00,1:00:00,Library,TRUE,Mr Hassan,17:05,18:13,1:08:00,TRUE,Went over test corrections
+394,08/04/2027,Harry Thompson,Sofia Green,History,14/04/2027,17:00,1:00:00,Library,TRUE,Ms Patel,16:55,17:47,0:52:00,TRUE,Student well prepared
+395,08/04/2027,Grace Liu,Ava Brown,Maths,15/04/2027,17:00,0:45:00,Library,TRUE,Ms Patel,17:04,17:57,0:53:00,TRUE,Needs more practice on this topic
+396,08/04/2027,Chloe Nguyen,Rosie Davies,Biology,15/04/2027,12:30,0:30:00,Room E7,TRUE,Ms Patel,12:29,13:04,0:35:00,TRUE,
+397,08/04/2027,Priya Sharma,Jack Khan,Biology,16/04/2027,08:00,1:30:00,Library,TRUE,Mr Hassan,08:09,09:36,1:27:00,TRUE,
+398,09/04/2027,Leo Martins,Dylan Brown,French,12/04/2027,12:30,1:00:00,Online (Teams),TRUE,Ms Patel,12:28,13:30,1:02:00,TRUE,Good progress
+399,09/04/2027,Ben Carter,Aria Owens,Maths,19/04/2027,12:30,1:00:00,Online (Teams),TRUE,Dr Evans,12:33,13:32,0:59:00,TRUE,Went over test corrections
+400,10/04/2027,Kavya Patel,Ibrahim Evans,Maths,13/04/2027,12:30,0:45:00,Room S12,TRUE,Ms Patel,12:40,13:32,0:52:00,FALSE,Good progress
+401,10/04/2027,Isla Murphy,Una Usman,Chemistry,16/04/2027,16:30,1:00:00,Study Centre,TRUE,Ms Patel,16:38,17:45,1:07:00,FALSE,
+402,11/04/2027,Noah Kim,Jack Khan,Further Maths,12/04/2027,12:30,1:30:00,Room S12,TRUE,Mr Hassan,12:40,14:11,1:31:00,FALSE,Started new topic
+403,11/04/2027,Daniel Okafor,Rosie Davies,Economics,13/04/2027,08:00,1:00:00,Room E7,TRUE,Dr Evans,08:07,09:19,1:12:00,TRUE,Good progress
+404,12/04/2027,Harry Thompson,Bilal Chen,English Literature,13/04/2027,16:00,0:30:00,Library,TRUE,Dr Evans,16:06,16:48,0:42:00,TRUE,Good progress
+405,12/04/2027,Daniel Okafor,Max Adams,Maths,15/04/2027,13:00,1:00:00,Room E7,TRUE,Dr Evans,12:58,14:10,1:12:00,TRUE,Covered homework questions
+406,12/04/2027,Farhan Malik,Ruby Usman,Computer Science,15/04/2027,08:00,1:00:00,Room S12,TRUE,Mr Hassan,08:07,09:21,1:14:00,TRUE,Started new topic
+407,12/04/2027,Isla Murphy,Dylan Brown,Chemistry,16/04/2027,13:00,0:45:00,Room E7,TRUE,Mr Hassan,12:58,13:40,0:42:00,TRUE,Started new topic
+408,12/04/2027,Daniel Okafor,Victor Hughes,Economics,20/04/2027,12:30,1:00:00,Room E7,TRUE,Mr Hassan,12:25,13:28,1:03:00,TRUE,Needs more practice on this topic
+409,12/04/2027,Leo Martins,Jasmine Novak,Spanish,20/04/2027,15:45,1:00:00,Study Centre,TRUE,Mr Hassan,15:42,16:41,0:59:00,TRUE,Needs more practice on this topic
+410,12/04/2027,Grace Liu,Caleb Dixon,Physics,21/04/2027,16:00,1:00:00,Room S12,TRUE,Ms Patel,16:09,17:12,1:03:00,TRUE,Covered homework questions
+411,12/04/2027,Harry Thompson,Sofia Green,History,21/04/2027,17:00,1:00:00,Library,TRUE,Mr Hassan,,,0:00:00,FALSE,Student absent
+412,13/04/2027,Olivia Brooks,Zara Jones,Psychology,14/04/2027,15:45,1:00:00,Library,TRUE,Dr Evans,15:46,16:39,0:53:00,TRUE,Student well prepared
+413,14/04/2027,Farhan Malik,Poppy Jones,Maths,16/04/2027,15:30,0:45:00,Library,TRUE,Mr Hassan,15:35,16:18,0:43:00,TRUE,Covered homework questions
+414,14/04/2027,Noah Kim,Leah Evans,Computer Science,19/04/2027,08:00,1:00:00,Library,TRUE,Mr Hassan,08:07,09:14,1:07:00,TRUE,
+415,14/04/2027,Leo Martins,Eva Foster,Spanish,19/04/2027,15:30,1:00:00,Room M4,TRUE,Dr Evans,15:27,16:21,0:54:00,TRUE,Revision for mock exam
+416,14/04/2027,Grace Liu,Ava Brown,Maths,22/04/2027,17:00,0:45:00,Library,TRUE,Dr Evans,17:02,17:42,0:40:00,TRUE,Essay planning
+417,14/04/2027,Harry Thompson,Jasmine Khan,English Literature,23/04/2027,16:30,0:30:00,Study Centre,TRUE,Mr Hassan,16:31,16:57,0:26:00,TRUE,
+418,15/04/2027,Harry Thompson,Jasmine Novak,English Literature,23/04/2027,16:00,1:00:00,Library,TRUE,Ms Patel,16:08,17:15,1:07:00,TRUE,Covered homework questions
+419,16/04/2027,Isla Murphy,Ruby Clarke,Chemistry,22/04/2027,17:00,1:30:00,Room M4,TRUE,Mr Hassan,17:08,18:48,1:40:00,FALSE,Worked through past paper
+420,16/04/2027,Maya Cohen,"Charlotte Taylor, Sofia Green",English Literature,26/04/2027,16:30,1:00:00,Library,TRUE,Ms Patel,16:36,17:31,0:55:00,TRUE,Revision for mock exam
+421,16/04/2027,Olivia Brooks,Ivy Iqbal,English Language,26/04/2027,17:00,1:30:00,Library,TRUE,Ms Patel,,,0:00:00,FALSE,Cancelled - tutor ill
+422,17/04/2027,Olivia Brooks,Yusuf Foster,Psychology,19/04/2027,16:30,1:00:00,Study Centre,TRUE,Ms Patel,16:27,17:26,0:59:00,TRUE,Needs more practice on this topic
+423,17/04/2027,Ella Fischer,Toby Usman,French,19/04/2027,08:00,1:00:00,Study Centre,TRUE,Ms Patel,07:57,09:08,1:11:00,FALSE,
+424,17/04/2027,Olivia Brooks,Zara Jones,Psychology,21/04/2027,15:45,1:00:00,Library,TRUE,Mr Hassan,15:54,17:08,1:14:00,FALSE,
+425,17/04/2027,Aisha Rahman,Una Usman,Maths,21/04/2027,16:30,1:00:00,Study Centre,TRUE,Dr Evans,16:39,17:49,1:10:00,FALSE,Needs more practice on this topic
+426,17/04/2027,Farhan Malik,Ruby Usman,Computer Science,22/04/2027,08:00,1:00:00,Room S12,TRUE,Mr Hassan,08:08,09:03,0:55:00,FALSE,Worked through past paper
+427,17/04/2027,Chloe Nguyen,Rosie Davies,Biology,22/04/2027,12:30,0:30:00,Room E7,TRUE,Ms Patel,12:25,12:51,0:26:00,TRUE,
+428,17/04/2027,Grace Liu,"Dylan Reid, Una Usman, Tia Evans",Physics,22/04/2027,16:30,0:45:00,Library,TRUE,Ms Patel,16:38,17:14,0:36:00,FALSE,Needs more practice on this topic
+429,17/04/2027,Maya Cohen,Dylan Reid,English Literature,22/04/2027,17:00,1:00:00,Room E7,TRUE,Ms Patel,17:10,18:00,0:50:00,TRUE,Went over test corrections
+430,17/04/2027,Harry Thompson,Bilal Chen,English Literature,27/04/2027,16:00,0:30:00,Library,TRUE,Ms Patel,16:04,16:26,0:22:00,TRUE,Revision for mock exam
+431,17/04/2027,Kavya Patel,Ibrahim Evans,Maths,27/04/2027,12:30,0:45:00,Room S12,TRUE,Dr Evans,12:36,13:27,0:51:00,FALSE,
+432,18/04/2027,Isla Murphy,Sienna Zhang,Biology,19/04/2027,15:30,1:00:00,Room E7,TRUE,Dr Evans,15:26,16:38,1:12:00,FALSE,Went over test corrections
+433,18/04/2027,Grace Liu,Tia Vance,Physics,20/04/2027,16:30,0:45:00,Room M4,TRUE,Dr Evans,16:31,17:12,0:41:00,TRUE,Worked through past paper
+434,18/04/2027,Harry Thompson,Bilal Chen,English Literature,20/04/2027,16:00,0:30:00,Library,TRUE,Ms Patel,16:09,16:50,0:41:00,FALSE,Covered homework questions
+435,18/04/2027,Kavya Patel,Ibrahim Evans,Maths,20/04/2027,12:30,0:45:00,Room S12,TRUE,Dr Evans,12:31,13:23,0:52:00,TRUE,
+436,18/04/2027,Priya Sharma,Jack Khan,Biology,23/04/2027,08:00,1:30:00,Library,TRUE,Mr Hassan,,,0:00:00,FALSE,Student cancelled on the day
+437,18/04/2027,Noah Kim,Jack Khan,Further Maths,26/04/2027,12:30,1:30:00,Room S12,TRUE,Dr Evans,12:33,13:55,1:22:00,TRUE,
+438,19/04/2027,Olivia Brooks,Caleb Dixon,English Language,23/04/2027,13:00,1:00:00,Room M4,TRUE,Dr Evans,13:03,14:05,1:02:00,FALSE,
+439,19/04/2027,Ben Carter,Aria Owens,Maths,26/04/2027,12:30,1:00:00,Online (Teams),TRUE,Dr Evans,12:40,13:48,1:08:00,TRUE,
+440,20/04/2027,Daniel Okafor,Gabriel Usman,Economics,21/04/2027,15:45,1:00:00,Library,TRUE,Mr Hassan,15:55,17:01,1:06:00,TRUE,
+441,20/04/2027,Harry Thompson,"Ibrahim Price, Mohammed Novak",History,21/04/2027,16:30,1:00:00,Library,TRUE,Dr Evans,,,0:00:00,FALSE,Student cancelled on the day
+442,20/04/2027,Olivia Brooks,Elliot Vance,English Language,23/04/2027,16:00,0:45:00,Online (Teams),TRUE,Mr Hassan,15:59,16:39,0:40:00,FALSE,
+443,20/04/2027,Olivia Brooks,Zara Jones,Psychology,28/04/2027,15:45,1:00:00,Library,TRUE,Ms Patel,15:45,16:42,0:57:00,FALSE,
+444,20/04/2027,Harry Thompson,"Ibrahim Price, Mohammed Novak",History,28/04/2027,16:30,1:00:00,Library,TRUE,Mr Hassan,16:29,17:36,1:07:00,FALSE,
+445,20/04/2027,Harry Thompson,Sofia Green,History,28/04/2027,17:00,1:00:00,Library,TRUE,Dr Evans,17:05,18:13,1:08:00,FALSE,Started new topic
+446,20/04/2027,Grace Liu,Ivy Iqbal,Maths,28/04/2027,15:45,1:00:00,Room M4,TRUE,Dr Evans,15:44,16:48,1:04:00,TRUE,Covered homework questions
+447,20/04/2027,Priya Sharma,Jack Khan,Biology,30/04/2027,08:00,1:30:00,Library,TRUE,Ms Patel,07:57,09:27,1:30:00,FALSE,Started new topic
+448,21/04/2027,Jacob Wright,Jasmine Novak,History,27/04/2027,15:30,1:00:00,Study Centre,TRUE,Mr Hassan,15:26,16:36,1:10:00,TRUE,Needs more practice on this topic
+449,21/04/2027,Leo Martins,Ava Usman,Spanish,29/04/2027,08:00,1:00:00,Room S12,TRUE,Ms Patel,07:59,09:03,1:04:00,TRUE,
+450,22/04/2027,Isla Murphy,Rosie Usman,Biology,29/04/2027,08:00,1:00:00,Library,TRUE,Ms Patel,08:02,09:04,1:02:00,TRUE,
+451,23/04/2027,Olivia Brooks,Lily Jones,Psychology,26/04/2027,17:00,1:00:00,Room M4,TRUE,Mr Hassan,16:56,17:46,0:50:00,FALSE,Worked through past paper
+452,23/04/2027,Daniel Okafor,Gabriel Usman,Economics,28/04/2027,15:45,1:00:00,Library,TRUE,Mr Hassan,15:50,16:47,0:57:00,TRUE,
+453,23/04/2027,Daniel Okafor,Omar Vance,Maths,29/04/2027,16:30,1:00:00,Online (Teams),TRUE,Mr Hassan,16:33,17:25,0:52:00,FALSE,
+454,23/04/2027,Daniel Okafor,Ava Usman,Economics,29/04/2027,17:00,1:00:00,Library,TRUE,Mr Hassan,17:05,18:06,1:01:00,FALSE,Student well prepared
+455,23/04/2027,Isla Murphy,Dylan Brown,Chemistry,30/04/2027,13:00,0:45:00,Room E7,TRUE,Ms Patel,13:03,14:01,0:58:00,TRUE,Student well prepared
+456,24/04/2027,Noah Kim,Leah Evans,Computer Science,26/04/2027,08:00,1:00:00,Library,TRUE,Ms Patel,08:01,08:57,0:56:00,TRUE,Needs more practice on this topic
+457,24/04/2027,Noah Kim,Ruby Vance,Further Maths,28/04/2027,15:45,1:00:00,Library,TRUE,Dr Evans,15:44,16:43,0:59:00,TRUE,Worked through past paper
+458,25/04/2027,Ella Fischer,Toby Usman,French,26/04/2027,08:00,1:00:00,Study Centre,TRUE,Dr Evans,07:56,09:03,1:07:00,TRUE,Worked through past paper
+459,26/04/2027,Maya Cohen,Lily Jones,English Language,03/05/2027,17:00,1:00:00,Library,TRUE,Mr Hassan,17:01,18:14,1:13:00,TRUE,Went over test corrections
+460,26/04/2027,Olivia Brooks,Willow Owens,English Language,03/05/2027,08:00,1:00:00,Study Centre,TRUE,Mr Hassan,07:55,08:50,0:55:00,TRUE,
+461,26/04/2027,Harry Thompson,Leah Evans,English Literature,04/05/2027,16:00,1:00:00,Room E7,TRUE,Ms Patel,15:56,17:06,1:10:00,TRUE,Started new topic
+462,27/04/2027,Farhan Malik,Hugo Iqbal,Maths,03/05/2027,17:00,1:00:00,Online (Teams),TRUE,Dr Evans,17:04,18:05,1:01:00,FALSE,Needs more practice on this topic
+463,27/04/2027,Harry Thompson,Bilal Chen,English Literature,04/05/2027,16:00,0:30:00,Library,FALSE,,,,0:00:00,FALSE,
+464,27/04/2027,Jacob Wright,Jasmine Young,History,07/05/2027,15:30,1:00:00,Library,TRUE,Ms Patel,15:29,16:21,0:52:00,FALSE,
+465,28/04/2027,Harry Thompson,Jasmine Khan,English Literature,30/04/2027,16:30,0:30:00,Study Centre,TRUE,Mr Hassan,16:39,17:18,0:39:00,TRUE,Covered homework questions
+466,28/04/2027,Leo Martins,Finn Vance,Spanish,07/05/2027,15:45,1:00:00,Library,TRUE,Mr Hassan,15:46,16:39,0:53:00,TRUE,Essay planning
+467,29/04/2027,Jacob Wright,Jasmine Khan,Geography,04/05/2027,13:00,1:00:00,Online (Teams),TRUE,Mr Hassan,13:04,14:05,1:01:00,TRUE,
+468,30/04/2027,Noah Kim,Leah Evans,Computer Science,03/05/2027,08:00,1:00:00,Library,TRUE,Mr Hassan,08:09,09:17,1:08:00,FALSE,Started new topic
+469,30/04/2027,Ella Fischer,Toby Usman,French,03/05/2027,08:00,1:00:00,Study Centre,TRUE,Ms Patel,08:05,09:18,1:13:00,TRUE,Covered homework questions
+470,30/04/2027,Daniel Okafor,Yusuf Foster,Maths,03/05/2027,08:00,1:00:00,Library,TRUE,Ms Patel,07:55,09:05,1:10:00,TRUE,
+471,30/04/2027,Kavya Patel,Ibrahim Evans,Maths,04/05/2027,12:30,0:45:00,Room S12,TRUE,Ms Patel,12:37,13:26,0:49:00,TRUE,Covered homework questions
+472,30/04/2027,Grace Liu,Caleb Dixon,Physics,05/05/2027,16:00,1:00:00,Room S12,TRUE,Mr Hassan,15:58,17:03,1:05:00,TRUE,
+473,30/04/2027,Daniel Okafor,Gabriel Usman,Economics,05/05/2027,15:45,1:00:00,Library,TRUE,Mr Hassan,15:55,17:00,1:05:00,TRUE,Went over test corrections
+474,30/04/2027,Ben Carter,Aria Owens,Maths,10/05/2027,12:30,1:00:00,Online (Teams),TRUE,Ms Patel,12:38,13:33,0:55:00,TRUE,Covered homework questions
+475,01/05/2027,Grace Liu,"Dylan Reid, Una Usman, Tia Evans",Physics,06/05/2027,16:30,0:45:00,Library,TRUE,Dr Evans,16:30,17:12,0:42:00,TRUE,Needs more practice on this topic
+476,01/05/2027,Harry Thompson,Jasmine Khan,English Literature,07/05/2027,16:30,0:30:00,Study Centre,TRUE,Ms Patel,16:28,16:52,0:24:00,TRUE,Needs more practice on this topic
+477,01/05/2027,Noah Kim,Jack Khan,Further Maths,10/05/2027,12:30,1:30:00,Room S12,TRUE,Dr Evans,12:32,14:02,1:30:00,FALSE,Started new topic
+478,02/05/2027,Ben Carter,Aria Owens,Maths,03/05/2027,12:30,1:00:00,Online (Teams),TRUE,Ms Patel,12:33,13:42,1:09:00,TRUE,Went over test corrections
+479,02/05/2027,Grace Liu,Tia Vance,Physics,04/05/2027,16:30,0:45:00,Room M4,TRUE,Mr Hassan,16:36,17:33,0:57:00,TRUE,Student well prepared
+480,02/05/2027,Harry Thompson,"Ibrahim Price, Mohammed Novak",History,05/05/2027,16:30,1:00:00,Library,TRUE,Mr Hassan,,,0:00:00,FALSE,Cancelled - school trip
+481,02/05/2027,Harry Thompson,Sofia Green,History,05/05/2027,17:00,1:00:00,Library,TRUE,Dr Evans,,,0:00:00,FALSE,Cancelled - tutor ill
+482,02/05/2027,Daniel Okafor,Hugo Bailey,Economics,05/05/2027,16:30,1:00:00,Room S12,TRUE,Mr Hassan,16:28,17:20,0:52:00,TRUE,Revision for mock exam
+483,02/05/2027,Olivia Brooks,Elliot Vance,English Language,07/05/2027,16:00,0:45:00,Online (Teams),TRUE,Dr Evans,15:59,16:43,0:44:00,TRUE,Started new topic
+484,03/05/2027,Priya Sharma,Jack Khan,Biology,07/05/2027,08:00,1:30:00,Library,TRUE,Dr Evans,07:55,09:40,1:45:00,FALSE,Good progress
+485,03/05/2027,Priya Sharma,Tia Young,Psychology,12/05/2027,15:45,1:00:00,Online (Teams),TRUE,Mr Hassan,15:55,17:01,1:06:00,TRUE,Revision for mock exam
+486,04/05/2027,Olivia Brooks,Zara Jones,Psychology,05/05/2027,15:45,1:00:00,Library,FALSE,,,,0:00:00,FALSE,Room clash
+487,04/05/2027,Olivia Brooks,Ivy Iqbal,English Language,10/05/2027,17:00,1:30:00,Library,TRUE,Dr Evans,16:57,18:24,1:27:00,TRUE,Revision for mock exam
+488,05/05/2027,Isla Murphy,Ruby Clarke,Chemistry,06/05/2027,17:00,1:30:00,Room M4,TRUE,Ms Patel,16:56,18:26,1:30:00,TRUE,Worked through past paper
+489,05/05/2027,Daniel Okafor,Gabriel Usman,Economics,12/05/2027,15:45,1:00:00,Library,TRUE,Ms Patel,15:54,16:55,1:01:00,TRUE,
+490,06/05/2027,Daniel Okafor,Sienna Zhang,Economics,07/05/2027,17:00,1:00:00,Room S12,TRUE,Dr Evans,16:55,18:01,1:06:00,TRUE,
+491,06/05/2027,Noah Kim,Leah Evans,Computer Science,10/05/2027,08:00,1:00:00,Library,TRUE,Ms Patel,08:00,09:07,1:07:00,FALSE,Student well prepared
+492,06/05/2027,Harry Thompson,Bilal Chen,English Literature,11/05/2027,16:00,0:30:00,Library,TRUE,Mr Hassan,15:56,16:21,0:25:00,FALSE,Started new topic
+493,06/05/2027,Olivia Brooks,Zara Jones,Psychology,12/05/2027,15:45,1:00:00,Library,TRUE,Ms Patel,,,0:00:00,FALSE,Student absent
+494,07/05/2027,Ella Fischer,Toby Usman,French,10/05/2027,08:00,1:00:00,Study Centre,FALSE,,,,0:00:00,FALSE,
+495,07/05/2027,Ben Carter,Aria Owens,Maths,17/05/2027,12:30,1:00:00,Online (Teams),TRUE,Mr Hassan,12:39,13:46,1:07:00,TRUE,Started new topic
+496,08/05/2027,Noah Kim,Ruby Vance,Further Maths,12/05/2027,15:45,1:00:00,Library,FALSE,,,,0:00:00,FALSE,Room clash
+497,09/05/2027,Kavya Patel,Ibrahim Evans,Maths,11/05/2027,12:30,0:45:00,Room S12,TRUE,Dr Evans,12:34,13:34,1:00:00,TRUE,Covered homework questions
+498,09/05/2027,Priya Sharma,Willow Owens,Biology,13/05/2027,16:30,1:00:00,Room M4,TRUE,Dr Evans,16:26,17:24,0:58:00,TRUE,Went over test corrections
+499,10/05/2027,Harry Thompson,Jasmine Khan,English Literature,14/05/2027,16:30,0:30:00,Study Centre,TRUE,Mr Hassan,16:33,17:14,0:41:00,TRUE,
+500,10/05/2027,Priya Sharma,Imogen Price,Biology,14/05/2027,15:45,1:00:00,Library,TRUE,Mr Hassan,15:54,17:01,1:07:00,TRUE,Started new topic
+501,10/05/2027,Kavya Patel,Ibrahim Evans,Maths,18/05/2027,12:30,0:45:00,Room S12,TRUE,Ms Patel,12:27,13:22,0:55:00,TRUE,Worked through past paper
+502,10/05/2027,Grace Liu,"Dylan Reid, Una Usman, Tia Evans",Physics,20/05/2027,16:30,0:45:00,Library,TRUE,Dr Evans,16:33,17:18,0:45:00,TRUE,Went over test corrections
+503,11/05/2027,Harry Thompson,"Ibrahim Price, Mohammed Novak",History,12/05/2027,16:30,1:00:00,Library,TRUE,Mr Hassan,16:31,17:35,1:04:00,FALSE,Started new topic
+504,11/05/2027,Priya Sharma,Tia Vance,Biology,17/05/2027,08:00,1:00:00,Study Centre,TRUE,Dr Evans,08:07,09:03,0:56:00,TRUE,
+505,11/05/2027,Grace Liu,Caleb Dixon,Physics,19/05/2027,16:00,1:00:00,Room S12,TRUE,Mr Hassan,16:07,17:01,0:54:00,TRUE,Started new topic
+506,11/05/2027,Daniel Okafor,Gabriel Usman,Economics,19/05/2027,15:45,1:00:00,Library,TRUE,Dr Evans,15:55,17:04,1:09:00,TRUE,Needs more practice on this topic
+507,12/05/2027,Leo Martins,Ava Usman,Spanish,13/05/2027,08:00,1:00:00,Room S12,TRUE,Dr Evans,07:57,08:48,0:51:00,FALSE,Good progress
+508,12/05/2027,Isla Murphy,Dylan Brown,Chemistry,14/05/2027,13:00,0:45:00,Room E7,TRUE,Ms Patel,13:04,13:47,0:43:00,TRUE,
+509,13/05/2027,Priya Sharma,Jack Khan,Biology,14/05/2027,08:00,1:30:00,Library,TRUE,Mr Hassan,07:56,09:34,1:38:00,FALSE,Revision for mock exam
+510,13/05/2027,Kavya Patel,Jasmine Novak,Chemistry,14/05/2027,16:00,1:00:00,Room S12,TRUE,Mr Hassan,16:08,17:00,0:52:00,TRUE,
+511,13/05/2027,Farhan Malik,Yusuf Foster,Maths,17/05/2027,08:00,1:00:00,Library,TRUE,Dr Evans,07:55,09:01,1:06:00,TRUE,Student well prepared
+512,14/05/2027,Noah Kim,Leah Evans,Computer Science,17/05/2027,08:00,1:00:00,Library,TRUE,Mr Hassan,07:56,09:09,1:13:00,FALSE,
+513,14/05/2027,Harry Thompson,"Ibrahim Price, Mohammed Novak",History,19/05/2027,16:30,1:00:00,Library,TRUE,Ms Patel,16:25,17:38,1:13:00,TRUE,Needs more practice on this topic
+514,14/05/2027,Harry Thompson,Jasmine Khan,English Literature,21/05/2027,16:30,0:30:00,Study Centre,TRUE,Ms Patel,16:39,16:59,0:20:00,TRUE,
+515,14/05/2027,Ella Fischer,Toby Usman,French,24/05/2027,08:00,1:00:00,Study Centre,TRUE,Dr Evans,07:57,08:57,1:00:00,TRUE,Essay planning
+516,15/05/2027,Grace Liu,Tia Vance,Physics,18/05/2027,16:30,0:45:00,Room M4,TRUE,Ms Patel,16:32,17:13,0:41:00,TRUE,Revision for mock exam
+517,15/05/2027,Priya Sharma,Mia Foster,Psychology,18/05/2027,12:30,1:00:00,Room E7,TRUE,Dr Evans,12:26,13:32,1:06:00,TRUE,Needs more practice on this topic
+518,15/05/2027,Olivia Brooks,Zara Jones,Psychology,19/05/2027,15:45,1:00:00,Library,TRUE,Ms Patel,15:52,16:53,1:01:00,TRUE,Good progress
+519,16/05/2027,Ella Fischer,Toby Usman,French,17/05/2027,08:00,1:00:00,Study Centre,TRUE,Ms Patel,08:05,09:15,1:10:00,FALSE,Essay planning
+520,16/05/2027,Ella Fischer,Dylan Brown,French,18/05/2027,12:30,1:00:00,Room S12,TRUE,Ms Patel,12:29,13:28,0:59:00,TRUE,
+521,17/05/2027,Priya Sharma,Ava Brown,Psychology,18/05/2027,17:00,1:00:00,Library,TRUE,Mr Hassan,16:58,18:04,1:06:00,TRUE,
+522,17/05/2027,Isla Murphy,Ruby Clarke,Chemistry,20/05/2027,17:00,1:30:00,Room M4,TRUE,Ms Patel,17:10,18:43,1:33:00,TRUE,
+523,17/05/2027,Priya Sharma,Jack Khan,Biology,21/05/2027,08:00,1:30:00,Library,TRUE,Mr Hassan,08:02,09:41,1:39:00,TRUE,
+524,17/05/2027,Noah Kim,Jack Khan,Further Maths,24/05/2027,12:30,1:30:00,Room S12,TRUE,Mr Hassan,12:39,14:08,1:29:00,FALSE,Student well prepared
+525,17/05/2027,Harry Thompson,"Ibrahim Price, Mohammed Novak",History,26/05/2027,16:30,1:00:00,Library,TRUE,Dr Evans,16:26,17:41,1:15:00,TRUE,
+526,18/05/2027,Kavya Patel,Leah Dixon,Maths,26/05/2027,08:00,1:00:00,Room M4,TRUE,Mr Hassan,,,0:00:00,FALSE,Student absent
+527,19/05/2027,Olivia Brooks,Elliot Vance,English Language,21/05/2027,16:00,0:45:00,Online (Teams),TRUE,Ms Patel,16:06,17:01,0:55:00,FALSE,Revision for mock exam
+528,19/05/2027,Priya Sharma,Bilal Price,Biology,21/05/2027,15:30,1:00:00,Library,TRUE,Dr Evans,15:31,16:22,0:51:00,TRUE,Student well prepared
+529,19/05/2027,Ben Carter,Aria Owens,Maths,24/05/2027,12:30,1:00:00,Online (Teams),TRUE,Mr Hassan,12:39,13:49,1:10:00,FALSE,
+530,19/05/2027,Noah Kim,Leah Evans,Computer Science,24/05/2027,08:00,1:00:00,Library,TRUE,Dr Evans,08:01,08:58,0:57:00,TRUE,
+531,19/05/2027,Olivia Brooks,Zara Jones,Psychology,26/05/2027,15:45,1:00:00,Library,TRUE,Ms Patel,15:41,16:48,1:07:00,TRUE,
+532,19/05/2027,Isla Murphy,Dylan Brown,Chemistry,28/05/2027,13:00,0:45:00,Room E7,TRUE,Ms Patel,13:05,13:46,0:41:00,TRUE,Good progress
+533,20/05/2027,Noah Kim,Toby Usman,Further Maths,21/05/2027,16:30,1:00:00,Room E7,TRUE,Ms Patel,,,0:00:00,FALSE,Student absent
+534,22/05/2027,Olivia Brooks,Ivy Iqbal,English Language,24/05/2027,17:00,1:30:00,Library,FALSE,,,,0:00:00,FALSE,Room clash
+535,22/05/2027,Kavya Patel,Ibrahim Evans,Maths,25/05/2027,12:30,0:45:00,Room S12,TRUE,Ms Patel,12:26,13:23,0:57:00,TRUE,
+536,22/05/2027,Daniel Okafor,Gabriel Usman,Economics,26/05/2027,15:45,1:00:00,Library,TRUE,Ms Patel,15:54,16:53,0:59:00,FALSE,
+537,24/05/2027,Grace Liu,Victor Hughes,Maths,25/05/2027,12:30,1:00:00,Online (Teams),TRUE,Ms Patel,12:33,13:47,1:14:00,TRUE,Worked through past paper
+538,24/05/2027,Priya Sharma,Jack Khan,Biology,28/05/2027,08:00,1:30:00,Library,TRUE,Mr Hassan,08:04,09:47,1:43:00,TRUE,Went over test corrections
+539,25/05/2027,Noah Kim,Ruby Vance,Further Maths,26/05/2027,15:45,1:00:00,Library,FALSE,,,,0:00:00,FALSE,Awaiting approval
+540,26/05/2027,Leo Martins,Ava Usman,Spanish,27/05/2027,08:00,1:00:00,Room S12,TRUE,Mr Hassan,08:08,09:19,1:11:00,TRUE,Covered homework questions
+541,26/05/2027,Harry Thompson,Jasmine Khan,English Literature,28/05/2027,16:30,0:30:00,Study Centre,TRUE,Ms Patel,16:29,16:56,0:27:00,TRUE,Went over test corrections
+542,29/05/2027,Kavya Patel,Ibrahim Evans,Maths,08/06/2027,12:30,0:45:00,Room S12,TRUE,Mr Hassan,12:25,13:22,0:57:00,TRUE,Worked through past paper
+543,30/05/2027,Noah Kim,Leah Evans,Computer Science,07/06/2027,08:00,1:00:00,Library,TRUE,Ms Patel,08:00,09:10,1:10:00,TRUE,Good progress
+544,31/05/2027,Ella Fischer,Toby Usman,French,07/06/2027,08:00,1:00:00,Study Centre,TRUE,Ms Patel,,,0:00:00,FALSE,Student cancelled on the day
+545,02/06/2027,Noah Kim,Jack Khan,Further Maths,07/06/2027,12:30,1:30:00,Room S12,FALSE,,,,0:00:00,FALSE,
+546,02/06/2027,Leo Martins,Ava Usman,Spanish,10/06/2027,08:00,1:00:00,Room S12,TRUE,Dr Evans,07:56,08:46,0:50:00,TRUE,
+547,03/06/2027,Ben Carter,Aria Owens,Maths,07/06/2027,12:30,1:00:00,Online (Teams),TRUE,Dr Evans,12:29,13:31,1:02:00,TRUE,
+548,03/06/2027,Noah Kim,Ruby Vance,Further Maths,09/06/2027,15:45,1:00:00,Library,TRUE,Dr Evans,15:49,16:52,1:03:00,TRUE,Needs more practice on this topic
+549,04/06/2027,Daniel Okafor,Gabriel Usman,Economics,09/06/2027,15:45,1:00:00,Library,TRUE,Dr Evans,15:48,16:46,0:58:00,TRUE,Worked through past paper
+550,05/06/2027,Isla Murphy,Dylan Brown,Chemistry,11/06/2027,13:00,0:45:00,Room E7,TRUE,Mr Hassan,13:09,13:48,0:39:00,FALSE,Went over test corrections
+551,05/06/2027,Ella Fischer,Toby Usman,French,14/06/2027,08:00,1:00:00,Study Centre,TRUE,Ms Patel,08:01,08:57,0:56:00,FALSE,Needs more practice on this topic
+552,05/06/2027,Grace Liu,Tia Vance,Physics,15/06/2027,16:30,0:45:00,Room M4,TRUE,Ms Patel,16:35,17:28,0:53:00,TRUE,Needs more practice on this topic
+553,06/06/2027,Noah Kim,Leah Evans,Computer Science,14/06/2027,08:00,1:00:00,Library,TRUE,Mr Hassan,07:58,08:53,0:55:00,FALSE,Revision for mock exam
+554,07/06/2027,Harry Thompson,"Ibrahim Price, Mohammed Novak",History,09/06/2027,16:30,1:00:00,Library,TRUE,Dr Evans,16:28,17:35,1:07:00,FALSE,Started new topic
+555,07/06/2027,Harry Thompson,Jasmine Khan,English Literature,11/06/2027,16:30,0:30:00,Study Centre,FALSE,,,,0:00:00,FALSE,Awaiting approval
+556,07/06/2027,Daniel Okafor,Gabriel Usman,Economics,16/06/2027,15:45,1:00:00,Library,TRUE,Ms Patel,15:50,16:58,1:08:00,TRUE,Covered homework questions
+557,08/06/2027,Olivia Brooks,Zara Jones,Psychology,09/06/2027,15:45,1:00:00,Library,TRUE,Dr Evans,15:48,16:57,1:09:00,TRUE,Good progress
+558,08/06/2027,Harry Thompson,"Ibrahim Price, Mohammed Novak",History,16/06/2027,16:30,1:00:00,Library,TRUE,Dr Evans,16:32,17:35,1:03:00,TRUE,
+559,08/06/2027,Grace Liu,"Dylan Reid, Una Usman, Tia Evans",Physics,17/06/2027,16:30,0:45:00,Library,TRUE,Dr Evans,16:30,17:08,0:38:00,TRUE,
+560,08/06/2027,Harry Thompson,Jasmine Khan,English Literature,18/06/2027,16:30,0:30:00,Study Centre,TRUE,Ms Patel,,,0:00:00,FALSE,Student cancelled on the day
+561,09/06/2027,Priya Sharma,Jack Khan,Biology,11/06/2027,08:00,1:30:00,Library,TRUE,Mr Hassan,08:05,09:30,1:25:00,TRUE,Good progress
+562,09/06/2027,Olivia Brooks,Elliot Vance,English Language,18/06/2027,16:00,0:45:00,Online (Teams),TRUE,Mr Hassan,16:02,16:44,0:42:00,TRUE,Covered homework questions
+563,10/06/2027,Ben Carter,Aria Owens,Maths,14/06/2027,12:30,1:00:00,Online (Teams),TRUE,Mr Hassan,12:38,13:38,1:00:00,TRUE,Revision for mock exam
+564,11/06/2027,Kavya Patel,Ibrahim Evans,Maths,15/06/2027,12:30,0:45:00,Room S12,TRUE,Dr Evans,12:28,13:23,0:55:00,TRUE,Student well prepared
+565,11/06/2027,Grace Liu,Caleb Dixon,Physics,16/06/2027,16:00,1:00:00,Room S12,TRUE,Mr Hassan,15:57,17:05,1:08:00,TRUE,Good progress
+566,11/06/2027,Priya Sharma,Jack Khan,Biology,18/06/2027,08:00,1:30:00,Library,TRUE,Mr Hassan,07:56,09:29,1:33:00,TRUE,
+567,14/06/2027,Olivia Brooks,Zara Jones,Psychology,16/06/2027,15:45,1:00:00,Library,TRUE,Ms Patel,15:44,16:50,1:06:00,TRUE,Essay planning
+568,14/06/2027,Ella Fischer,Toby Usman,French,21/06/2027,08:00,1:00:00,Study Centre,TRUE,Ms Patel,07:58,09:13,1:15:00,TRUE,Revision for mock exam
+569,15/06/2027,Daniel Okafor,Gabriel Usman,Economics,23/06/2027,15:45,1:00:00,Library,TRUE,Mr Hassan,15:46,16:45,0:59:00,TRUE,Essay planning
+570,16/06/2027,Noah Kim,Ruby Vance,Further Maths,23/06/2027,15:45,1:00:00,Library,TRUE,Dr Evans,15:47,16:42,0:55:00,TRUE,Needs more practice on this topic
+571,17/06/2027,Harry Thompson,Jasmine Khan,English Literature,25/06/2027,16:30,0:30:00,Study Centre,TRUE,Ms Patel,16:33,16:58,0:25:00,TRUE,
+572,18/06/2027,Noah Kim,Leah Evans,Computer Science,21/06/2027,08:00,1:00:00,Library,TRUE,Dr Evans,07:55,08:57,1:02:00,FALSE,Needs more practice on this topic
+573,18/06/2027,Olivia Brooks,Zara Jones,Psychology,23/06/2027,15:45,1:00:00,Library,TRUE,Mr Hassan,15:49,16:56,1:07:00,TRUE,
+574,19/06/2027,Kavya Patel,Ibrahim Evans,Maths,22/06/2027,12:30,0:45:00,Room S12,TRUE,Ms Patel,12:26,13:16,0:50:00,TRUE,Good progress
+575,19/06/2027,Noah Kim,Leah Evans,Computer Science,28/06/2027,08:00,1:00:00,Library,TRUE,Ms Patel,07:57,09:11,1:14:00,FALSE,Revision for mock exam
+576,21/06/2027,Grace Liu,"Dylan Reid, Una Usman, Tia Evans",Physics,01/07/2027,16:30,0:45:00,Library,TRUE,Mr Hassan,16:33,17:25,0:52:00,FALSE,Good progress
+577,22/06/2027,Kavya Patel,Ibrahim Evans,Maths,29/06/2027,12:30,0:45:00,Room S12,TRUE,Dr Evans,12:26,13:22,0:56:00,FALSE,Good progress
+578,22/06/2027,Olivia Brooks,Elliot Vance,English Language,02/07/2027,16:00,0:45:00,Online (Teams),TRUE,Dr Evans,16:00,16:46,0:46:00,FALSE,
+579,22/06/2027,Harry Thompson,Jasmine Khan,English Literature,02/07/2027,16:30,0:30:00,Study Centre,TRUE,Mr Hassan,16:36,16:57,0:21:00,TRUE,Student well prepared
+580,23/06/2027,Leo Martins,Ava Usman,Spanish,24/06/2027,08:00,1:00:00,Room S12,TRUE,Mr Hassan,08:01,09:00,0:59:00,TRUE,Covered homework questions
+581,23/06/2027,Daniel Okafor,Gabriel Usman,Economics,30/06/2027,15:45,1:00:00,Library,TRUE,Mr Hassan,15:40,16:51,1:11:00,TRUE,Needs more practice on this topic
+582,24/06/2027,Priya Sharma,Jack Khan,Biology,25/06/2027,08:00,1:30:00,Library,TRUE,Mr Hassan,07:57,09:18,1:21:00,TRUE,Went over test corrections
+583,26/06/2027,Olivia Brooks,Zara Jones,Psychology,30/06/2027,15:45,1:00:00,Library,TRUE,Ms Patel,15:45,16:38,0:53:00,TRUE,Worked through past paper
+584,27/06/2027,Ella Fischer,Toby Usman,French,28/06/2027,08:00,1:00:00,Study Centre,TRUE,Ms Patel,08:04,09:13,1:09:00,FALSE,
+585,27/06/2027,Grace Liu,Tia Vance,Physics,29/06/2027,16:30,0:45:00,Room M4,TRUE,Ms Patel,,,0:00:00,FALSE,Student absent
+586,28/06/2027,Grace Liu,Caleb Dixon,Physics,30/06/2027,16:00,1:00:00,Room S12,TRUE,Mr Hassan,16:01,17:12,1:11:00,TRUE,Started new topic
+587,,,,,,,,,,,,,0:00:00,,
+588,,,,,,,,,,,,,0:00:00,,
+589,,,,,,,,,,,,,0:00:00,,
+590,,,,,,,,,,,,,0:00:00,,
+591,,,,,,,,,,,,,0:00:00,,
+592,,,,,,,,,,,,,0:00:00,,
+593,,,,,,,,,,,,,0:00:00,,
+594,,,,,,,,,,,,,0:00:00,,
+595,,,,,,,,,,,,,0:00:00,,
+596,,,,,,,,,,,,,0:00:00,,
+597,,,,,,,,,,,,,0:00:00,,
+598,,,,,,,,,,,,,0:00:00,,
+599,,,,,,,,,,,,,0:00:00,,
+600,,,,,,,,,,,,,0:00:00,,
+601,,,,,,,,,,,,,0:00:00,,
+602,,,,,,,,,,,,,0:00:00,,
+603,,,,,,,,,,,,,0:00:00,,
+604,,,,,,,,,,,,,0:00:00,,
+605,,,,,,,,,,,,,0:00:00,,
+606,,,,,,,,,,,,,0:00:00,,
+607,,,,,,,,,,,,,0:00:00,,
+608,,,,,,,,,,,,,0:00:00,,
+609,,,,,,,,,,,,,0:00:00,,
+610,,,,,,,,,,,,,0:00:00,,
+611,,,,,,,,,,,,,0:00:00,,
+612,,,,,,,,,,,,,0:00:00,,
+613,,,,,,,,,,,,,0:00:00,,
+614,,,,,,,,,,,,,0:00:00,,
+615,,,,,,,,,,,,,0:00:00,,
+616,,,,,,,,,,,,,0:00:00,,
+617,,,,,,,,,,,,,0:00:00,,
+618,,,,,,,,,,,,,0:00:00,,
+619,,,,,,,,,,,,,0:00:00,,
+620,,,,,,,,,,,,,0:00:00,,
+621,,,,,,,,,,,,,0:00:00,,
+622,,,,,,,,,,,,,0:00:00,,
+623,,,,,,,,,,,,,0:00:00,,
+624,,,,,,,,,,,,,0:00:00,,
+625,,,,,,,,,,,,,0:00:00,,
+626,,,,,,,,,,,,,0:00:00,,
+627,,,,,,,,,,,,,0:00:00,,
+628,,,,,,,,,,,,,0:00:00,,
+629,,,,,,,,,,,,,0:00:00,,
+630,,,,,,,,,,,,,0:00:00,,
+631,,,,,,,,,,,,,0:00:00,,
+632,,,,,,,,,,,,,0:00:00,,
+633,,,,,,,,,,,,,0:00:00,,
+634,,,,,,,,,,,,,0:00:00,,
+635,,,,,,,,,,,,,0:00:00,,
+636,,,,,,,,,,,,,0:00:00,,
+637,,,,,,,,,,,,,0:00:00,,
+638,,,,,,,,,,,,,0:00:00,,
+639,,,,,,,,,,,,,0:00:00,,
+640,,,,,,,,,,,,,0:00:00,,
+641,,,,,,,,,,,,,0:00:00,,
+642,,,,,,,,,,,,,0:00:00,,
+643,,,,,,,,,,,,,0:00:00,,
+644,,,,,,,,,,,,,0:00:00,,
+645,,,,,,,,,,,,,0:00:00,,
+646,,,,,,,,,,,,,0:00:00,,
+647,,,,,,,,,,,,,0:00:00,,
+648,,,,,,,,,,,,,0:00:00,,
+649,,,,,,,,,,,,,0:00:00,,
+650,,,,,,,,,,,,,0:00:00,,
+651,,,,,,,,,,,,,0:00:00,,
+652,,,,,,,,,,,,,0:00:00,,
+653,,,,,,,,,,,,,0:00:00,,
+654,,,,,,,,,,,,,0:00:00,,
+655,,,,,,,,,,,,,0:00:00,,
+656,,,,,,,,,,,,,0:00:00,,
+657,,,,,,,,,,,,,0:00:00,,
+658,,,,,,,,,,,,,0:00:00,,
+659,,,,,,,,,,,,,0:00:00,,
+660,,,,,,,,,,,,,0:00:00,,
+661,,,,,,,,,,,,,0:00:00,,
+662,,,,,,,,,,,,,0:00:00,,
+663,,,,,,,,,,,,,0:00:00,,
+664,,,,,,,,,,,,,0:00:00,,
+665,,,,,,,,,,,,,0:00:00,,
+666,,,,,,,,,,,,,0:00:00,,
+667,,,,,,,,,,,,,0:00:00,,
+668,,,,,,,,,,,,,0:00:00,,
+669,,,,,,,,,,,,,0:00:00,,
+670,,,,,,,,,,,,,0:00:00,,
+671,,,,,,,,,,,,,0:00:00,,
+672,,,,,,,,,,,,,0:00:00,,
+673,,,,,,,,,,,,,0:00:00,,
+674,,,,,,,,,,,,,0:00:00,,
+675,,,,,,,,,,,,,0:00:00,,
+676,,,,,,,,,,,,,0:00:00,,
+677,,,,,,,,,,,,,0:00:00,,
+678,,,,,,,,,,,,,0:00:00,,
+679,,,,,,,,,,,,,0:00:00,,
+680,,,,,,,,,,,,,0:00:00,,
+681,,,,,,,,,,,,,0:00:00,,
+682,,,,,,,,,,,,,0:00:00,,
+683,,,,,,,,,,,,,0:00:00,,
+684,,,,,,,,,,,,,0:00:00,,
+685,,,,,,,,,,,,,0:00:00,,
+686,,,,,,,,,,,,,0:00:00,,
+687,,,,,,,,,,,,,0:00:00,,
+688,,,,,,,,,,,,,0:00:00,,
+689,,,,,,,,,,,,,0:00:00,,
+690,,,,,,,,,,,,,0:00:00,,
+691,,,,,,,,,,,,,0:00:00,,
+692,,,,,,,,,,,,,0:00:00,,
+693,,,,,,,,,,,,,0:00:00,,
+694,,,,,,,,,,,,,0:00:00,,
+695,,,,,,,,,,,,,0:00:00,,
+696,,,,,,,,,,,,,0:00:00,,
+697,,,,,,,,,,,,,0:00:00,,
+698,,,,,,,,,,,,,0:00:00,,
+699,,,,,,,,,,,,,0:00:00,,
+700,,,,,,,,,,,,,0:00:00,,
+701,,,,,,,,,,,,,0:00:00,,
+702,,,,,,,,,,,,,0:00:00,,
+703,,,,,,,,,,,,,0:00:00,,
+704,,,,,,,,,,,,,0:00:00,,
+705,,,,,,,,,,,,,0:00:00,,
+706,,,,,,,,,,,,,0:00:00,,
+707,,,,,,,,,,,,,0:00:00,,
+708,,,,,,,,,,,,,0:00:00,,
+709,,,,,,,,,,,,,0:00:00,,
+710,,,,,,,,,,,,,0:00:00,,
+711,,,,,,,,,,,,,0:00:00,,
+712,,,,,,,,,,,,,0:00:00,,
+713,,,,,,,,,,,,,0:00:00,,
+714,,,,,,,,,,,,,0:00:00,,
+715,,,,,,,,,,,,,0:00:00,,
+716,,,,,,,,,,,,,0:00:00,,
+717,,,,,,,,,,,,,0:00:00,,
+718,,,,,,,,,,,,,0:00:00,,
+719,,,,,,,,,,,,,0:00:00,,
+720,,,,,,,,,,,,,0:00:00,,
+721,,,,,,,,,,,,,0:00:00,,
+722,,,,,,,,,,,,,0:00:00,,
+723,,,,,,,,,,,,,0:00:00,,
+724,,,,,,,,,,,,,0:00:00,,
+725,,,,,,,,,,,,,0:00:00,,
+726,,,,,,,,,,,,,0:00:00,,
+727,,,,,,,,,,,,,0:00:00,,
+728,,,,,,,,,,,,,0:00:00,,
+729,,,,,,,,,,,,,0:00:00,,
+730,,,,,,,,,,,,,0:00:00,,
+731,,,,,,,,,,,,,0:00:00,,
+732,,,,,,,,,,,,,0:00:00,,
+733,,,,,,,,,,,,,0:00:00,,
+734,,,,,,,,,,,,,0:00:00,,
+735,,,,,,,,,,,,,0:00:00,,
+736,,,,,,,,,,,,,0:00:00,,
+737,,,,,,,,,,,,,0:00:00,,
+738,,,,,,,,,,,,,0:00:00,,
+739,,,,,,,,,,,,,0:00:00,,
+740,,,,,,,,,,,,,0:00:00,,
+741,,,,,,,,,,,,,0:00:00,,
+742,,,,,,,,,,,,,0:00:00,,
+743,,,,,,,,,,,,,0:00:00,,
+744,,,,,,,,,,,,,0:00:00,,
+745,,,,,,,,,,,,,0:00:00,,
+746,,,,,,,,,,,,,0:00:00,,
+747,,,,,,,,,,,,,0:00:00,,
+748,,,,,,,,,,,,,0:00:00,,
+749,,,,,,,,,,,,,0:00:00,,
+750,,,,,,,,,,,,,0:00:00,,
+751,,,,,,,,,,,,,0:00:00,,
+752,,,,,,,,,,,,,0:00:00,,
+753,,,,,,,,,,,,,0:00:00,,
+754,,,,,,,,,,,,,0:00:00,,
+755,,,,,,,,,,,,,0:00:00,,
+756,,,,,,,,,,,,,0:00:00,,
+757,,,,,,,,,,,,,0:00:00,,
+758,,,,,,,,,,,,,0:00:00,,
+759,,,,,,,,,,,,,0:00:00,,
+760,,,,,,,,,,,,,0:00:00,,
+761,,,,,,,,,,,,,0:00:00,,
+762,,,,,,,,,,,,,0:00:00,,
+763,,,,,,,,,,,,,0:00:00,,
+764,,,,,,,,,,,,,0:00:00,,
+765,,,,,,,,,,,,,0:00:00,,
+766,,,,,,,,,,,,,0:00:00,,
+767,,,,,,,,,,,,,0:00:00,,
+768,,,,,,,,,,,,,0:00:00,,
+769,,,,,,,,,,,,,0:00:00,,
+770,,,,,,,,,,,,,0:00:00,,
+771,,,,,,,,,,,,,0:00:00,,
+772,,,,,,,,,,,,,0:00:00,,
+773,,,,,,,,,,,,,0:00:00,,
+774,,,,,,,,,,,,,0:00:00,,
+775,,,,,,,,,,,,,0:00:00,,
+776,,,,,,,,,,,,,0:00:00,,
+777,,,,,,,,,,,,,0:00:00,,
+778,,,,,,,,,,,,,0:00:00,,
+779,,,,,,,,,,,,,0:00:00,,
+780,,,,,,,,,,,,,0:00:00,,
+781,,,,,,,,,,,,,0:00:00,,
+782,,,,,,,,,,,,,0:00:00,,
+783,,,,,,,,,,,,,0:00:00,,
+784,,,,,,,,,,,,,0:00:00,,
+785,,,,,,,,,,,,,0:00:00,,
+786,,,,,,,,,,,,,0:00:00,,
+787,,,,,,,,,,,,,0:00:00,,
+788,,,,,,,,,,,,,0:00:00,,
+789,,,,,,,,,,,,,0:00:00,,
+790,,,,,,,,,,,,,0:00:00,,
+791,,,,,,,,,,,,,0:00:00,,
+792,,,,,,,,,,,,,0:00:00,,
+793,,,,,,,,,,,,,0:00:00,,
+794,,,,,,,,,,,,,0:00:00,,
+795,,,,,,,,,,,,,0:00:00,,
+796,,,,,,,,,,,,,0:00:00,,
+797,,,,,,,,,,,,,0:00:00,,
+798,,,,,,,,,,,,,0:00:00,,
+799,,,,,,,,,,,,,0:00:00,,
+800,,,,,,,,,,,,,0:00:00,,
+801,,,,,,,,,,,,,0:00:00,,
+802,,,,,,,,,,,,,0:00:00,,
+803,,,,,,,,,,,,,0:00:00,,
+804,,,,,,,,,,,,,0:00:00,,
+805,,,,,,,,,,,,,0:00:00,,
+806,,,,,,,,,,,,,0:00:00,,
+807,,,,,,,,,,,,,0:00:00,,
+808,,,,,,,,,,,,,0:00:00,,
+809,,,,,,,,,,,,,0:00:00,,
+810,,,,,,,,,,,,,0:00:00,,
+811,,,,,,,,,,,,,0:00:00,,
+812,,,,,,,,,,,,,0:00:00,,
+813,,,,,,,,,,,,,0:00:00,,
+814,,,,,,,,,,,,,0:00:00,,
+815,,,,,,,,,,,,,0:00:00,,
+816,,,,,,,,,,,,,0:00:00,,
+817,,,,,,,,,,,,,0:00:00,,
+818,,,,,,,,,,,,,0:00:00,,
+819,,,,,,,,,,,,,0:00:00,,
+820,,,,,,,,,,,,,0:00:00,,
+821,,,,,,,,,,,,,0:00:00,,
+822,,,,,,,,,,,,,0:00:00,,
+823,,,,,,,,,,,,,0:00:00,,
+824,,,,,,,,,,,,,0:00:00,,
+825,,,,,,,,,,,,,0:00:00,,
+826,,,,,,,,,,,,,0:00:00,,
+827,,,,,,,,,,,,,0:00:00,,
+828,,,,,,,,,,,,,0:00:00,,
+829,,,,,,,,,,,,,0:00:00,,
+830,,,,,,,,,,,,,0:00:00,,
+831,,,,,,,,,,,,,0:00:00,,
+832,,,,,,,,,,,,,0:00:00,,
+833,,,,,,,,,,,,,0:00:00,,
+834,,,,,,,,,,,,,0:00:00,,
+835,,,,,,,,,,,,,0:00:00,,
+836,,,,,,,,,,,,,0:00:00,,
+837,,,,,,,,,,,,,0:00:00,,
+838,,,,,,,,,,,,,0:00:00,,
+839,,,,,,,,,,,,,0:00:00,,
+840,,,,,,,,,,,,,0:00:00,,
+841,,,,,,,,,,,,,0:00:00,,
+842,,,,,,,,,,,,,0:00:00,,
+843,,,,,,,,,,,,,0:00:00,,
+844,,,,,,,,,,,,,0:00:00,,
+845,,,,,,,,,,,,,0:00:00,,
+846,,,,,,,,,,,,,0:00:00,,
+847,,,,,,,,,,,,,0:00:00,,
+848,,,,,,,,,,,,,0:00:00,,
+849,,,,,,,,,,,,,0:00:00,,
+850,,,,,,,,,,,,,0:00:00,,
+851,,,,,,,,,,,,,0:00:00,,
+852,,,,,,,,,,,,,0:00:00,,
+853,,,,,,,,,,,,,0:00:00,,
+854,,,,,,,,,,,,,0:00:00,,
+855,,,,,,,,,,,,,0:00:00,,
+856,,,,,,,,,,,,,0:00:00,,
+857,,,,,,,,,,,,,0:00:00,,
+858,,,,,,,,,,,,,0:00:00,,
+859,,,,,,,,,,,,,0:00:00,,
+860,,,,,,,,,,,,,0:00:00,,
+861,,,,,,,,,,,,,0:00:00,,
+862,,,,,,,,,,,,,0:00:00,,
+863,,,,,,,,,,,,,0:00:00,,
+864,,,,,,,,,,,,,0:00:00,,
+865,,,,,,,,,,,,,0:00:00,,
+866,,,,,,,,,,,,,0:00:00,,
+867,,,,,,,,,,,,,0:00:00,,
+868,,,,,,,,,,,,,0:00:00,,
+869,,,,,,,,,,,,,0:00:00,,
+870,,,,,,,,,,,,,0:00:00,,
+871,,,,,,,,,,,,,0:00:00,,
+872,,,,,,,,,,,,,0:00:00,,
+873,,,,,,,,,,,,,0:00:00,,
+874,,,,,,,,,,,,,0:00:00,,
+875,,,,,,,,,,,,,0:00:00,,
+876,,,,,,,,,,,,,0:00:00,,
+877,,,,,,,,,,,,,0:00:00,,
+878,,,,,,,,,,,,,0:00:00,,
+879,,,,,,,,,,,,,0:00:00,,
+880,,,,,,,,,,,,,0:00:00,,
+881,,,,,,,,,,,,,0:00:00,,
+882,,,,,,,,,,,,,0:00:00,,
+883,,,,,,,,,,,,,0:00:00,,
+884,,,,,,,,,,,,,0:00:00,,
+885,,,,,,,,,,,,,0:00:00,,
+886,,,,,,,,,,,,,0:00:00,,
+887,,,,,,,,,,,,,0:00:00,,
+888,,,,,,,,,,,,,0:00:00,,
+889,,,,,,,,,,,,,0:00:00,,
+890,,,,,,,,,,,,,0:00:00,,
+891,,,,,,,,,,,,,0:00:00,,
+892,,,,,,,,,,,,,0:00:00,,
+893,,,,,,,,,,,,,0:00:00,,
+894,,,,,,,,,,,,,0:00:00,,
+895,,,,,,,,,,,,,0:00:00,,
+896,,,,,,,,,,,,,0:00:00,,
+897,,,,,,,,,,,,,0:00:00,,
+898,,,,,,,,,,,,,0:00:00,,
+899,,,,,,,,,,,,,0:00:00,,
+900,,,,,,,,,,,,,0:00:00,,
+901,,,,,,,,,,,,,0:00:00,,
+902,,,,,,,,,,,,,0:00:00,,
+903,,,,,,,,,,,,,0:00:00,,
+904,,,,,,,,,,,,,0:00:00,,
+905,,,,,,,,,,,,,0:00:00,,
+906,,,,,,,,,,,,,0:00:00,,
+907,,,,,,,,,,,,,0:00:00,,
+908,,,,,,,,,,,,,0:00:00,,
+909,,,,,,,,,,,,,0:00:00,,
+910,,,,,,,,,,,,,0:00:00,,
+911,,,,,,,,,,,,,0:00:00,,
+912,,,,,,,,,,,,,0:00:00,,
+913,,,,,,,,,,,,,0:00:00,,
+914,,,,,,,,,,,,,0:00:00,,
+915,,,,,,,,,,,,,0:00:00,,
+916,,,,,,,,,,,,,0:00:00,,
+917,,,,,,,,,,,,,0:00:00,,
+918,,,,,,,,,,,,,0:00:00,,
+919,,,,,,,,,,,,,0:00:00,,
+920,,,,,,,,,,,,,0:00:00,,
+921,,,,,,,,,,,,,0:00:00,,
+922,,,,,,,,,,,,,0:00:00,,
+923,,,,,,,,,,,,,0:00:00,,
+924,,,,,,,,,,,,,0:00:00,,
+925,,,,,,,,,,,,,0:00:00,,
+926,,,,,,,,,,,,,0:00:00,,
+927,,,,,,,,,,,,,0:00:00,,
+928,,,,,,,,,,,,,0:00:00,,
+929,,,,,,,,,,,,,0:00:00,,
+930,,,,,,,,,,,,,0:00:00,,
+931,,,,,,,,,,,,,0:00:00,,
+932,,,,,,,,,,,,,0:00:00,,
+933,,,,,,,,,,,,,0:00:00,,
+934,,,,,,,,,,,,,0:00:00,,
+935,,,,,,,,,,,,,0:00:00,,
+936,,,,,,,,,,,,,0:00:00,,
+937,,,,,,,,,,,,,0:00:00,,
+938,,,,,,,,,,,,,0:00:00,,
+939,,,,,,,,,,,,,0:00:00,,
+940,,,,,,,,,,,,,0:00:00,,
+941,,,,,,,,,,,,,0:00:00,,
+942,,,,,,,,,,,,,0:00:00,,
+943,,,,,,,,,,,,,0:00:00,,
+944,,,,,,,,,,,,,0:00:00,,
+945,,,,,,,,,,,,,0:00:00,,
+946,,,,,,,,,,,,,0:00:00,,
+947,,,,,,,,,,,,,0:00:00,,
+948,,,,,,,,,,,,,0:00:00,,
+949,,,,,,,,,,,,,0:00:00,,
+950,,,,,,,,,,,,,0:00:00,,
+951,,,,,,,,,,,,,0:00:00,,
+952,,,,,,,,,,,,,0:00:00,,
+953,,,,,,,,,,,,,0:00:00,,
+954,,,,,,,,,,,,,0:00:00,,
+955,,,,,,,,,,,,,0:00:00,,
+956,,,,,,,,,,,,,0:00:00,,
+957,,,,,,,,,,,,,0:00:00,,
+958,,,,,,,,,,,,,0:00:00,,
+959,,,,,,,,,,,,,0:00:00,,
+960,,,,,,,,,,,,,0:00:00,,
+961,,,,,,,,,,,,,0:00:00,,
+962,,,,,,,,,,,,,0:00:00,,
+963,,,,,,,,,,,,,0:00:00,,
+964,,,,,,,,,,,,,0:00:00,,
+965,,,,,,,,,,,,,0:00:00,,
+966,,,,,,,,,,,,,0:00:00,,
+967,,,,,,,,,,,,,0:00:00,,
+968,,,,,,,,,,,,,0:00:00,,
+969,,,,,,,,,,,,,0:00:00,,
+970,,,,,,,,,,,,,0:00:00,,
+971,,,,,,,,,,,,,0:00:00,,
+972,,,,,,,,,,,,,0:00:00,,
+973,,,,,,,,,,,,,0:00:00,,
+974,,,,,,,,,,,,,0:00:00,,
+975,,,,,,,,,,,,,0:00:00,,
+976,,,,,,,,,,,,,0:00:00,,
+977,,,,,,,,,,,,,0:00:00,,
+978,,,,,,,,,,,,,0:00:00,,
+979,,,,,,,,,,,,,0:00:00,,
+980,,,,,,,,,,,,,0:00:00,,
+981,,,,,,,,,,,,,0:00:00,,
+982,,,,,,,,,,,,,0:00:00,,
+983,,,,,,,,,,,,,0:00:00,,
+984,,,,,,,,,,,,,0:00:00,,
+985,,,,,,,,,,,,,0:00:00,,
+986,,,,,,,,,,,,,0:00:00,,
+987,,,,,,,,,,,,,0:00:00,,
+988,,,,,,,,,,,,,0:00:00,,
+989,,,,,,,,,,,,,0:00:00,,
+990,,,,,,,,,,,,,0:00:00,,
+991,,,,,,,,,,,,,0:00:00,,
+992,,,,,,,,,,,,,0:00:00,,
+993,,,,,,,,,,,,,0:00:00,,
+994,,,,,,,,,,,,,0:00:00,,
+995,,,,,,,,,,,,,0:00:00,,
