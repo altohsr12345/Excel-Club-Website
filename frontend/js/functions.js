@@ -21,7 +21,7 @@ const tutors = [
     },
     {
         name : "Tubi",
-        subjects : ["IGCSE Add Math", "IGCSE Coordinated Science","IGCSE/AS Computer Science", "AS Math 1", "AS Physics", "AS Chemistry"],
+        subjects : ["IGCSE/AS Math", "IGCSE Coordinated Science","IGCSE/AS Computer Science","AS Physics", "AS Chemistry"],
         grade :11,
         description : ""
     },
