@@ -1,4 +1,7 @@
-
+html, body {
+    margin: 0;
+    padding: 0;
+}
 @keyframes textIn {
     from {
         opacity: 0;
@@ -749,22 +752,25 @@ body::-webkit-scrollbar {
 
 
 #tutorsContainer{
+    background-color: transparent;
+
     padding-top: 10px;
-    width: 80vw;
-    justify-self:center;
+    width: 80%;
+    margin: 0 auto;
+
     display: flex;
-    container-type: size;
-    gap:15px;
+    gap: 15px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    align-content: start;
+    align-content: flex-start;
 }
 .tutorcard{
+    box-sizing: border-box;
     background: #f1efe6;
     color: #152025;
     width: 300px;
-    height: 200px;
+    aspect-ratio: 3/2;
     padding: 20px;
     border-radius: 15px;
     container-type: size;
@@ -800,6 +806,11 @@ body::-webkit-scrollbar {
     word-break: normal;
 
     white-space: normal;
+}
+@media (max-width: 500px) {
+    .tutorcard {
+        width: min(300px, 100%);
+    }
 }
 
 #grade-select{
@@ -871,5 +882,17 @@ body::-webkit-scrollbar {
 }
 #g12{
     background-color:#FDF5E6;
+}
+
+#gr78{
+    justify-self: center;
+    font-size: clamp(0.1cqw, 1rem, 2rem);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+
+    padding: 0;
+    margin: 0;
 }
 
