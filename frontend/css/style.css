@@ -1,4 +1,7 @@
-
+html, body {
+    margin: 0;
+    padding: 0;
+}
 @keyframes textIn {
     from {
         opacity: 0;
@@ -752,14 +755,15 @@ body::-webkit-scrollbar {
     background-color: red;
 
     padding-top: 10px;
-    width: 80vw;
-    justify-self:center;
+    width: 80%;
+    margin: 0 auto;
+
     display: flex;
-    gap:15px;
+    gap: 15px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    align-content: start;
+    align-content: flex-start;
 }
 .tutorcard{
     background: #f1efe6;
