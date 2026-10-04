@@ -752,7 +752,7 @@ body::-webkit-scrollbar {
 
 
 #tutorsContainer{
-    background-color: red;
+    background-color: transparent;
 
     padding-top: 10px;
     width: 80%;
@@ -766,9 +766,10 @@ body::-webkit-scrollbar {
     align-content: flex-start;
 }
 .tutorcard{
+    box-sizing: border-box;
     background: #f1efe6;
     color: #152025;
-    width: 100px;
+    width: 300px;
     aspect-ratio: 3/2;
     padding: 20px;
     border-radius: 15px;
@@ -805,6 +806,11 @@ body::-webkit-scrollbar {
     word-break: normal;
 
     white-space: normal;
+}
+@media (max-width: 500px) {
+    .tutorcard {
+        width: min(300px, 100%);
+    }
 }
 
 #grade-select{
