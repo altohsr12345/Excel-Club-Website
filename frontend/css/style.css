@@ -883,3 +883,14 @@ body::-webkit-scrollbar {
 #g12{
     background-color:#FDF5E6;
 }
+
+#gr78{
+    justify-self: center;
+    font-size: clamp(0.1cqw, 1.3cqw, 2rem);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    padding: 0;
+    margin: 0;
+}
