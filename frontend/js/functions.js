@@ -195,7 +195,7 @@ function displayTutors(grade) {
 
         card.innerHTML = `
             <h3 class="tutorname">${tutor.name}</h3> 
-            <p class="tutordetails">${tutor.subjects.join(", ")}</p> <br>
+            <p class="tutordetails">${tutor.subjects.join("<br>")}</p> <br>
             <p class="tutordetails">Grade ${tutor.grade}</p> <br>
             <p class="tutordetails">${tutor.description}</p>
         `;
