@@ -1,0 +1,117 @@
+<!-- this is temporary, but thanks claude for saving my ass in frontend -->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Auth test</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 520px; margin: 2rem auto; padding: 0 1rem; }
+    form { display: grid; gap: .5rem; margin-bottom: 1.5rem; padding: 1rem; border: 1px solid #ccc; border-radius: 8px; }
+    pre  { background: #f4f4f4; padding: 1rem; border-radius: 8px; white-space: pre-wrap; }
+    button { padding: .5rem; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Auth test page</h1>
+  <p id="status">Not logged in</p>
+
+  <!-- SIGN UP: keep these ids/names so the real form can reuse the JS later -->
+  <form id="signup-form">
+    <h2>Sign up</h2>
+    <input name="full_name" placeholder="Full name" required>
+    <input name="email" type="email" placeholder="Email" required>
+    <input name="password" type="password" placeholder="Password (6+ chars)" required minlength="6">
+    <select name="role">
+      <option value="student">Student</option>
+      <option value="tutor">Tutor</option>
+    </select>
+    <button>Sign up</button>
+  </form>
+
+  <!-- LOG IN -->
+  <form id="login-form">
+    <h2>Log in</h2>
+    <input name="email" type="email" placeholder="Email" required>
+    <input name="password" type="password" placeholder="Password" required>
+    <button>Log in</button>
+  </form>
+
+  <!-- TEST BUTTONS -->
+  <div style="display:flex; gap:.5rem; flex-wrap:wrap">
+    <button id="btn-me">GET /api/me</button>
+    <button id="btn-stats">GET /api/stats/subject</button>
+    <button id="btn-mine">GET /api/my/sessions</button>
+    <button id="btn-pending">GET /api/admin/pending</button>
+    <button id="btn-logout">Log out</button>
+  </div>
+
+  <h2>Response</h2>
+  <pre id="out">—</pre>
+
+  <script type="module">
+    import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm";
+
+
+    const SB_URL = "https://qqfbpvbsadtjevuelavg.supabase.co"
+    const SB_PUBLISHABLE_KEY = "sb_publishable_8w-0sxYD9kDXK8433umVAw_5BTxKLgp";   // public key ya dont put the damn secret key
+    const API = "http://127.0.0.1:8000"; //kinda a placeholder?
+
+
+    const supabase = createClient(SB_URL, SB_PUBLISHABLE_KEY);
+    const out = document.getElementById("out");
+    const status = document.getElementById("status");
+    const show = (x) => (out.textContent = typeof x === "string" ? x : JSON.stringify(x, null, 2));
+
+    async function apiFetch(path, options = {}) {
+      const { data: { session } } = await supabase.auth.getSession();
+      const headers = { ...(options.headers || {}) };
+      if (session) headers.Authorization = `Bearer ${session.access_token}`;
+      const res = await fetch(API + path, { ...options, headers });
+      const body = await res.json().catch(() => null);
+      show({ status: res.status, body });
+      return { res, body };
+    }
+
+    async function refreshStatus() {
+      const { data: { session } } = await supabase.auth.getSession();
+      status.textContent = session ? `Logged in as ${session.user.email}` : "Not logged in";
+    }
+
+    document.getElementById("signup-form").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const f = e.target;
+      const { error } = await supabase.auth.signUp({
+        email: f.email.value,
+        password: f.password.value,
+        options: { data: { full_name: f.full_name.value, requested_role: f.role.value } },
+      });
+      show(error ? `Sign-up error: ${error.message}` : "Signed up! (You're now logged in but unapproved.)");
+      refreshStatus();
+    });
+
+    document.getElementById("login-form").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const f = e.target;
+      const { error } = await supabase.auth.signInWithPassword({
+        email: f.email.value, password: f.password.value,
+      });
+      show(error ? `Login error: ${error.message}` : "Logged in.");
+      refreshStatus();
+    });
+
+    document.getElementById("btn-me").onclick      = () => apiFetch("/api/me");
+    document.getElementById("btn-stats").onclick   = () => apiFetch("/api/stats/subject");
+    document.getElementById("btn-mine").onclick    = () => apiFetch("/api/my/sessions");
+    document.getElementById("btn-pending").onclick = () => apiFetch("/api/admin/pending");
+    document.getElementById("btn-logout").onclick  = async () => {
+      await supabase.auth.signOut();
+      show("Logged out.");
+      refreshStatus();
+    };
+
+    refreshStatus();
+  </script>
+</body>
+</html>

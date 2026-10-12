@@ -1,62 +1,29 @@
-import os
 from pathlib import Path
-from typing import Any
 import math
 
 import numpy as np
 import gspread as gs
 import pandas as pd
 from cachetools.func import ttl_cache
-from dotenv import load_dotenv
-from fastapi import FastAPI, APIRouter, Depends, Header, HTTPException
+from fastapi import FastAPI, APIRouter, Depends, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from supabase import create_client
+
+from auth import get_current_profile, require_role, STAFF, ROLES
+from db import sb
 
 
 
 DATA = Path(__file__).resolve().parent / ".."
-STAFF = ("tutor", "admin")
-
-load_dotenv()
-sb = create_client(os.environ["SB_URL"],os.environ["SB_SECRET_KEY"])
 
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:8000","http://127.0.0.1:8000"],
+    allow_origins=["http://localhost:8000","http://127.0.0.1:8000","http://127.0.0.1:5500", "http://localhost:5500"],
     allow_methods=["*"],
     allow_headers=["*"]
 )
 #temporary origins for now
-
-def get_current_profile(authorization: str | None = Header(None)):
-
-    if not authorization or not authorization.startswith("Bearer "):
-        raise HTTPException(401, "Not logged in")
-
-    token = authorization.removeprefix("Bearer ")
-
-    try:
-        user = sb.auth.get_user(token).user
-    except Exception:
-        raise HTTPException(401, "Invalid or expired session")
-
-    rows = sb.table("profiles").select("*").eq("id", user.id).execute().data
-
-    if not rows:
-        raise HTTPException(401, "No profile found")
-    return rows[0]
-
-def require_role(*roles):
-    def checker(profile=Depends(get_current_profile)):
-        if not profile["approved"]:
-            raise HTTPException(403, "account awaiting approval")
-        if profile["role"] not in roles:
-            raise HTTPException(403, "not allowed")
-        return profile
-
-    return checker
 
 #just for the stupid gsheets duration structure
 def parse_duration(val: str):
@@ -78,6 +45,7 @@ def parse_duration(val: str):
 
     return math.nan
 
+
 @ttl_cache(ttl=300)
 def load_sessions() -> pd.DataFrame:
     df = pd.read_csv(DATA / "sample_sessions.csv")
@@ -88,8 +56,6 @@ def load_sessions() -> pd.DataFrame:
     if bad:
         print(f"{bad} unreadable")
     return df
-
-
 
 #api routes
 
