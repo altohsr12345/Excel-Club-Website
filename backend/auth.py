@@ -5,7 +5,7 @@ from db import sb
 #just add to this if there needs to be future roles
 STAFF = ("tutor", "admin")
 ROLES = ("student", *STAFF)
-
+REQ_ROLES = ("student", "tutor")
 
 def get_current_profile(authorization: str | None = Header(None)):
 
@@ -20,7 +20,6 @@ def get_current_profile(authorization: str | None = Header(None)):
         raise HTTPException(401, "Invalid or expired session")
 
     rows = sb.table("profiles").select("*").eq("id", user.id).execute().data
-
     if not rows:
         raise HTTPException(401, "No profile found")
     return rows[0]
@@ -28,7 +27,7 @@ def get_current_profile(authorization: str | None = Header(None)):
 def require_role(*roles):
     def checker(profile=Depends(get_current_profile)):
         if not profile["approved"]:
-            raise HTTPException(403, "account awaiting approval")
+            raise HTTPException(403, "account waiting approval")
         if profile["role"] not in roles:
             raise HTTPException(403, "not allowed")
         return profile
