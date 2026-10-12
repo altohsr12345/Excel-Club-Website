@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin · Excel Club</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/auth.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <script type="module" src="../js/admin.js"></script>
+</head>
+<body id="auth">
+    <div id="stickyheader">
+        <button class="HeaderButton" id="excelreturn"><span class="btn-label">excel club</span></button>
+        <button class="HeaderButton" id="ourtutors"><span class="btn-label">our tutors</span></button>
+    </div>
+
+    <main class="auth-page">
+        <section class="auth-card wide">
+            <div class="account-head">
+                <h1 class="auth-title">pending sign-ups</h1>
+                <a class="auth-link" href="account.html">← My account</a>
+            </div>
+
+            <p id="auth-message" class="auth-message" hidden></p>
+            <p class="auth-loading" id="loading">Loading…</p>
+            <div id="pending-list"></div>
+
+            <p class="auth-hint">Approving lets the person in with the role you pick (it defaults to what they applied for).
+               Rejecting deletes the sign-up completely.</p>
+        </section>
+    </main>
+</body>
+</html>

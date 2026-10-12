@@ -42,4 +42,4 @@ def load_sessions() -> pd.DataFrame:
 def distinct_students(df: pd.DataFrame) -> int:
     return int(df["students"].dropna().str.split(",").explode().str.strip().nunique())
 
-#test function for basic stat
+#test function for basic stats

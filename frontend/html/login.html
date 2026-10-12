@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in · Excel Club</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/auth.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <script type="module" src="../js/login.js"></script>
+</head>
+<body id="auth">
+    <div id="stickyheader">
+        <button class="HeaderButton" id="excelreturn"><span class="btn-label">excel club</span></button>
+        <button class="HeaderButton" id="ourtutors"><span class="btn-label">our tutors</span></button>
+    </div>
+
+    <main class="auth-page">
+        <section class="auth-card">
+            <h1 class="auth-title">welcome to excel</h1>
+
+            <div class="auth-tabs" role="tablist">
+                <button class="auth-tab active" id="tab-login" role="tab" aria-selected="true" data-panel="login-form">Log in</button>
+                <button class="auth-tab" id="tab-signup" role="tab" aria-selected="false" data-panel="signup-form">Sign up</button>
+            </div>
+
+            <p id="auth-message" class="auth-message" hidden></p>
+
+            <!-- LOG IN -->
+            <form id="login-form" class="auth-form">
+                <label class="auth-label">Email
+                    <input class="auth-input" name="email" type="email" autocomplete="email" required>
+                </label>
+                <label class="auth-label">Password
+                    <input class="auth-input" name="password" type="password" autocomplete="current-password" required>
+                </label>
+                <button class="auth-button" type="submit">Log in</button>
+                <p class="auth-switch">No account yet? <a href="#signup" data-switch="signup-form">Sign up</a></p>
+            </form>
+
+            <!-- SIGN UP -->
+            <form id="signup-form" class="auth-form" hidden>
+                <label class="auth-label">Full name
+                    <input class="auth-input" name="full_name" autocomplete="name" required maxlength="80">
+                    <span class="auth-hint">Use the name the club knows you by, so we can match your sessions.</span>
+                </label>
+                <label class="auth-label">Email
+                    <input class="auth-input" name="email" type="email" autocomplete="email" required>
+                </label>
+                <label class="auth-label">Password
+                    <input class="auth-input" name="password" type="password" autocomplete="new-password" required minlength="6">
+                </label>
+                <label class="auth-label">Confirm password
+                    <input class="auth-input" name="confirm" type="password" autocomplete="new-password" required minlength="6">
+                </label>
+
+                <fieldset class="role-choice">
+                    <legend class="auth-label">I'm applying as a…</legend>
+                    <label class="role-option">
+                        <input type="radio" name="role" value="student" checked>
+                        <span class="role-title">Student</span>
+                        <span class="role-desc">I want tutoring sessions</span>
+                    </label>
+                    <label class="role-option">
+                        <input type="radio" name="role" value="tutor">
+                        <span class="role-title">Tutor</span>
+                        <span class="role-desc">I want to teach others</span>
+                    </label>
+                </fieldset>
+                <p class="auth-hint">An admin reviews every new account before it's activated.</p>
+
+                <button class="auth-button" type="submit">Create account</button>
+                <p class="auth-switch">Already have an account? <a href="#login" data-switch="login-form">Log in</a></p>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

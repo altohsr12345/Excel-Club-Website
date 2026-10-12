@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My account · Excel Club</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/auth.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <script type="module" src="../js/account.js"></script>
+</head>
+<body id="auth">
+    <div id="stickyheader">
+        <button class="HeaderButton" id="excelreturn"><span class="btn-label">excel club</span></button>
+        <button class="HeaderButton" id="ourtutors"><span class="btn-label">our tutors</span></button>
+    </div>
+
+    <main class="auth-page">
+        <section class="auth-card wide">
+            <p class="auth-loading" id="loading">Loading your account…</p>
+
+            <div id="account" hidden>
+                <div class="account-head">
+                    <div>
+                        <h1 class="auth-title" id="acc-name"></h1>
+                        <p class="auth-muted" id="acc-email"></p>
+                    </div>
+                    <span class="badge" id="acc-role"></span>
+                </div>
+
+                <p id="auth-message" class="auth-message" hidden></p>
+
+                <!-- shown while waiting for an admin -->
+                <div id="pending-box" class="panel" hidden>
+                    <h2 class="panel-title">Application received</h2>
+                    <p>You applied as a <strong id="acc-requested"></strong>. An admin will review your account soon —
+                       you'll get access once it's approved. You can close this page and log in again later.</p>
+                </div>
+
+                <!-- approved students -->
+                <div id="student-box" class="panel" hidden>
+                    <h2 class="panel-title">My sessions</h2>
+                    <div id="my-sessions"></div>
+                    <p class="auth-hint">Requesting sessions with a tutor is coming soon.</p>
+                </div>
+
+                <!-- approved tutors (and admins) -->
+                <div id="staff-box" class="panel" hidden>
+                    <h2 class="panel-title">Top subjects</h2>
+                    <div id="subject-stats"></div>
+                    <p class="auth-hint">Editing your tutor profile and creating sessions are coming soon.</p>
+                </div>
+
+                <!-- admins only -->
+                <div id="admin-box" class="panel" hidden>
+                    <h2 class="panel-title">Admin</h2>
+                    <p><a class="auth-link" href="admin.html">Review pending sign-ups →</a></p>
+                </div>
+
+                <button class="auth-button secondary" id="logout">Log out</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
