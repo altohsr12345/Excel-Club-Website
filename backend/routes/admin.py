@@ -6,13 +6,15 @@ from pydantic import BaseModel
 from auth import ROLES, require_role
 from db import sb
 
-router = APIRouter(prefix="/api/admin", tags=["admin"])
-
 is_admin = require_role("admin")
+
+# every route in here is admin only, so new endpoints cant forget the check.
+# routes that need the admin's own profile can still Depends(is_admin), fastapi reuses the same result per request
+router = APIRouter(prefix="/api/admin", tags=["admin"], dependencies=[Depends(is_admin)])
 
 
 @router.get("/pending")
-def pending(profile: dict = Depends(is_admin)):
+def pending():
     """
     shows the accs waiting for approval; first in first out
     """
