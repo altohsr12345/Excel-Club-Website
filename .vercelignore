@@ -1,0 +1,13 @@
+# not needed by the deployed site
+.venv
+backend/.venv
+.idea
+.claude
+**/__pycache__
+sample_sessions.csv
+backend/data
+backend/scripts
+backend/uv.lock
+supabase
+frontend/html/auth_test.html
+package.json

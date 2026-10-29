@@ -54,3 +54,16 @@ export function table(headers, rows) {
     ]),
   ]);
 }
+
+/** "2026-10-28" -> "28 Oct 2026" in the visitor's own date style */
+export function shortDate(iso) {
+  if (!iso) return "";
+  return new Date(`${iso}T00:00:00`).toLocaleDateString(undefined, { day: "numeric", month: "short", year: "numeric" });
+}
+
+/** 95 -> "1h 35m", 45 -> "45 min" */
+export function lengthText(mins) {
+  if (!mins) return "";
+  const h = Math.floor(mins / 60), m = mins % 60;
+  return h ? `${h}h${m ? ` ${m}m` : ""}` : `${m} min`;
+}

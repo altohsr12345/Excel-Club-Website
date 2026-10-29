@@ -1,0 +1,300 @@
+/* tutor pages: tutor home (tutor.html) and the profile editor (tutor-profile.html).
+   loads after auth.css + admin.css and uses their colour variables, tiles and panels */
+
+.tiles.four { grid-template-columns: repeat(4, 1fr); }
+
+/* form on the left, the session list on the right; stacked on narrower screens */
+.dash-grid.tutor-grid {
+    grid-template-columns: minmax(380px, 2fr) 3fr;
+    align-items: start;
+}
+
+/* ── profile editor ───────────────────────────────────────────────────── */
+
+.dash-grid.profile-grid {
+    grid-template-columns: 3fr 2fr;
+    align-items: start;
+}
+.dash-grid .panel.session-form { margin-top: 0; }
+
+/* the preview follows you down the page while you edit */
+.preview-panel {
+    position: sticky;
+    top: 80px;
+}
+.profile-status {
+    margin: 14px 0 0;
+    font-size: 0.85rem;
+    color: var(--muted);
+}
+
+.char-count { align-self: flex-end; }
+.align-center { align-self: center; }
+
+/* banners on the cream section, e.g. "you're not on the tutors page yet" */
+.notice {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px 16px;
+    margin: 0 0 24px;
+    padding: 14px 18px;
+    border-radius: 12px;
+    background: var(--card-b);
+    border-left: 3px solid var(--ink);
+    font-size: 0.9rem;
+}
+
+.auth-tabs.inline {
+    margin: 0;
+    gap: 20px;
+}
+
+/* ── new session form ─────────────────────────────────────────────────── */
+
+.session-form,
+.wrap-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 8px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.form-row .grow { flex: 1 1 160px; }
+
+.form-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+textarea.auth-input {
+    min-height: 80px;
+    resize: vertical;
+    font-size: 0.9rem;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+.checkbox-label input {
+    width: 18px;
+    height: 18px;
+    accent-color: var(--ink);
+}
+
+/* student picker: chips for who's picked, a dropdown of suggestions under the search box */
+.picker { position: relative; }
+
+.chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 8px;
+}
+.chips:empty { display: none; }
+
+.chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 4px 4px 12px;
+    font-size: 0.85rem;
+    background: var(--card-b);
+    border-radius: 999px;
+    box-shadow: 0 2px 4px rgba(15, 23, 42, 0.08);
+}
+.chip button {
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 999px;
+    background: transparent;
+    font-size: 1rem;
+    line-height: 1;
+    cursor: pointer;
+}
+.chip button:hover { background: var(--sand); }
+
+.suggestions {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: 10;
+    max-height: 280px;
+    overflow-y: auto;
+
+    margin: 4px 0 0;
+    padding: 6px;
+    list-style: none;
+
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: var(--shadow-lift);
+}
+
+.suggestion {
+    width: 100%;
+    padding: 9px 10px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9rem;
+    color: var(--ink);
+    cursor: pointer;
+}
+.suggestion:hover,
+.suggestion:focus-visible {
+    outline: none;
+    background: var(--card-a);
+}
+.suggestion-add { font-weight: 500; }
+
+.suggestion-head {
+    padding: 6px 10px 4px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+}
+
+.new-student {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px;
+    background: var(--card-a);
+    border-radius: 16px;
+}
+.new-student-title {
+    margin: 0;
+    font-size: 1.05rem;
+    letter-spacing: -0.04em;
+}
+
+.match-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 6px;
+}
+
+/* ── session list ─────────────────────────────────────────────────────── */
+
+.session-card {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: start;
+    gap: 16px;
+    padding: 16px 4px;
+    border-bottom: 1px solid var(--line);
+}
+.session-card:last-child { border-bottom: none; }
+.session-card.cancelled { opacity: 0.55; }
+
+.date-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 56px;
+    padding: 8px 0 6px;
+    background: var(--card-a);
+    border-radius: 12px;
+}
+.session-card.approved .date-block { background: var(--card-b); }
+
+.date-day {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 800;
+    font-size: 1.8rem;
+    line-height: 1;
+}
+.date-month {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+}
+
+.session-main p { margin: 0; }
+.session-subject {
+    font-size: 1.05rem;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+}
+.session-students {
+    margin: 2px 0 !important;
+    font-size: 0.9rem;
+}
+.session-comment {
+    margin-top: 8px !important;
+    padding-left: 10px;
+    border-left: 2px solid var(--ink);
+    font-size: 0.85rem;
+    white-space: pre-line;
+}
+
+.session-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+.wrap-form {
+    grid-column: 1 / -1;
+    margin: 0;
+    padding: 16px;
+    background: var(--card-a);
+    border-radius: 16px;
+}
+
+.badge.approved  { background: var(--card-b); }
+.badge.due       { background: #f6e3df; color: #7a2a20; }
+.badge.completed { background: #e4efe3; color: #2d5a2b; }
+.badge.cancelled { background: var(--sand); }
+
+@media (max-width: 1100px) {
+    .dash-grid.tutor-grid { grid-template-columns: 1fr; gap: 0; }
+}
+
+@media (max-width: 900px) {
+    .tiles.four { grid-template-columns: repeat(2, 1fr); }
+    .dash-grid.profile-grid { grid-template-columns: 1fr; gap: 0; }
+    .preview-panel { position: static; }
+}
+
+@media (max-width: 500px) {
+    .auth-tabs.inline {
+        width: 100%;
+        justify-content: space-between;
+        gap: 8px;
+    }
+    .auth-tabs.inline .auth-tab {
+        font-size: 0.72rem;
+        letter-spacing: 0.03em;
+        white-space: nowrap;
+    }
+    .session-card { grid-template-columns: auto 1fr; }
+    .session-side {
+        grid-column: 1 / -1;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}

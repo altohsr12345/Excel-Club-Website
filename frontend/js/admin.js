@@ -1,11 +1,12 @@
 import { apiFetch, apiPost, errorDetail, getMe, logout } from "./supabaseClient.js";
-import { el, setBusy, showMessage, table, wireHeader, ROLE_LABELS } from "./ui.js";
+import { el, lengthText, setBusy, shortDate, showMessage, table, wireHeader, ROLE_LABELS } from "./ui.js";
 
 wireHeader();
 document.getElementById("logout").addEventListener("click", logout);
 
 const $ = (id) => document.getElementById(id);
 const message = $("auth-message");
+message.addEventListener("click", () => (message.hidden = true));
 
 let me = null;
 let members = [];
@@ -140,8 +141,35 @@ function renderMembers() {
     el("td", { text: m.email, className: "muted-cell" }),
     el("td", { text: new Date(m.created_at).toLocaleDateString(), className: "muted-cell" }),
     el("td", {}, [m.id === me.id ? el("span", { className: "badge admin", text: "you" }) : memberRole(m)]),
+    el("td", {}, publicProfile(m)),
   ]));
-  $("member-list").replaceChildren(table(["Name", "Email", "Joined", "Role"], rows));
+  $("member-list").replaceChildren(table(["Name", "Email", "Joined", "Role", "Tutors page"], rows));
+}
+
+/** whether they show on the public tutors page, plus a hide/unhide button for admins */
+function publicProfile(m) {
+  const p = m.public_profile;
+  if (!p) return [el("span", { className: "muted-cell", text: "No profile" })];
+
+  // the public page only shows approved tutors/admins, whatever their profile says
+  const state = p.hidden_by_admin ? "Hidden by admin"
+    : !["tutor", "admin"].includes(m.role) ? "Not shown (not a tutor)"
+    : p.listed ? "Visible" : "Hidden by them";
+  const btn = el("button", { className: "auth-button small secondary", type: "button",
+                             text: p.hidden_by_admin ? "Unhide" : "Hide" });
+  btn.addEventListener("click", async () => {
+    const hide = !p.hidden_by_admin;
+    if (hide && !confirm(`Hide ${m.full_name}'s profile from the public tutors page?`)) return;
+    setBusy(btn, true, "…");
+    const res = await apiPost("/api/admin/tutor-profile/hidden", { user_id: m.id, hidden: hide });
+    setBusy(btn, false);
+    if (!res.ok) return showMessage(message, await errorDetail(res), "error");
+    p.hidden_by_admin = hide;
+    showMessage(message, hide ? `${m.full_name} is hidden from the tutors page.`
+                              : `${m.full_name} can be seen on the tutors page again.`, "success");
+    renderMembers();
+  });
+  return [el("span", { className: "profile-state", text: state }), btn];
 }
 
 function memberRole(m) {
@@ -191,12 +219,12 @@ async function loadRecent() {
   if (!sessions.length) return $("recent-sessions").replaceChildren(muted("No sessions yet."));
 
   const rows = sessions.map(s => el("tr", {}, [
-    el("td", { text: s["planned date"] }),
-    el("td", { text: s["tutor name"] }),
+    el("td", { text: shortDate(s.planned_date) }),
+    el("td", { text: s.tutor_name }),
     el("td", { text: s.students }),
     el("td", { text: s.subject }),
-    el("td", { text: s.location, className: "muted-cell" }),
-    el("td", { text: s.duration, className: "num" }),
+    el("td", { text: s.location || "", className: "muted-cell" }),
+    el("td", { text: s.status === "completed" ? lengthText(s.duration_minutes) : s.status, className: "num" }),
   ]));
   $("recent-sessions").replaceChildren(
     table(["Date", "Tutor", "Students", "Subject", "Where", ["Length", "num"]], rows));

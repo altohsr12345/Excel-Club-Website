@@ -1,17 +1,19 @@
 import math
-from pathlib import Path
 
-import pandas as pd
 from cachetools.func import ttl_cache
 
+from db import sb
 
-#will swap to supabase later once already done w feedback and initial qa
-DATA = Path(__file__).resolve().parent / ".."
+# supabase hands back at most 1000 rows per request, so bigger tables are read in pages
+PAGE = 1000
+
+SESSION_COLS = ("id, tutor_name, subject, planned_date, start_time, location, status, duration_minutes, "
+                "session_students(students(id, full_name, profile_id))")
 
 
-#just for the stupid gsheets duration structure
-def parse_duration(val: str) -> float:
-    if pd.isna(val):
+#just for the stupid gsheets duration structure (still used by scripts/import_sessions.py)
+def parse_duration(val) -> float:
+    if val is None or (isinstance(val, float) and math.isnan(val)):
         return math.nan
     parts = str(val).strip().split(":")
     try:
@@ -27,19 +29,31 @@ def parse_duration(val: str) -> float:
 
     return math.nan
 
-@ttl_cache(ttl=300)
-def load_sessions() -> pd.DataFrame:
-    df = pd.read_csv(DATA / "sample_sessions.csv")
-    df.columns = df.columns.str.strip().str.lower()
-    df = df.dropna(subset=["tutor name"])
-    df["minutes"] = df["duration"].map(parse_duration)
-    bad = df["minutes"].isna().sum()
-    if bad:
-        print(f"{bad} unreadable")
-    return df
+
+@ttl_cache(ttl=120)
+def all_sessions() -> list[dict]:
+    """
+    every session with its students, newest planned date first. cached for 2 mins;
+    the tutor routes clear it when sessions change so the stats catch up straight away
+    """
+    rows, start = [], 0
+    while True:
+        page = (sb.table("sessions")
+                  .select(SESSION_COLS)
+                  .order("planned_date", desc=True)
+                  .order("id", desc=True)
+                  .range(start, start + PAGE - 1)
+                  .execute().data)
+        rows += page
+        if len(page) < PAGE:
+            break
+        start += PAGE
+
+    for r in rows:
+        links = r.pop("session_students", None) or []
+        r["students"] = [l["students"] for l in links if l.get("students")]
+    return rows
 
 
-def distinct_students(df: pd.DataFrame) -> int:
-    return int(df["students"].dropna().str.split(",").explode().str.strip().nunique())
-
-#test function for basic stats
+def completed_sessions() -> list[dict]:
+    return [s for s in all_sessions() if s["status"] == "completed"]

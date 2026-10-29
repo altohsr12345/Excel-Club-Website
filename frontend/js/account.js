@@ -1,5 +1,5 @@
 import { apiFetch, errorDetail, getMe, logout } from "./supabaseClient.js";
-import { el, showMessage, table, wireHeader, ROLE_LABELS } from "./ui.js";
+import { el, lengthText, shortDate, showMessage, table, wireHeader, ROLE_LABELS } from "./ui.js";
 
 wireHeader();
 document.getElementById("logout").addEventListener("click", logout);
@@ -17,6 +17,7 @@ if (status !== 200) {
 
 function render(p) {
   if (p.approved && p.role === "admin") return window.location.replace("admin.html");
+  if (p.approved && p.role === "tutor") return window.location.replace("tutor.html");
 
   $("loading").hidden = true;
   $("account").hidden = false;
@@ -57,10 +58,10 @@ async function loadMySessions() {
     return;
   }
   const rows = sessions.map(s => el("tr", {}, [
-    el("td", { text: s["planned date"] }),
+    el("td", { text: shortDate(s.planned_date) }),
     el("td", { text: s.subject }),
-    el("td", { text: s["tutor name"] }),
-    el("td", { text: s.duration }),
+    el("td", { text: s.tutor_name }),
+    el("td", { text: s.status === "completed" ? lengthText(s.duration_minutes) : "upcoming" }),
   ]));
   box.replaceChildren(table(["Date", "Subject", "Tutor", "Duration"], rows));
 }

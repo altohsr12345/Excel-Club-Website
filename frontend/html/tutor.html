@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutor home · Excel Club</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/auth.css">
+    <!-- tiles / panel layout are shared with the control panel -->
+    <link rel="stylesheet" href="../css/admin.css">
+    <link rel="stylesheet" href="../css/tutor.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@800&family=Poppins:wght@400;500&family=Readex+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <script type="module" src="../js/tutor.js"></script>
+</head>
+<body id="auth">
+    <div id="stickyheader">
+        <button class="HeaderButton" id="excelreturn"><span class="btn-label">excel club</span></button>
+        <button class="HeaderButton" id="ourtutors"><span class="btn-label">our tutors</span></button>
+    </div>
+
+    <main class="dash">
+        <header class="dash-head">
+            <div>
+                <h1 class="dash-title">tutor home.</h1>
+                <p class="dash-sub" id="greeting">loading…</p>
+            </div>
+            <div class="head-actions">
+                <a class="auth-link" href="tutor-profile.html">My public profile →</a>
+                <a class="auth-link" id="panel-link" href="admin.html" hidden>Control panel →</a>
+                <button class="auth-button secondary small" id="logout" type="button">Log out</button>
+            </div>
+        </header>
+
+        <!-- floats at the bottom of the screen so it's seen wherever you are on the page; click to dismiss -->
+        <p id="auth-message" class="auth-message" hidden></p>
+        <p class="auth-loading" id="loading">Loading…</p>
+
+        <div id="home" hidden>
+            <section class="dash-stats">
+                <div class="tiles four">
+                    <div class="tile"><p class="tile-num" id="t-upcoming">–</p><p class="tile-label">upcoming</p></div>
+                    <div class="tile" id="t-wrapup-tile"><p class="tile-num" id="t-wrapup">–</p><p class="tile-label">to wrap up</p></div>
+                    <div class="tile"><p class="tile-num" id="t-hours">–</p><p class="tile-label">hours tutored</p></div>
+                    <div class="tile"><p class="tile-num" id="t-students">–</p><p class="tile-label">students taught</p></div>
+                </div>
+            </section>
+
+            <section class="dash-body">
+                <p class="notice" id="profile-notice" hidden>
+                    <span>You're not on the public tutors page yet. Add your subjects and a short intro so students can find you.</span>
+                    <a class="auth-button small" href="tutor-profile.html">Set up my profile</a>
+                </p>
+
+                <div class="dash-grid tutor-grid">
+                    <!-- LOG A SESSION -->
+                    <div class="panel">
+                        <div class="panel-head">
+                            <h2 class="panel-title">log a session</h2>
+                            <button class="auth-button small" id="toggle-form" type="button" aria-expanded="false">+ New session</button>
+                        </div>
+
+                        <form id="session-form" class="session-form" hidden>
+                            <div class="auth-label">Students
+                                <div class="picker" id="picker">
+                                    <div class="chips" id="chips"></div>
+                                    <input class="auth-input" id="student-search" type="search" autocomplete="off"
+                                           placeholder="Type a name to search the student list" aria-label="Search students"
+                                           aria-controls="suggestions">
+                                    <ul class="suggestions" id="suggestions" role="listbox" hidden></ul>
+                                </div>
+                            </div>
+
+                            <!-- only shown when the tutor chooses to add someone new -->
+                            <div class="new-student" id="new-student" hidden>
+                                <p class="new-student-title">add a new student</p>
+                                <div class="form-row">
+                                    <label class="auth-label grow">Full name
+                                        <input class="auth-input" id="ns-name" maxlength="80">
+                                    </label>
+                                    <label class="auth-label">Grade
+                                        <select class="auth-input" id="ns-grade">
+                                            <option value="">–</option>
+                                            <option>7</option><option>8</option><option>9</option><option>10</option>
+                                            <option>11</option><option>12</option><option>13</option>
+                                        </select>
+                                    </label>
+                                </div>
+                                <div id="ns-matches"></div>
+                                <div class="form-actions">
+                                    <button class="auth-button small" id="ns-save" type="button">Add student</button>
+                                    <button class="auth-button small secondary" id="ns-cancel" type="button">Never mind</button>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <label class="auth-label grow">Subject
+                                    <input class="auth-input" name="subject" list="subject-options" maxlength="100" required
+                                           placeholder="e.g. AS Physics">
+                                </label>
+                                <label class="auth-label grow">Location
+                                    <input class="auth-input" name="location" list="location-options" maxlength="100"
+                                           placeholder="e.g. Library">
+                                </label>
+                            </div>
+                            <div class="form-row">
+                                <label class="auth-label grow">Date
+                                    <input class="auth-input" name="planned_date" type="date" required>
+                                </label>
+                                <label class="auth-label grow">Start time
+                                    <input class="auth-input" name="start_time" type="time">
+                                </label>
+                                <label class="auth-label grow">Planned length
+                                    <select class="auth-input" name="planned_minutes">
+                                        <option value="30">30 min</option>
+                                        <option value="45">45 min</option>
+                                        <option value="60" selected>1 hour</option>
+                                        <option value="90">1.5 hours</option>
+                                        <option value="120">2 hours</option>
+                                    </select>
+                                </label>
+                            </div>
+
+                            <div class="form-actions">
+                                <button class="auth-button" type="submit">Save session</button>
+                            </div>
+
+                            <datalist id="subject-options"></datalist>
+                            <datalist id="location-options"></datalist>
+                        </form>
+                    </div>
+
+                    <!-- MY SESSIONS -->
+                    <div class="panel">
+                        <div class="panel-head">
+                            <h2 class="panel-title">my sessions</h2>
+                            <div class="auth-tabs inline" role="tablist">
+                                <button class="auth-tab active" role="tab" aria-selected="true" data-view="wrapup" type="button">To wrap up</button>
+                                <button class="auth-tab" role="tab" aria-selected="false" data-view="upcoming" type="button">Upcoming</button>
+                                <button class="auth-tab" role="tab" aria-selected="false" data-view="past" type="button">Past</button>
+                            </div>
+                        </div>
+                        <div id="session-list"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

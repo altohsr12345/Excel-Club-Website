@@ -12,13 +12,15 @@ export async function apiFetch(path, options = {}) {
   return fetch(API + path, { ...options, headers });
 }
 
-export function apiPost(path, body) {
+export function apiPost(path, body, method = "POST") {
   return apiFetch(path, {
-    method: "POST",
+    method,
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(body),
   });
 }
+
+export const apiPatch = (path, body) => apiPost(path, body, "PATCH");
 
 // pulls the message out of a failed response; fastapi sends {detail: "..."} or a list for validation errors
 export async function errorDetail(res) {

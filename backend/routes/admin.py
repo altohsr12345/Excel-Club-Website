@@ -1,12 +1,12 @@
 from uuid import UUID
 
-import pandas as pd
 from fastapi import APIRouter, Depends, HTTPException, Query
 from pydantic import BaseModel
 
 from auth import ROLES, require_role
-from datafuncs import load_sessions
+from datafuncs import all_sessions
 from db import sb
+from routes.public import public_tutors
 
 is_admin = require_role("admin")
 
@@ -73,13 +73,40 @@ def reject(body: Rejection, profile: dict = Depends(is_admin)):
 @router.get("/users")
 def users():
     """
-    everyone already approved, for the members table on the control panel
+    everyone already approved, for the members table on the control panel.
+    public_profile is their tutors page profile ({listed, hidden_by_admin}) or None if they havent made one
     """
-    return (sb.table("profiles")
+    rows = (sb.table("profiles")
               .select("id, full_name, email, role, created_at")
               .eq("approved", True)
               .order("full_name")
               .execute().data)
+    public = {p["tutor_id"]: p for p in
+              sb.table("tutor_profiles").select("tutor_id, listed, hidden_by_admin").execute().data}
+    for r in rows:
+        p = public.get(r["id"])
+        r["public_profile"] = {"listed": p["listed"], "hidden_by_admin": p["hidden_by_admin"]} if p else None
+    return rows
+
+
+class Visibility(BaseModel):
+    user_id: UUID
+    hidden: bool
+
+
+@router.post("/tutor-profile/hidden")
+def hide_tutor_profile(body: Visibility):
+    """
+    hides (or unhides) someone's profile on the public tutors page. the tutor cant undo this themselves
+    """
+    updated = (sb.table("tutor_profiles")
+                 .update({"hidden_by_admin": body.hidden})
+                 .eq("tutor_id", str(body.user_id))
+                 .execute().data)
+    if not updated:
+        raise HTTPException(404, "that person has no public profile")
+    public_tutors.cache_clear()
+    return {"ok": True}
 
 
 @router.post("/role")
@@ -105,10 +132,14 @@ def change_role(body: Approval, profile: dict = Depends(is_admin)):
 @router.get("/sessions/recent")
 def recent_sessions(limit: int = Query(10, ge=1, le=100)):
     """
-    latest sessions by planned date. still reads the CSV like everything else in datafuncs
+    latest sessions by planned date, any status, with their students' names
     """
-    df = load_sessions()
-    dates = pd.to_datetime(df["planned date"], format="%d/%m/%Y", errors="coerce")
-    recent = df.assign(_date=dates).sort_values("_date", ascending=False).head(limit)
-    cols = ["planned date", "tutor name", "students", "subject", "duration", "location"]
-    return recent[cols].fillna("").to_dict(orient="records")
+    return [{
+        "planned_date": s["planned_date"],
+        "tutor_name": s["tutor_name"],
+        "students": ", ".join(st["full_name"] for st in s["students"]),
+        "subject": s["subject"],
+        "location": s["location"],
+        "status": s["status"],
+        "duration_minutes": s["duration_minutes"],
+    } for s in all_sessions()[:limit]]

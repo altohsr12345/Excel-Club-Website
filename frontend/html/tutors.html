@@ -8,10 +8,12 @@
 
 
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/tutorcard.css">
     <link rel="stylesheet" href="https://cloudflare.com">
     <link rel="stylesheet" href="https://googleapis.com">
     <script src="../js/functions.js" defer></script>
-    <script src="../js/tutors.js" defer></script>
+    <!-- a module so it can share the card code; still runs after functions.js -->
+    <script type="module" src="../js/tutors.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Varela+Round&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Miranda+Sans:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Varela+Round&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Varela+Round&display=swap" rel="stylesheet">
@@ -57,7 +59,13 @@
         <button id="g12" class="grade-button" data-grade="12">Grade 12</button>
     </div>
 
-    <div id="tutorsContainer"></div>
+    <div class="tutor-filters">
+        <select id="subject-filter" class="subject-filter" aria-label="Filter tutors by subject">
+            <option value="">All subjects</option>
+        </select>
+    </div>
+
+    <div id="tutorsContainer" class="card-grid"></div>
 
     <br><br><br><br><br>
 

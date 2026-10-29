@@ -17,21 +17,25 @@
         <button class="HeaderButton" id="ourtutors"><span class="btn-label">our tutors</span></button>
     </div>
 
-    <main class="auth-page top">
-        <section class="auth-card dashboard">
-            <div class="account-head">
-                <div>
-                    <h1 class="auth-title">control panel.</h1>
-                    <p class="auth-sub left" id="greeting">loading…</p>
-                </div>
+    <main class="dash">
+        <header class="dash-head">
+            <div>
+                <h1 class="dash-title">control panel.</h1>
+                <p class="dash-sub" id="greeting">loading…</p>
+            </div>
+            <div class="head-actions">
+                <a class="auth-link" href="tutor.html">My sessions →</a>
                 <button class="auth-button secondary small" id="logout" type="button">Log out</button>
             </div>
+        </header>
 
-            <p id="auth-message" class="auth-message" hidden></p>
-            <p class="auth-loading" id="loading">Loading…</p>
+        <!-- floats at the bottom of the screen so it's seen wherever you are on the page; click to dismiss -->
+        <p id="auth-message" class="auth-message" hidden></p>
+        <p class="auth-loading" id="loading">Loading…</p>
 
-            <div id="panel" hidden>
-                <!-- big numbers, same type as the landing page stats -->
+        <div id="panel" hidden>
+            <!-- big numbers on a sand band, like the landing page stats -->
+            <section class="dash-stats">
                 <div class="tiles">
                     <div class="tile"><p class="tile-num" id="t-sessions">–</p><p class="tile-label">sessions held</p></div>
                     <div class="tile"><p class="tile-num" id="t-hours">–</p><p class="tile-label">hours tutored</p></div>
@@ -40,7 +44,9 @@
                     <div class="tile"><p class="tile-num" id="t-members">–</p><p class="tile-label">site members</p></div>
                     <div class="tile accent"><p class="tile-num" id="t-pending">–</p><p class="tile-label">waiting approval</p></div>
                 </div>
+            </section>
 
+            <section class="dash-body">
                 <div class="dash-grid">
                     <div class="panel">
                         <h2 class="panel-title">pending sign-ups</h2>
@@ -76,8 +82,8 @@
                     <h2 class="panel-title">recent sessions</h2>
                     <div id="recent-sessions"></div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
     </main>
 </body>
 </html>

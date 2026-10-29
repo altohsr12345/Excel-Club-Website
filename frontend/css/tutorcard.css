@@ -1,0 +1,116 @@
+/* tutor cards (js/tutorCard.js): the public tutors page and the profile editor's preview.
+   same colours as the old .tutorcard, but the height grows with the content since bios vary */
+
+.tcard {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 22px;
+
+    background: #f1efe6;
+    color: #152025;
+    border-radius: 15px;
+    box-shadow: 0 5px 12px rgba(15, 23, 42, 0.12);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.tcard:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.18);
+}
+
+.tcard-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 4px 12px;
+}
+.tcard-name {
+    margin: 0;
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+}
+.tcard-grade {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #6f6f6f;
+}
+
+.tcard-subjects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.tcard-subjects li {
+    padding: 4px 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.78rem;
+    background: #ffffff;
+    border-radius: 999px;
+}
+.tcard-subjects b { font-weight: 600; }
+
+.tcard-bio,
+.tcard-empty {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.88rem;
+    line-height: 1.5;
+    color: #3a4348;
+    white-space: pre-line;      /* keep the tutor's line breaks */
+    overflow-wrap: anywhere;
+}
+.tcard-empty { color: #8e8e8e; font-style: italic; }
+
+/* ── public tutors page ─────────────────────────────────────────────── */
+
+#tutorsContainer.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    align-items: start;
+    gap: 20px;
+    width: min(1200px, calc(100% - 32px));
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.tutor-filters {
+    display: flex;
+    justify-content: center;
+    margin: 12px 16px 20px;
+}
+.subject-filter {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0 4px 5px rgba(15, 23, 42, 0.05);
+    font-family: "Readex Pro", sans-serif;
+    font-size: 0.95rem;
+    color: #111827;
+    cursor: pointer;
+    max-width: 100%;
+}
+
+/* the grade buttons already exist in style.css; this marks the one in use */
+.grade-button.selected {
+    outline: 2px solid #0F191E;
+    outline-offset: 2px;
+}
+
+.tutors-note {
+    grid-column: 1 / -1;
+    margin: 20px 0;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: #8e8e8e;
+}

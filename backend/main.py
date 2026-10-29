@@ -7,7 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import RedirectResponse
 from fastapi.staticfiles import StaticFiles
 
-from routes import account, admin, stats
+from routes import account, admin, public, stats, tutor
 
 
 
@@ -30,6 +30,8 @@ app.add_middleware(
 app.include_router(account.router)
 app.include_router(admin.router)
 app.include_router(stats.router)
+app.include_router(tutor.router)
+app.include_router(public.router)
 
 
 

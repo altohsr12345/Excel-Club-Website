@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My profile · Excel Club</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/auth.css">
+    <link rel="stylesheet" href="../css/admin.css">
+    <link rel="stylesheet" href="../css/tutor.css">
+    <link rel="stylesheet" href="../css/tutorcard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Readex+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+    <script type="module" src="../js/tutor-profile.js"></script>
+</head>
+<body id="auth">
+    <div id="stickyheader">
+        <button class="HeaderButton" id="excelreturn"><span class="btn-label">excel club</span></button>
+        <button class="HeaderButton" id="ourtutors"><span class="btn-label">our tutors</span></button>
+    </div>
+
+    <main class="dash">
+        <header class="dash-head">
+            <div>
+                <h1 class="dash-title">my profile.</h1>
+                <p class="dash-sub">this is how you'll appear on the public tutors page.</p>
+            </div>
+            <div class="head-actions">
+                <a class="auth-link" href="tutor.html">← Tutor home</a>
+                <button class="auth-button secondary small" id="logout" type="button">Log out</button>
+            </div>
+        </header>
+
+        <!-- floats at the bottom of the screen; click to dismiss -->
+        <p id="auth-message" class="auth-message" hidden></p>
+        <p class="auth-loading" id="loading">Loading…</p>
+
+        <div id="editor" hidden>
+            <section class="dash-body">
+                <p class="notice" id="hidden-notice" hidden>
+                    An admin has hidden your profile from the tutors page, so visitors can't see it right now.
+                    Ask an admin if you think that's a mistake.
+                </p>
+
+                <div class="dash-grid profile-grid">
+                    <form class="panel session-form" id="profile-form">
+                        <h2 class="panel-title">edit</h2>
+
+                        <div class="form-row">
+                            <label class="auth-label grow">Display name
+                                <input class="auth-input" name="display_name" maxlength="40" required autocomplete="off">
+                                <span class="auth-hint">Your first name is enough. Visitors see this.</span>
+                            </label>
+                            <label class="auth-label">Grade
+                                <select class="auth-input" name="grade">
+                                    <option value="">–</option>
+                                    <option>7</option><option>8</option><option>9</option><option>10</option>
+                                    <option>11</option><option>12</option><option>13</option>
+                                </select>
+                            </label>
+                        </div>
+
+                        <div class="auth-label">Subjects you teach
+                            <div class="picker" id="picker">
+                                <div class="chips" id="chips"></div>
+                                <input class="auth-input" id="subject-search" type="search" autocomplete="off"
+                                       placeholder="Search, e.g. “as physics” or “igcse”" aria-label="Search subjects"
+                                       aria-controls="suggestions">
+                                <ul class="suggestions" id="suggestions" role="listbox" hidden></ul>
+                            </div>
+                            <span class="auth-hint">Can't find a subject? Ask an admin to add it to the list.</span>
+                        </div>
+
+                        <label class="auth-label">About me
+                            <textarea class="auth-input" name="bio" maxlength="400" rows="5"
+                                      placeholder="How do you like to teach? e.g. Patient, likes working through past papers together, happy to go over basics again."></textarea>
+                            <span class="auth-hint char-count" id="bio-count">0 / 400</span>
+                        </label>
+
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="listed" checked>
+                            Show me on the public tutors page
+                        </label>
+
+                        <div class="form-actions">
+                            <button class="auth-button" type="submit">Save profile</button>
+                            <a class="auth-link align-center" href="tutors.html" target="_blank">See the tutors page ↗</a>
+                        </div>
+                    </form>
+
+                    <div class="panel preview-panel">
+                        <h2 class="panel-title">preview</h2>
+                        <div id="preview"></div>
+                        <p class="profile-status" id="status"></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

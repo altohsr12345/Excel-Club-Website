@@ -1,48 +1,146 @@
-/* control panel (admin.html) only. loads after auth.css and uses its colour variables,
-   cards, panels and tables */
+/* full-page dashboard layout for the control panel (admin.html), also used by tutor home (tutor.html).
+   follows the landing page's order: big title on the grey page, a sand band of big numbers,
+   then a cream section holding the panels. loads after auth.css and uses its variables, panels and tables */
 
-.auth-page.top { align-items: flex-start; }
-.auth-card.dashboard { width: min(1100px, 100%); }
-.auth-sub.left { text-align: left; }
+.dash {
+    /* side padding; past 1600px wide the content stops growing and centres instead */
+    --gutter: max(clamp(16px, 4vw, 64px), calc((100% - 1600px) / 2));
+    --tile-pad: clamp(12px, 2vw, 28px);
 
-/* number tiles use the landing page's barlow stat numbers */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    font-family: "Poppins", sans-serif;
+    color: var(--ink);
+}
+.dash *, .dash *::before, .dash *::after { box-sizing: border-box; }
+
+/* #panel / #home grow so the cream section reaches the bottom of the screen */
+.dash > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.dash-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 16px 24px;
+    padding: clamp(32px, 7vh, 80px) var(--gutter) clamp(24px, 4vh, 40px);
+    animation: textIn 0.8s var(--ease) both;
+}
+
+/* same type as the landing hero */
+.dash-title {
+    margin: 0;
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 700;
+    font-size: clamp(2.6rem, 6vw, 5rem);
+    letter-spacing: -0.05em;
+    line-height: 0.85;
+}
+.dash-sub {
+    margin: 12px 0 0;
+    font-family: "Readex Pro", sans-serif;
+    font-size: clamp(1rem, 1.6vw, 1.25rem);
+    letter-spacing: -0.04em;
+    color: var(--muted);
+}
+
+.head-actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.dash > .auth-loading { padding: 40px var(--gutter); }
+
+/* messages float at the bottom so they're seen wherever you've scrolled to; the page js hides them on click */
+.dash .auth-message {
+    position: fixed;
+    left: 50%;
+    bottom: 24px;
+    translate: -50% 0;
+    z-index: 1000;
+
+    width: max-content;
+    max-width: min(560px, calc(100vw - 32px));
+    margin: 0;
+    padding: 12px 18px;
+
+    box-shadow: var(--shadow-lift);
+    cursor: pointer;
+    animation: textIn 0.4s var(--ease) both;
+}
+
+/* ── number band ───────────────────────────────────────────────────────── */
+
+.dash-stats {
+    padding: clamp(24px, 4vh, 40px) var(--gutter);
+    background: var(--sand);
+}
+
+/* thin dividers between numbers; the negative margins + overflow hide the divider
+   on whichever tile starts a row, so it works for any column count */
 .tiles {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    gap: 14px;
-    margin-bottom: 24px;
+    row-gap: 24px;
+    margin: -8px 0 -8px calc(-1 * var(--tile-pad));
+    padding-block: 8px;   /* room for the accent tile, which pokes out 8px above and below */
+    overflow: hidden;
 }
 .tile {
-    padding: 18px 18px 14px;
-    background: var(--card-a);
-    border-radius: 16px;
-    box-shadow: var(--shadow);
+    margin-left: -1px;
+    padding: 6px var(--tile-pad);
+    border-left: 1px solid rgba(15, 25, 30, 0.15);
 }
-.tile:nth-child(even) { background: var(--card-b); }
 .tile.accent {
+    padding-block: 14px;
+    margin-block: -8px;
+    border-left-color: transparent;
+    border-radius: 16px;
     background: var(--ink);
     color: var(--cream);
 }
+
 .tile-num {
     margin: 0;
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 800;
-    font-size: 3.2rem;
-    line-height: 0.9;
+    font-size: clamp(3rem, 5.5vw, 5.5rem);
+    line-height: 0.85;
 }
 .tile-label {
-    margin: 6px 0 0;
-    font-size: 0.8rem;
-    letter-spacing: -0.01em;
-    opacity: 0.7;
+    margin: 8px 0 0;
+    font-family: "Readex Pro", sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: -0.02em;
+    color: #6f6f6f;
+}
+.tile.accent .tile-label { color: rgba(252, 251, 247, 0.7); }
+
+/* ── panels ────────────────────────────────────────────────────────────── */
+
+.dash-body {
+    flex: 1;
+    padding: clamp(28px, 5vh, 48px) var(--gutter) 96px;
+    background: var(--cream);
+}
+.dash-body .panel {
+    margin-bottom: 24px;
+    padding: 24px 28px;
 }
 
 .dash-grid {
     display: grid;
     grid-template-columns: 3fr 2fr;
-    gap: 20px;
+    gap: 24px;
 }
-.dash-grid .panel { margin-bottom: 20px; }
+.dash-grid .panel { margin-bottom: 24px; }
 
 .panel-head {
     display: flex;
@@ -57,6 +155,14 @@
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
+}
+
+/* "Visible" / "Hidden by admin" next to the hide button in the members table */
+.profile-state {
+    display: inline-block;
+    min-width: 110px;
+    margin-right: 8px;
+    font-size: 0.85rem;
 }
 
 .muted-cell { color: var(--muted); }
@@ -96,5 +202,6 @@
 
 @media (max-width: 500px) {
     .tiles { grid-template-columns: repeat(2, 1fr); }
-    .tile-num { font-size: 2.6rem; }
+    .dash-head { align-items: flex-start; }
+    .dash-body .panel { padding: 20px 18px; }
 }
