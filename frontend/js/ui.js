@@ -42,3 +42,15 @@ export function wireHeader() {
 }
 
 export const ROLE_LABELS = { student: "Student", tutor: "Tutor", admin: "Admin" };
+
+/** Simple table. headers: "Name" or ["Name", "className"] for that column's header. */
+export function table(headers, rows) {
+  return el("div", { className: "table-wrap" }, [
+    el("table", { className: "auth-table" }, [
+      el("thead", {}, [el("tr", {}, headers.map(h => Array.isArray(h)
+        ? el("th", { text: h[0], className: h[1] })
+        : el("th", { text: h })))]),
+      el("tbody", {}, rows),
+    ]),
+  ]);
+}

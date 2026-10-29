@@ -1,5 +1,5 @@
 import { apiFetch, errorDetail, getMe, logout } from "./supabaseClient.js";
-import { el, showMessage, wireHeader, ROLE_LABELS } from "./ui.js";
+import { el, showMessage, table, wireHeader, ROLE_LABELS } from "./ui.js";
 
 wireHeader();
 document.getElementById("logout").addEventListener("click", logout);
@@ -7,7 +7,7 @@ document.getElementById("logout").addEventListener("click", logout);
 const $ = (id) => document.getElementById(id);
 const message = $("auth-message");
 
-// ── Who am I? Not logged in → back to the login page ────────────────────────
+// who am I? Not logged in → back to the login page
 const { profile, status } = await getMe();
 if (status !== 200) {
   window.location.replace("login.html");
@@ -16,6 +16,8 @@ if (status !== 200) {
 }
 
 function render(p) {
+  if (p.approved && p.role === "admin") return window.location.replace("admin.html");
+
   $("loading").hidden = true;
   $("account").hidden = false;
 
@@ -76,15 +78,4 @@ async function loadSubjectStats() {
     el("td", { text: String(s.sessions), className: "num" }),
   ]));
   box.replaceChildren(table(["Subject", ["Sessions", "num"]], rows));
-}
-
-function table(headers, rows) {
-  return el("div", { className: "table-wrap" }, [
-    el("table", { className: "auth-table" }, [
-      el("thead", {}, [el("tr", {}, headers.map(h => Array.isArray(h)
-        ? el("th", { text: h[0], className: h[1] })
-        : el("th", { text: h })))]),
-      el("tbody", {}, rows),
-    ]),
-  ]);
 }

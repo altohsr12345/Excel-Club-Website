@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin · Excel Club</title>
+    <title>Control panel · Excel Club</title>
 
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/auth.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Readex+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/admin.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@800&family=Poppins:wght@400;500&family=Readex+Pro:wght@400;700&display=swap" rel="stylesheet">
     <script type="module" src="../js/admin.js"></script>
 </head>
 <body id="auth">
@@ -16,19 +17,66 @@
         <button class="HeaderButton" id="ourtutors"><span class="btn-label">our tutors</span></button>
     </div>
 
-    <main class="auth-page">
-        <section class="auth-card wide">
+    <main class="auth-page top">
+        <section class="auth-card dashboard">
             <div class="account-head">
-                <h1 class="auth-title">pending sign-ups</h1>
-                <a class="auth-link" href="account.html">← My account</a>
+                <div>
+                    <h1 class="auth-title">control panel.</h1>
+                    <p class="auth-sub left" id="greeting">loading…</p>
+                </div>
+                <button class="auth-button secondary small" id="logout" type="button">Log out</button>
             </div>
 
             <p id="auth-message" class="auth-message" hidden></p>
             <p class="auth-loading" id="loading">Loading…</p>
-            <div id="pending-list"></div>
 
-            <p class="auth-hint">Approving lets the person in with the role you pick (it defaults to what they applied for).
-               Rejecting deletes the sign-up completely.</p>
+            <div id="panel" hidden>
+                <!-- big numbers, same type as the landing page stats -->
+                <div class="tiles">
+                    <div class="tile"><p class="tile-num" id="t-sessions">–</p><p class="tile-label">sessions held</p></div>
+                    <div class="tile"><p class="tile-num" id="t-hours">–</p><p class="tile-label">hours tutored</p></div>
+                    <div class="tile"><p class="tile-num" id="t-tutors">–</p><p class="tile-label">active tutors</p></div>
+                    <div class="tile"><p class="tile-num" id="t-students">–</p><p class="tile-label">students helped</p></div>
+                    <div class="tile"><p class="tile-num" id="t-members">–</p><p class="tile-label">site members</p></div>
+                    <div class="tile accent"><p class="tile-num" id="t-pending">–</p><p class="tile-label">waiting approval</p></div>
+                </div>
+
+                <div class="dash-grid">
+                    <div class="panel">
+                        <h2 class="panel-title">pending sign-ups</h2>
+                        <div id="pending-list"></div>
+                        <p class="auth-hint">Approving lets the person in with the role you pick (it defaults to what they applied for).
+                           Rejecting deletes the sign-up completely.</p>
+                    </div>
+
+                    <div class="panel">
+                        <h2 class="panel-title">top subjects</h2>
+                        <div id="subject-bars"></div>
+                    </div>
+                </div>
+
+                <div class="panel">
+                    <div class="panel-head">
+                        <h2 class="panel-title">members</h2>
+                        <div class="filters">
+                            <input class="auth-input compact" id="member-search" type="search" placeholder="Search name or email" aria-label="Search members">
+                            <select class="auth-input compact" id="member-role" aria-label="Filter by role">
+                                <option value="">All roles</option>
+                                <option value="student">Students</option>
+                                <option value="tutor">Tutors</option>
+                                <option value="admin">Admins</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="member-list"></div>
+                    <p class="auth-hint">Changing a role takes effect the next time that person loads a page.</p>
+                </div>
+
+                <div class="panel">
+                    <h2 class="panel-title">recent sessions</h2>
+                    <div id="recent-sessions"></div>
+                </div>
+            </div>
         </section>
     </main>
 </body>
