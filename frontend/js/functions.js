@@ -172,7 +172,7 @@ const tutors = [
     {
         name : "Abhi",
         subjects : ["IGCSE Additional/Extended Math","AS Math"],
-        grade :11,
+        grade :12,
         description : ""
     },
 
